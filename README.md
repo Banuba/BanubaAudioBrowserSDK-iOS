@@ -1,1 +1,1 @@
-# BanubaAudioBrowserSDK-iOS-
+# BanubaAudioBrowserSDK-iOS
