@@ -35,7 +35,7 @@ public protocol AudioBrowserSelectionViewController : UIKit.UIViewController {
   @objc override dynamic public init(rootViewController: UIKit.UIViewController)
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
 }
-public class BanubaAudioBrowserSDK {
+public class BanubaAudioBrowser {
   public init(audioService: BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable, audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig, slideInTransitioningDelegate: UIKit.UIViewControllerTransitioningDelegate, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil)
   public func getAudioBrowserController() -> BanubaAudioBrowserSDK.EditorNavigationController
   @objc deinit
