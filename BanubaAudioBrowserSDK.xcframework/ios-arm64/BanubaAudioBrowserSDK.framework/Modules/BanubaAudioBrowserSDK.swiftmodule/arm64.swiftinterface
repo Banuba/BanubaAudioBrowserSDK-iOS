@@ -123,8 +123,12 @@ public struct AudioBrowserConfig {
   public init(cornerRadius: CoreGraphics.CGFloat, backgroundColor: UIKit.UIColor, localMusicButtonImageName: Swift.String, titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, coverPercentage: Swift.Double, categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig, preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig, trackSelectionConfig: BanubaAudioBrowserSDK.TrackSelectionConfig, myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig, toastConfiguration: BanubaAudioBrowserSDK.ToastConfiguration, mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig, internetConnectionViewConfig: BanubaAudioBrowserSDK.InternetConnectionViewConfig, errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig, activityIndicatorConfig: BanubaAudioBrowserSDK.SmallActivityIndicatorConfiguration)
 }
 public struct MubertAudioConfig {
+  public var pat: Swift.String
   public var categoryTracksAmount: Swift.Int
   public var trackDuration: Swift.String
+  public var trackBitrate: Swift.String
+  public var trackIntencity: Swift.String
+  public var trackFormat: Swift.String
 }
 public struct CategorySelectionConfig {
   public var backButtonImageName: Swift.String
