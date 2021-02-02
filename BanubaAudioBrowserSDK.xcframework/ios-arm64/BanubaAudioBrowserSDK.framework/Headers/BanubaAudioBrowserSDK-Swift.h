@@ -209,6 +209,32 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class AudioBrowserTextConfiguration;
+@class UIColor;
+
+SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK16ActionViewConfig")
+@interface ActionViewConfig : NSObject
+/// Title text
+@property (nonatomic, copy) NSString * _Nonnull title;
+/// Title text connfiguration
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull titleConfig;
+/// Message text
+@property (nonatomic, copy) NSString * _Nonnull message;
+/// Message text connfiguration
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull messageConfig;
+/// Button title
+@property (nonatomic, copy) NSString * _Nonnull buttonTitle;
+/// Button title connfiguration
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull buttonTitleConfig;
+/// Button background color
+@property (nonatomic, strong) UIColor * _Nonnull buttonColor;
+/// Button corner radius
+@property (nonatomic) CGFloat buttonCornerRadius;
+- (nonnull instancetype)initWithTitle:(NSString * _Nonnull)title titleConfig:(AudioBrowserTextConfiguration * _Nonnull)titleConfig message:(NSString * _Nonnull)message messageConfig:(AudioBrowserTextConfiguration * _Nonnull)messageConfig buttonTitle:(NSString * _Nonnull)buttonTitle buttonTitleConfig:(AudioBrowserTextConfiguration * _Nonnull)buttonTitleConfig buttonColor:(UIColor * _Nonnull)buttonColor buttonCornerRadius:(CGFloat)buttonCornerRadius OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK21ActivityIndicatorView")
@@ -218,17 +244,15 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK21ActivityIndicatorView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIColor;
-@class TextConfiguration;
 @class CategorySelectionConfig;
 @class PreCategorySelectionConfig;
 @class TrackSelectionConfig;
 @class MyLibraryTrackSelectionConfig;
 @class ToastConfiguration;
 @class MubertAudioConfig;
-@class InternetConnectionViewConfig;
 @class ErrorViewConfig;
 @class SmallActivityIndicatorConfiguration;
+@class SelectedTrackViewConfiguration;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
 @interface AudioBrowserConfig : NSObject
@@ -238,8 +262,12 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
 @property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
 /// Image name of local music button
 @property (nonatomic, copy) NSString * _Nonnull localMusicButtonImageName;
-/// Text configuration for main titile of the audio browser screen
-@property (nonatomic, strong) TextConfiguration * _Nonnull titleConfiguration;
+/// Title of my files music button
+@property (nonatomic, copy) NSString * _Nonnull myFilesButtonTitle;
+/// Text configuration for my files music button
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull myFilesTitleConfiguration;
+/// Text configuration for main title of the audio browser screen
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull titleConfiguration;
 /// The percentage by which the browser opens relative to the total screen
 @property (nonatomic) double coverPercentage;
 /// Configuration which setup category selection audio browser state
@@ -255,13 +283,17 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
 /// Configuration which setup Mubert requests’ bodies
 @property (nonatomic, strong) MubertAudioConfig * _Nonnull mubertAudioConfig;
 /// Configuration which setup no internet connection view
-@property (nonatomic, strong) InternetConnectionViewConfig * _Nonnull internetConnectionViewConfig;
+@property (nonatomic, strong) ActionViewConfig * _Nonnull internetConnectionViewConfig;
+/// Configuration which setup My Library Permission view
+@property (nonatomic, strong) ActionViewConfig * _Nonnull myLibraryPermissionViewConfig;
 /// Configuration which setup error view
 @property (nonatomic, strong) ErrorViewConfig * _Nonnull errorViewConfig;
 /// Configuration which setup throbber
 @property (nonatomic, strong) SmallActivityIndicatorConfiguration * _Nonnull activityIndicatorConfig;
+/// Selected track view configuration
+@property (nonatomic, strong) SelectedTrackViewConfiguration * _Nonnull selectedTrackViewConfiguration;
 - (nonnull instancetype)init;
-- (nonnull instancetype)initWithCornerRadius:(CGFloat)cornerRadius backgroundColor:(UIColor * _Nonnull)backgroundColor localMusicButtonImageName:(NSString * _Nonnull)localMusicButtonImageName titleConfiguration:(TextConfiguration * _Nonnull)titleConfiguration coverPercentage:(double)coverPercentage categorySelectionConfig:(CategorySelectionConfig * _Nonnull)categorySelectionConfig preCategorySelectionConfig:(PreCategorySelectionConfig * _Nonnull)preCategorySelectionConfig trackSelectionConfig:(TrackSelectionConfig * _Nonnull)trackSelectionConfig myLibraryTrackSelectionConfig:(MyLibraryTrackSelectionConfig * _Nonnull)myLibraryTrackSelectionConfig toastConfiguration:(ToastConfiguration * _Nonnull)toastConfiguration mubertAudioConfig:(MubertAudioConfig * _Nonnull)mubertAudioConfig internetConnectionViewConfig:(InternetConnectionViewConfig * _Nonnull)internetConnectionViewConfig errorViewConfig:(ErrorViewConfig * _Nonnull)errorViewConfig activityIndicatorConfig:(SmallActivityIndicatorConfiguration * _Nonnull)activityIndicatorConfig OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCornerRadius:(CGFloat)cornerRadius backgroundColor:(UIColor * _Nonnull)backgroundColor localMusicButtonImageName:(NSString * _Nonnull)localMusicButtonImageName myFilesButtonTitle:(NSString * _Nonnull)myFilesButtonTitle myFilesTitleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)myFilesTitleConfiguration titleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)titleConfiguration coverPercentage:(double)coverPercentage categorySelectionConfig:(CategorySelectionConfig * _Nonnull)categorySelectionConfig preCategorySelectionConfig:(PreCategorySelectionConfig * _Nonnull)preCategorySelectionConfig trackSelectionConfig:(TrackSelectionConfig * _Nonnull)trackSelectionConfig myLibraryTrackSelectionConfig:(MyLibraryTrackSelectionConfig * _Nonnull)myLibraryTrackSelectionConfig toastConfiguration:(ToastConfiguration * _Nonnull)toastConfiguration mubertAudioConfig:(MubertAudioConfig * _Nonnull)mubertAudioConfig internetConnectionViewConfig:(ActionViewConfig * _Nonnull)internetConnectionViewConfig errorViewConfig:(ErrorViewConfig * _Nonnull)errorViewConfig activityIndicatorConfig:(SmallActivityIndicatorConfiguration * _Nonnull)activityIndicatorConfig myLibraryPermissionViewConfig:(ActionViewConfig * _Nonnull)myLibraryPermissionViewConfig selectedTrackViewConfiguration:(SelectedTrackViewConfiguration * _Nonnull)selectedTrackViewConfiguration OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -270,11 +302,28 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK19AudioBrowserService")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIFont;
+
+SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK29AudioBrowserTextConfiguration")
+@interface AudioBrowserTextConfiguration : NSObject
+/// The kerning of the presented text.
+@property (nonatomic) double kern;
+/// The font of the presented text.
+@property (nonatomic, strong) UIFont * _Nonnull font;
+/// The color of the presented text.
+@property (nonatomic, strong) UIColor * _Nonnull color;
+/// The alignment of the presented text.
+@property (nonatomic) NSTextAlignment alignment;
+- (nonnull instancetype)initWithKern:(double)kern font:(UIFont * _Nonnull)font color:(UIColor * _Nonnull)color alignment:(NSTextAlignment)alignment OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK23CategorySelectionConfig")
 @interface CategorySelectionConfig : NSObject
-- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(TextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(TextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor titleViewColor:(UIColor * _Nonnull)titleViewColor titleViewCornerRadius:(CGFloat)titleViewCornerRadius titleConfiguration:(TextConfiguration * _Nonnull)titleConfiguration categoryImageNames:(NSArray<NSString *> * _Nonnull)categoryImageNames selectedImageName:(NSString * _Nonnull)selectedImageName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(AudioBrowserTextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(AudioBrowserTextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor titleViewColor:(UIColor * _Nonnull)titleViewColor titleViewCornerRadius:(CGFloat)titleViewCornerRadius titleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)titleConfiguration categoryImageNames:(NSArray<NSString *> * _Nonnull)categoryImageNames selectedImageName:(NSString * _Nonnull)selectedImageName OBJC_DESIGNATED_INITIALIZER;
 /// Selection screen back button image name
 @property (nonatomic, copy) NSString * _Nonnull backButtonImageName;
 /// Search bar tint color
@@ -286,11 +335,11 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK23CategorySelectionConfig")
 /// Search bar style
 @property (nonatomic) UIBarStyle searchBarStyle;
 /// Search bar placeholder configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull searchBarPlaceholder;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull searchBarPlaceholder;
 /// Search bar placeholder
 @property (nonatomic, copy) NSString * _Nonnull searchBarPlaceholderText;
 /// Search bar text
-@property (nonatomic, strong) TextConfiguration * _Nonnull seacrhBarText;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull seacrhBarText;
 /// Table view background color
 @property (nonatomic, strong) UIColor * _Nonnull tableViewColor;
 /// Table view’s cells’ background color
@@ -300,7 +349,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK23CategorySelectionConfig")
 /// Category view cornerRadius
 @property (nonatomic) CGFloat titleViewCornerRadius;
 /// Category title configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull titleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull titleConfiguration;
 /// Category image names
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull categoryImageNames;
 /// Category select buttons’ image name
@@ -326,17 +375,18 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26EditorNavigationController")
 @end
 
 
+
 @class ImageConfiguration;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK15ErrorViewConfig")
 @interface ErrorViewConfig : NSObject
-- (nonnull instancetype)initWithCommonErrorImage:(ImageConfiguration * _Nonnull)commonErrorImage emptySelectionImage:(ImageConfiguration * _Nonnull)emptySelectionImage messageConfig:(TextConfiguration * _Nonnull)messageConfig OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCommonErrorImage:(ImageConfiguration * _Nonnull)commonErrorImage emptySelectionImage:(ImageConfiguration * _Nonnull)emptySelectionImage messageConfig:(AudioBrowserTextConfiguration * _Nonnull)messageConfig OBJC_DESIGNATED_INITIALIZER;
 /// Common error image configuration
 @property (nonatomic, strong) ImageConfiguration * _Nonnull commonErrorImage;
 /// Empty selection image configuration
 @property (nonatomic, strong) ImageConfiguration * _Nonnull emptySelectionImage;
 /// Error mesage text configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull messageConfig;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull messageConfig;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -373,32 +423,21 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 @end
 
 
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK28InternetConnectionViewConfig")
-@interface InternetConnectionViewConfig : NSObject
-- (nonnull instancetype)initWithTitleConfig:(TextConfiguration * _Nonnull)titleConfig messageConfig:(TextConfiguration * _Nonnull)messageConfig buttonTitleConfig:(TextConfiguration * _Nonnull)buttonTitleConfig buttonColor:(UIColor * _Nonnull)buttonColor buttonCornerRadius:(CGFloat)buttonCornerRadius OBJC_DESIGNATED_INITIALIZER;
-/// Title text connfiguration
-@property (nonatomic, strong) TextConfiguration * _Nonnull titleConfig;
-/// Message text connfiguration
-@property (nonatomic, strong) TextConfiguration * _Nonnull messageConfig;
-/// Button title connfiguration
-@property (nonatomic, strong) TextConfiguration * _Nonnull buttonTitleConfig;
-/// Button background color
-@property (nonatomic, strong) UIColor * _Nonnull buttonColor;
-/// Button corner radius
-@property (nonatomic) CGFloat buttonCornerRadius;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17MubertAudioConfig")
 @interface MubertAudioConfig : NSObject
-- (nonnull instancetype)initWithCategoryTracksAmount:(NSInteger)categoryTracksAmount trackDuration:(NSString * _Nonnull)trackDuration OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithPat:(NSString * _Nonnull)pat categoryTracksAmount:(NSInteger)categoryTracksAmount trackDuration:(NSString * _Nonnull)trackDuration trackBitrate:(NSString * _Nonnull)trackBitrate trackIntencity:(NSString * _Nonnull)trackIntencity trackFormat:(NSString * _Nonnull)trackFormat OBJC_DESIGNATED_INITIALIZER;
+/// Mubert token
+@property (nonatomic, copy) NSString * _Nonnull pat;
 /// Number of tracks for each category
 @property (nonatomic) NSInteger categoryTracksAmount;
 /// Duration of tracks for each category
 @property (nonatomic, copy) NSString * _Nonnull trackDuration;
+/// Possible bitrates are: 32, 96, 128, 192, 256, 320
+@property (nonatomic, copy) NSString * _Nonnull trackBitrate;
+/// Сan be low, medium, high. high - is recommended.
+@property (nonatomic, copy) NSString * _Nonnull trackIntencity;
+/// Default is - mp3
+@property (nonatomic, copy) NSString * _Nonnull trackFormat;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -407,7 +446,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17MubertAudioConfig")
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK29MyLibraryTrackSelectionConfig")
 @interface MyLibraryTrackSelectionConfig : NSObject
-- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(TextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(TextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor cellPlayingColor:(UIColor * _Nonnull)cellPlayingColor playPauseButtonConfiguration:(ImageButtonConfiguration * _Nonnull)playPauseButtonConfiguration useButtonTitleConfiguration:(TextConfiguration * _Nonnull)useButtonTitleConfiguration useButtonTitle:(NSString * _Nonnull)useButtonTitle progressViewBackgroundColor:(UIColor * _Nonnull)progressViewBackgroundColor progressViewFillColor:(UIColor * _Nonnull)progressViewFillColor titleConfiguration:(TextConfiguration * _Nonnull)titleConfiguration durationTitleConfiguration:(TextConfiguration * _Nonnull)durationTitleConfiguration OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(AudioBrowserTextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(AudioBrowserTextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor cellPlayingColor:(UIColor * _Nonnull)cellPlayingColor playPauseButtonConfiguration:(ImageButtonConfiguration * _Nonnull)playPauseButtonConfiguration useButtonTitleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)useButtonTitleConfiguration useButtonTitle:(NSString * _Nonnull)useButtonTitle progressViewBackgroundColor:(UIColor * _Nonnull)progressViewBackgroundColor progressViewFillColor:(UIColor * _Nonnull)progressViewFillColor titleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)titleConfiguration durationTitleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)durationTitleConfiguration OBJC_DESIGNATED_INITIALIZER;
 /// Selection screen back button image name
 @property (nonatomic, copy) NSString * _Nonnull backButtonImageName;
 /// Search bar tint color
@@ -419,11 +458,11 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK29MyLibraryTrackSelectionConfig")
 /// Search bar style
 @property (nonatomic) UIBarStyle searchBarStyle;
 /// Search bar placeholder configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull searchBarPlaceholder;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull searchBarPlaceholder;
 /// Search bar placeholder
 @property (nonatomic, copy) NSString * _Nonnull searchBarPlaceholderText;
 /// Search bar text
-@property (nonatomic, strong) TextConfiguration * _Nonnull seacrhBarText;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull seacrhBarText;
 /// Table view background color
 @property (nonatomic, strong) UIColor * _Nonnull tableViewColor;
 /// Table view’s cells’ background color
@@ -433,7 +472,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK29MyLibraryTrackSelectionConfig")
 /// Play/pause button style configuretion
 @property (nonatomic, strong) ImageButtonConfiguration * _Nonnull playPauseButtonConfiguration;
 /// Use button title configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull useButtonTitleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull useButtonTitleConfiguration;
 /// Download button title
 @property (nonatomic, copy) NSString * _Nonnull useButtonTitle;
 /// Audio duration progress view background color
@@ -441,9 +480,9 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK29MyLibraryTrackSelectionConfig")
 /// Audio duration progress view fill color
 @property (nonatomic, strong) UIColor * _Nonnull progressViewFillColor;
 /// Audio title configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull titleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull titleConfiguration;
 /// Audio duration title configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull durationTitleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull durationTitleConfiguration;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -452,7 +491,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK29MyLibraryTrackSelectionConfig")
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26PreCategorySelectionConfig")
 @interface PreCategorySelectionConfig : NSObject
-- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(TextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(TextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor titleViewColor:(UIColor * _Nonnull)titleViewColor titleViewCornerRadius:(CGFloat)titleViewCornerRadius titleConfiguration:(TextConfiguration * _Nonnull)titleConfiguration categoryImageName:(NSString * _Nonnull)categoryImageName OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(AudioBrowserTextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(AudioBrowserTextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor titleViewColor:(UIColor * _Nonnull)titleViewColor titleViewCornerRadius:(CGFloat)titleViewCornerRadius titleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)titleConfiguration categoryImageName:(NSString * _Nonnull)categoryImageName OBJC_DESIGNATED_INITIALIZER;
 /// Selection screen back button image name
 @property (nonatomic, copy) NSString * _Nonnull backButtonImageName;
 /// Search bar tint color
@@ -464,11 +503,11 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26PreCategorySelectionConfig")
 /// Search bar style
 @property (nonatomic) UIBarStyle searchBarStyle;
 /// Search bar placeholder configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull searchBarPlaceholder;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull searchBarPlaceholder;
 /// Search bar placeholder
 @property (nonatomic, copy) NSString * _Nonnull searchBarPlaceholderText;
 /// Search bar text
-@property (nonatomic, strong) TextConfiguration * _Nonnull seacrhBarText;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull seacrhBarText;
 /// Table view background color
 @property (nonatomic, strong) UIColor * _Nonnull tableViewColor;
 /// Table view’s cells’ background color
@@ -478,9 +517,28 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26PreCategorySelectionConfig")
 /// Category view cornerRadius
 @property (nonatomic) CGFloat titleViewCornerRadius;
 /// Category titile configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull titleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull titleConfiguration;
 /// Category image name
 @property (nonatomic, copy) NSString * _Nonnull categoryImageName;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+
+SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK30SelectedTrackViewConfiguration")
+@interface SelectedTrackViewConfiguration : NSObject
+/// Selected track icon configuration
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull imageConfiuguration;
+/// Title style configuration
+@property (nonatomic, readonly, strong) AudioBrowserTextConfiguration * _Nonnull titleConfiguration;
+/// Stop using button title
+@property (nonatomic, readonly, copy) NSString * _Nonnull stopUsingButtonTitle;
+/// Stop using button title configuration
+@property (nonatomic, readonly, strong) AudioBrowserTextConfiguration * _Nonnull stopUsingButtonConfiguration;
+/// The view background color
+@property (nonatomic, readonly, strong) UIColor * _Nonnull backgroundColor;
+- (nonnull instancetype)initWithImageConfiuguration:(ImageConfiguration * _Nonnull)imageConfiuguration titleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)titleConfiguration stopUsingButtonTitle:(NSString * _Nonnull)stopUsingButtonTitle stopUsingButtonConfiguration:(AudioBrowserTextConfiguration * _Nonnull)stopUsingButtonConfiguration backgroundColor:(UIColor * _Nonnull)backgroundColor OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -509,23 +567,6 @@ SWIFT_CLASS("_TtCC21BanubaAudioBrowserSDK35SmallActivityIndicatorConfiguration26
 @end
 
 
-@class UIFont;
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17TextConfiguration")
-@interface TextConfiguration : NSObject
-/// The kerning of the presented text.
-@property (nonatomic) double kern;
-/// The font of the presented text.
-@property (nonatomic, strong) UIFont * _Nonnull font;
-/// The color of the presented text.
-@property (nonatomic, strong) UIColor * _Nonnull color;
-/// The alignment of the presented text.
-@property (nonatomic) NSTextAlignment alignment;
-- (nonnull instancetype)initWithKern:(double)kern font:(UIFont * _Nonnull)font color:(UIColor * _Nonnull)color alignment:(NSTextAlignment)alignment OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ToastConfiguration")
 @interface ToastConfiguration : NSObject
@@ -545,7 +586,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ToastConfiguration")
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK20TrackSelectionConfig")
 @interface TrackSelectionConfig : NSObject
-- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(TextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(TextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor cellPlayingColor:(UIColor * _Nonnull)cellPlayingColor playPauseButtonConfiguration:(ImageButtonConfiguration * _Nonnull)playPauseButtonConfiguration downloadButtonTitleConfiguration:(TextConfiguration * _Nonnull)downloadButtonTitleConfiguration downloadButtonTitle:(NSString * _Nonnull)downloadButtonTitle stopUsingButtonTitle:(NSString * _Nonnull)stopUsingButtonTitle progressViewBackgroundColor:(UIColor * _Nonnull)progressViewBackgroundColor progressViewFillColor:(UIColor * _Nonnull)progressViewFillColor titleConfiguration:(TextConfiguration * _Nonnull)titleConfiguration durationTitleConfiguration:(TextConfiguration * _Nonnull)durationTitleConfiguration progressBackgroundColor:(CGColorRef _Nonnull)progressBackgroundColor progressFillColor:(CGColorRef _Nonnull)progressFillColor cancelDownloadButton:(ImageButtonConfiguration * _Nonnull)cancelDownloadButton OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithBackButtonImageName:(NSString * _Nonnull)backButtonImageName searchBarTintColor:(UIColor * _Nonnull)searchBarTintColor searchBarBackgroundColor:(UIColor * _Nonnull)searchBarBackgroundColor searchBarTextColor:(UIColor * _Nonnull)searchBarTextColor searchBarStyle:(UIBarStyle)searchBarStyle searchBarPlaceholder:(AudioBrowserTextConfiguration * _Nonnull)searchBarPlaceholder searchBarPlaceholderText:(NSString * _Nonnull)searchBarPlaceholderText seacrhBarText:(AudioBrowserTextConfiguration * _Nonnull)seacrhBarText tableViewColor:(UIColor * _Nonnull)tableViewColor cellColor:(UIColor * _Nonnull)cellColor cellPlayingColor:(UIColor * _Nonnull)cellPlayingColor playPauseButtonConfiguration:(ImageButtonConfiguration * _Nonnull)playPauseButtonConfiguration downloadButtonTitleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)downloadButtonTitleConfiguration downloadButtonTitle:(NSString * _Nonnull)downloadButtonTitle stopUsingButtonTitle:(NSString * _Nonnull)stopUsingButtonTitle progressViewBackgroundColor:(UIColor * _Nonnull)progressViewBackgroundColor progressViewFillColor:(UIColor * _Nonnull)progressViewFillColor titleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)titleConfiguration durationTitleConfiguration:(AudioBrowserTextConfiguration * _Nonnull)durationTitleConfiguration progressBackgroundColor:(CGColorRef _Nonnull)progressBackgroundColor progressFillColor:(CGColorRef _Nonnull)progressFillColor cancelDownloadButton:(ImageButtonConfiguration * _Nonnull)cancelDownloadButton OBJC_DESIGNATED_INITIALIZER;
 /// Selection screen back button image name
 @property (nonatomic, copy) NSString * _Nonnull backButtonImageName;
 /// Search bar tint color
@@ -557,11 +598,11 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK20TrackSelectionConfig")
 /// Search bar style
 @property (nonatomic) UIBarStyle searchBarStyle;
 /// Search bar placeholder configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull searchBarPlaceholder;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull searchBarPlaceholder;
 /// Search bar placeholder
 @property (nonatomic, copy) NSString * _Nonnull searchBarPlaceholderText;
 /// Search bar text
-@property (nonatomic, strong) TextConfiguration * _Nonnull seacrhBarText;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull seacrhBarText;
 /// Table view background color
 @property (nonatomic, strong) UIColor * _Nonnull tableViewColor;
 /// Table view’s cells’ background color
@@ -571,7 +612,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK20TrackSelectionConfig")
 /// Play/pause button style configuretion
 @property (nonatomic, strong) ImageButtonConfiguration * _Nonnull playPauseButtonConfiguration;
 /// Download button title configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull downloadButtonTitleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull downloadButtonTitleConfiguration;
 /// Download button title
 @property (nonatomic, copy) NSString * _Nonnull downloadButtonTitle;
 /// Stop using button title
@@ -581,9 +622,9 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK20TrackSelectionConfig")
 /// Audio duration progress view fill color
 @property (nonatomic, strong) UIColor * _Nonnull progressViewFillColor;
 /// Audio title configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull titleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull titleConfiguration;
 /// Audio duration title configuration
-@property (nonatomic, strong) TextConfiguration * _Nonnull durationTitleConfiguration;
+@property (nonatomic, strong) AudioBrowserTextConfiguration * _Nonnull durationTitleConfiguration;
 /// Donwloading progress view background color
 @property (nonatomic) CGColorRef _Nonnull progressBackgroundColor;
 /// Donwloading progress view fill color

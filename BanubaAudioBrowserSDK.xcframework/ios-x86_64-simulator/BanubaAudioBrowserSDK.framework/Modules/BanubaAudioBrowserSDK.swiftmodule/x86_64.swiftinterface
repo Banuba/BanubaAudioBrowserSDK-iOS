@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaAudioBrowserSDK
 import AVFoundation
+import AVKit
 @_exported import BanubaAudioBrowserSDK
 import BanubaMusicEditorSDK
 import Foundation
@@ -21,11 +22,9 @@ public protocol AudioBrowserSelectionViewControllerDelegate : AnyObject {
 }
 public protocol AudioBrowserSelectionViewController : UIKit.UIViewController {
   var navigationDelegate: BanubaAudioBrowserSDK.AudioBrowserSelectionViewControllerDelegate? { get set }
-  var selectedTrackId: Swift.Int32? { get set }
 }
 @objc @_hasMissingDesignatedInitializers public class EditorNavigationController : UIKit.UINavigationController, BanubaAudioBrowserSDK.AudioBrowserSelectionViewController, BanubaMusicEditorSDK.TrackSelectionViewController {
   weak public var navigationDelegate: BanubaAudioBrowserSDK.AudioBrowserSelectionViewControllerDelegate?
-  public var selectedTrackId: Swift.Int32?
   @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
@@ -91,6 +90,7 @@ public struct AudioBrowserTrack {
   public func pause()
   public func load(trackUrl: Foundation.URL) throws
   public func seekToStart()
+  public func seekToTime(_ time: Foundation.TimeInterval)
   public func unload()
   public func autoRepeat(repeat: Swift.Bool)
   @objc deinit
@@ -103,6 +103,7 @@ public protocol AudioBrowserServiceAdoptable : AnyObject {
   func unload()
   func autoRepeat(repeat: Swift.Bool)
   func seekToStart()
+  func seekToTime(_ time: Foundation.TimeInterval)
   var audioBrowserServiceDelegate: BanubaAudioBrowserSDK.AudioBrowserPlayerDelegate? { get set }
 }
 public protocol AudioBrowserPlayerDelegate : AnyObject {
@@ -113,7 +114,9 @@ public protocol AudioBrowserPlayerDelegate : AnyObject {
   @objc public var cornerRadius: CoreGraphics.CGFloat
   @objc public var backgroundColor: UIKit.UIColor
   @objc public var localMusicButtonImageName: Swift.String
-  @objc public var titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var myFilesButtonTitle: Swift.String
+  @objc public var myFilesTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
+  @objc public var titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var coverPercentage: Swift.Double
   @objc public var categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig
   @objc public var preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig
@@ -121,80 +124,86 @@ public protocol AudioBrowserPlayerDelegate : AnyObject {
   @objc public var myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig
   @objc public var toastConfiguration: BanubaAudioBrowserSDK.ToastConfiguration
   @objc public var mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig
-  @objc public var internetConnectionViewConfig: BanubaAudioBrowserSDK.InternetConnectionViewConfig
+  @objc public var internetConnectionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig
+  @objc public var myLibraryPermissionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig
   @objc public var errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig
   @objc public var activityIndicatorConfig: BanubaAudioBrowserSDK.SmallActivityIndicatorConfiguration
+  @objc public var selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration
   @objc convenience override dynamic public init()
-  @objc public init(cornerRadius: CoreGraphics.CGFloat, backgroundColor: UIKit.UIColor, localMusicButtonImageName: Swift.String, titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, coverPercentage: Swift.Double, categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig, preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig, trackSelectionConfig: BanubaAudioBrowserSDK.TrackSelectionConfig, myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig, toastConfiguration: BanubaAudioBrowserSDK.ToastConfiguration, mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig, internetConnectionViewConfig: BanubaAudioBrowserSDK.InternetConnectionViewConfig, errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig, activityIndicatorConfig: BanubaAudioBrowserSDK.SmallActivityIndicatorConfiguration)
+  @objc public init(cornerRadius: CoreGraphics.CGFloat, backgroundColor: UIKit.UIColor, localMusicButtonImageName: Swift.String, myFilesButtonTitle: Swift.String, myFilesTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, coverPercentage: Swift.Double, categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig, preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig, trackSelectionConfig: BanubaAudioBrowserSDK.TrackSelectionConfig, myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig, toastConfiguration: BanubaAudioBrowserSDK.ToastConfiguration, mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig, internetConnectionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig, activityIndicatorConfig: BanubaAudioBrowserSDK.SmallActivityIndicatorConfiguration, myLibraryPermissionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration)
   @objc deinit
 }
 @objc public class MubertAudioConfig : ObjectiveC.NSObject {
-  @objc public init(categoryTracksAmount: Swift.Int, trackDuration: Swift.String)
+  @objc public init(pat: Swift.String, categoryTracksAmount: Swift.Int, trackDuration: Swift.String, trackBitrate: Swift.String, trackIntencity: Swift.String, trackFormat: Swift.String)
+  @objc public var pat: Swift.String
   @objc public var categoryTracksAmount: Swift.Int
   @objc public var trackDuration: Swift.String
+  @objc public var trackBitrate: Swift.String
+  @objc public var trackIntencity: Swift.String
+  @objc public var trackFormat: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public class CategorySelectionConfig : ObjectiveC.NSObject {
-  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, titleViewColor: UIKit.UIColor, titleViewCornerRadius: CoreGraphics.CGFloat, titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, categoryImageNames: [Swift.String], selectedImageName: Swift.String)
+  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, titleViewColor: UIKit.UIColor, titleViewCornerRadius: CoreGraphics.CGFloat, titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, categoryImageNames: [Swift.String], selectedImageName: Swift.String)
   @objc public var backButtonImageName: Swift.String
   @objc public var searchBarTintColor: UIKit.UIColor
   @objc public var searchBarBackgroundColor: UIKit.UIColor
   @objc public var searchBarTextColor: UIKit.UIColor
   @objc public var searchBarStyle: UIKit.UIBarStyle
-  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var searchBarPlaceholderText: Swift.String
-  @objc public var seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var tableViewColor: UIKit.UIColor
   @objc public var cellColor: UIKit.UIColor
   @objc public var titleViewColor: UIKit.UIColor
   @objc public var titleViewCornerRadius: CoreGraphics.CGFloat
-  @objc public var titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var categoryImageNames: [Swift.String]
   @objc public var selectedImageName: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public class PreCategorySelectionConfig : ObjectiveC.NSObject {
-  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, titleViewColor: UIKit.UIColor, titleViewCornerRadius: CoreGraphics.CGFloat, titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, categoryImageName: Swift.String)
+  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, titleViewColor: UIKit.UIColor, titleViewCornerRadius: CoreGraphics.CGFloat, titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, categoryImageName: Swift.String)
   @objc public var backButtonImageName: Swift.String
   @objc public var searchBarTintColor: UIKit.UIColor
   @objc public var searchBarBackgroundColor: UIKit.UIColor
   @objc public var searchBarTextColor: UIKit.UIColor
   @objc public var searchBarStyle: UIKit.UIBarStyle
-  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var searchBarPlaceholderText: Swift.String
-  @objc public var seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var tableViewColor: UIKit.UIColor
   @objc public var cellColor: UIKit.UIColor
   @objc public var titleViewColor: UIKit.UIColor
   @objc public var titleViewCornerRadius: CoreGraphics.CGFloat
-  @objc public var titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var categoryImageName: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public class TrackSelectionConfig : ObjectiveC.NSObject {
-  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, cellPlayingColor: UIKit.UIColor, playPauseButtonConfiguration: BanubaAudioBrowserSDK.ImageButtonConfiguration, downloadButtonTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, downloadButtonTitle: Swift.String, stopUsingButtonTitle: Swift.String, progressViewBackgroundColor: UIKit.UIColor, progressViewFillColor: UIKit.UIColor, titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, durationTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, progressBackgroundColor: CoreGraphics.CGColor, progressFillColor: CoreGraphics.CGColor, cancelDownloadButton: BanubaAudioBrowserSDK.ImageButtonConfiguration)
+  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, cellPlayingColor: UIKit.UIColor, playPauseButtonConfiguration: BanubaAudioBrowserSDK.ImageButtonConfiguration, downloadButtonTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, downloadButtonTitle: Swift.String, stopUsingButtonTitle: Swift.String, progressViewBackgroundColor: UIKit.UIColor, progressViewFillColor: UIKit.UIColor, titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, durationTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, progressBackgroundColor: CoreGraphics.CGColor, progressFillColor: CoreGraphics.CGColor, cancelDownloadButton: BanubaAudioBrowserSDK.ImageButtonConfiguration)
   @objc public var backButtonImageName: Swift.String
   @objc public var searchBarTintColor: UIKit.UIColor
   @objc public var searchBarBackgroundColor: UIKit.UIColor
   @objc public var searchBarTextColor: UIKit.UIColor
   @objc public var searchBarStyle: UIKit.UIBarStyle
-  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var searchBarPlaceholderText: Swift.String
-  @objc public var seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var tableViewColor: UIKit.UIColor
   @objc public var cellColor: UIKit.UIColor
   @objc public var cellPlayingColor: UIKit.UIColor
   @objc public var playPauseButtonConfiguration: BanubaAudioBrowserSDK.ImageButtonConfiguration
-  @objc public var downloadButtonTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var downloadButtonTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var downloadButtonTitle: Swift.String
   @objc public var stopUsingButtonTitle: Swift.String
   @objc public var progressViewBackgroundColor: UIKit.UIColor
   @objc public var progressViewFillColor: UIKit.UIColor
-  @objc public var titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
-  @objc public var durationTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
+  @objc public var durationTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var progressBackgroundColor: CoreGraphics.CGColor
   @objc public var progressFillColor: CoreGraphics.CGColor
   @objc public var cancelDownloadButton: BanubaAudioBrowserSDK.ImageButtonConfiguration
@@ -202,45 +211,48 @@ public protocol AudioBrowserPlayerDelegate : AnyObject {
   @objc deinit
 }
 @objc public class MyLibraryTrackSelectionConfig : ObjectiveC.NSObject {
-  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, cellPlayingColor: UIKit.UIColor, playPauseButtonConfiguration: BanubaAudioBrowserSDK.ImageButtonConfiguration, useButtonTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, useButtonTitle: Swift.String, progressViewBackgroundColor: UIKit.UIColor, progressViewFillColor: UIKit.UIColor, titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration, durationTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration)
+  @objc public init(backButtonImageName: Swift.String, searchBarTintColor: UIKit.UIColor, searchBarBackgroundColor: UIKit.UIColor, searchBarTextColor: UIKit.UIColor, searchBarStyle: UIKit.UIBarStyle, searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, searchBarPlaceholderText: Swift.String, seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, tableViewColor: UIKit.UIColor, cellColor: UIKit.UIColor, cellPlayingColor: UIKit.UIColor, playPauseButtonConfiguration: BanubaAudioBrowserSDK.ImageButtonConfiguration, useButtonTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, useButtonTitle: Swift.String, progressViewBackgroundColor: UIKit.UIColor, progressViewFillColor: UIKit.UIColor, titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, durationTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration)
   @objc public var backButtonImageName: Swift.String
   @objc public var searchBarTintColor: UIKit.UIColor
   @objc public var searchBarBackgroundColor: UIKit.UIColor
   @objc public var searchBarTextColor: UIKit.UIColor
   @objc public var searchBarStyle: UIKit.UIBarStyle
-  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var searchBarPlaceholder: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var searchBarPlaceholderText: Swift.String
-  @objc public var seacrhBarText: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var seacrhBarText: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var tableViewColor: UIKit.UIColor
   @objc public var cellColor: UIKit.UIColor
   @objc public var cellPlayingColor: UIKit.UIColor
   @objc public var playPauseButtonConfiguration: BanubaAudioBrowserSDK.ImageButtonConfiguration
-  @objc public var useButtonTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var useButtonTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var useButtonTitle: Swift.String
   @objc public var progressViewBackgroundColor: UIKit.UIColor
   @objc public var progressViewFillColor: UIKit.UIColor
-  @objc public var titleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
-  @objc public var durationTitleConfiguration: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
+  @objc public var durationTitleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public class ErrorViewConfig : ObjectiveC.NSObject {
-  @objc public init(commonErrorImage: BanubaAudioBrowserSDK.ImageConfiguration, emptySelectionImage: BanubaAudioBrowserSDK.ImageConfiguration, messageConfig: BanubaAudioBrowserSDK.TextConfiguration)
+  @objc public init(commonErrorImage: BanubaAudioBrowserSDK.ImageConfiguration, emptySelectionImage: BanubaAudioBrowserSDK.ImageConfiguration, messageConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration)
   @objc public var commonErrorImage: BanubaAudioBrowserSDK.ImageConfiguration
   @objc public var emptySelectionImage: BanubaAudioBrowserSDK.ImageConfiguration
-  @objc public var messageConfig: BanubaAudioBrowserSDK.TextConfiguration
+  @objc public var messageConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public class InternetConnectionViewConfig : ObjectiveC.NSObject {
-  @objc public init(titleConfig: BanubaAudioBrowserSDK.TextConfiguration, messageConfig: BanubaAudioBrowserSDK.TextConfiguration, buttonTitleConfig: BanubaAudioBrowserSDK.TextConfiguration, buttonColor: UIKit.UIColor, buttonCornerRadius: CoreGraphics.CGFloat)
-  @objc public var titleConfig: BanubaAudioBrowserSDK.TextConfiguration
-  @objc public var messageConfig: BanubaAudioBrowserSDK.TextConfiguration
-  @objc public var buttonTitleConfig: BanubaAudioBrowserSDK.TextConfiguration
+@objc public class ActionViewConfig : ObjectiveC.NSObject {
+  @objc public var title: Swift.String
+  @objc public var titleConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
+  @objc public var message: Swift.String
+  @objc public var messageConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
+  @objc public var buttonTitle: Swift.String
+  @objc public var buttonTitleConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
   @objc public var buttonColor: UIKit.UIColor
   @objc public var buttonCornerRadius: CoreGraphics.CGFloat
-  @objc override dynamic public init()
+  @objc public init(title: Swift.String, titleConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, message: Swift.String, messageConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, buttonTitle: Swift.String, buttonTitleConfig: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, buttonColor: UIKit.UIColor, buttonCornerRadius: CoreGraphics.CGFloat)
   @objc deinit
+  @objc override dynamic public init()
 }
 @objc public class SmallActivityIndicatorConfiguration : ObjectiveC.NSObject {
   public enum GradientType {
@@ -268,7 +280,7 @@ public protocol AudioBrowserPlayerDelegate : AnyObject {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public class TextConfiguration : ObjectiveC.NSObject {
+@objc public class AudioBrowserTextConfiguration : ObjectiveC.NSObject {
   @objc public var kern: Swift.Double
   @objc public var font: UIKit.UIFont
   @objc public var color: UIKit.UIColor
@@ -291,6 +303,16 @@ public protocol AudioBrowserPlayerDelegate : AnyObject {
   @objc public var imageConfiguration: BanubaAudioBrowserSDK.ImageConfiguration
   @objc public var selectedImageConfiguration: BanubaAudioBrowserSDK.ImageConfiguration?
   @objc public init(imageConfiguration: BanubaAudioBrowserSDK.ImageConfiguration, selectedImageConfiguration: BanubaAudioBrowserSDK.ImageConfiguration? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class SelectedTrackViewConfiguration : ObjectiveC.NSObject {
+  @objc final public let imageConfiuguration: BanubaAudioBrowserSDK.ImageConfiguration
+  @objc final public let titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
+  @objc final public let stopUsingButtonTitle: Swift.String
+  @objc final public let stopUsingButtonConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration
+  @objc final public let backgroundColor: UIKit.UIColor
+  @objc public init(imageConfiuguration: BanubaAudioBrowserSDK.ImageConfiguration, titleConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, stopUsingButtonTitle: Swift.String, stopUsingButtonConfiguration: BanubaAudioBrowserSDK.AudioBrowserTextConfiguration, backgroundColor: UIKit.UIColor)
   @objc override dynamic public init()
   @objc deinit
 }
