@@ -23,7 +23,7 @@ public protocol AudioBrowserSelectionViewControllerDelegate : AnyObject {
 public protocol AudioBrowserSelectionViewController : UIKit.UIViewController {
   var navigationDelegate: BanubaAudioBrowserSDK.AudioBrowserSelectionViewControllerDelegate? { get set }
 }
-@_hasMissingDesignatedInitializers @objc public class EditorNavigationController : UIKit.UINavigationController, BanubaAudioBrowserSDK.AudioBrowserSelectionViewController {
+@_hasMissingDesignatedInitializers public class EditorNavigationController : BanubaMusicEditorSDK.BaseTrackSelectionViewController, BanubaAudioBrowserSDK.AudioBrowserSelectionViewController {
   weak public var navigationDelegate: BanubaAudioBrowserSDK.AudioBrowserSelectionViewControllerDelegate?
   @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
@@ -36,15 +36,9 @@ public protocol AudioBrowserSelectionViewController : UIKit.UIViewController {
   @objc override dynamic public init(rootViewController: UIKit.UIViewController)
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
 }
-extension EditorNavigationController : BanubaMusicEditorSDK.TrackSelectionViewController {
-  public var trackSelectionDelegate: BanubaMusicEditorSDK.TrackSelectionViewControllerDelegate? {
-    get
-    set(newValue)
-  }
-}
 @objc public class BanubaAudioBrowser : ObjectiveC.NSObject {
-  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig, slideInTransitioningDelegate: UIKit.UIViewControllerTransitioningDelegate, audioService: BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil)
-  @objc public func getAudioBrowserController() -> BanubaAudioBrowserSDK.EditorNavigationController
+  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, slideInTransitioningDelegate: UIKit.UIViewControllerTransitioningDelegate, audioService: BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil)
+  @objc public func getAudioBrowserController() -> BanubaMusicEditorSDK.BaseTrackSelectionViewController
   @objc deinit
   @objc override dynamic public init()
 }
@@ -123,6 +117,7 @@ public enum TrackDonwloadStatus : Swift.Int {
   @objc var config: BanubaAudioBrowserSDK.AudioBrowserConfig { get set }
 }
 @_inheritsConvenienceInitializers @objc public class AudioBrowserConfig : ObjectiveC.NSObject {
+  public static var shared: BanubaAudioBrowserSDK.AudioBrowserConfig
   public var cornerRadius: CoreGraphics.CGFloat
   public var backgroundColor: UIKit.UIColor
   public var localMusicButtonImageName: Swift.String

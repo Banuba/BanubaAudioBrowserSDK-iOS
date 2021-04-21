@@ -280,7 +280,7 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserTrackApplyable_")
 @end
 
 @protocol UIViewControllerTransitioningDelegate;
-@class EditorNavigationController;
+@class BaseTrackSelectionViewController;
 
 /// Audio browser main entity and entry point.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
@@ -294,29 +294,12 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param selectedTrack selected track
 ///
-- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nonnull)audioBrowserConfig slideInTransitioningDelegate:(id <UIViewControllerTransitioningDelegate> _Nonnull)slideInTransitioningDelegate audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig slideInTransitioningDelegate:(id <UIViewControllerTransitioningDelegate> _Nonnull)slideInTransitioningDelegate audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack OBJC_DESIGNATED_INITIALIZER;
 /// Get reference to audio browser navigation controller
-- (EditorNavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
+- (BaseTrackSelectionViewController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-
-@class UIViewController;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26EditorNavigationController")
-@interface EditorNavigationController : UINavigationController
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidDisappear:(BOOL)animated;
-- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-
 
 
 
