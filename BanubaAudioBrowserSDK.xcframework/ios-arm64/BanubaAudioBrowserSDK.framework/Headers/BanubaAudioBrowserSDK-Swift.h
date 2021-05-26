@@ -188,6 +188,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import BanubaUtilities;
 @import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
@@ -298,6 +299,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 /// \param selectedTrack selected track
 ///
 - (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig slideInTransitioningDelegate:(id <UIViewControllerTransitioningDelegate> _Nonnull)slideInTransitioningDelegate audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack OBJC_DESIGNATED_INITIALIZER;
++ (void)setMubertPat:(NSString * _Nonnull)pat;
 /// Get reference to audio browser navigation controller
 - (UINavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -319,6 +321,17 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26EditorNavigationController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+
+
+@class UIImage;
+
+SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
+@interface ImageConfiguration : NSObject <ImageConfigurationProtocol>
+/// The image stored or instance by name
+@property (nonatomic, readonly, strong) UIImage * _Nullable image;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
 
 
 
