@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaAudioBrowserSDK
 import AVFoundation
 import AVKit
@@ -11,53 +11,40 @@ import LocalAuthentication
 import MediaPlayer
 import Swift
 import UIKit
-extension SmallActivityIndicatorConfiguration {
+import _Concurrency
+extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   public static var `default`: BanubaUtilities.SmallActivityIndicatorConfiguration {
     get
   }
 }
-public protocol AudioBrowserSelectionViewControllerDelegate : AnyObject {
-  func audioBrowserSelectionViewController(viewController: BanubaAudioBrowserSDK.AudioBrowserSelectionViewController, didSelectFile url: Foundation.URL, title: Swift.String, id: Swift.Int32)
-  func audioBrowserSelectionViewControllerDidCancel(viewController: BanubaAudioBrowserSDK.AudioBrowserSelectionViewController)
-  func audioBrowserSelectionViewController(viewController: BanubaAudioBrowserSDK.AudioBrowserSelectionViewController, didStopUsingTrackWithId trackId: Swift.Int32)
-}
-public protocol AudioBrowserSelectionViewController : UIKit.UIViewController {
-  var navigationDelegate: BanubaAudioBrowserSDK.AudioBrowserSelectionViewControllerDelegate? { get set }
-}
-@objc @_hasMissingDesignatedInitializers public class EditorNavigationController : UIKit.UINavigationController, BanubaMusicEditorSDK.TrackSelectionViewController, BanubaAudioBrowserSDK.AudioBrowserSelectionViewController {
-  weak public var trackSelectionDelegate: BanubaMusicEditorSDK.TrackSelectionViewControllerDelegate?
-  weak public var navigationDelegate: BanubaAudioBrowserSDK.AudioBrowserSelectionViewControllerDelegate?
-  @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @objc get
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class EditorNavigationController : UIKit.UINavigationController, BanubaMusicEditorSDK.TrackSelectionViewController {
+  @_Concurrency.MainActor(unsafe) weak public var trackSelectionDelegate: BanubaMusicEditorSDK.TrackSelectionViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
-  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
-  @available(iOS 5.0, *)
-  @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
-  @objc override dynamic public init(rootViewController: UIKit.UIViewController)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
 }
 @objc public class BanubaAudioBrowser : ObjectiveC.NSObject {
   @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, slideInTransitioningDelegate: UIKit.UIViewControllerTransitioningDelegate, audioService: BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil)
   @objc public static func setMubertPat(_ pat: Swift.String)
   @objc public func getAudioBrowserController() -> UIKit.UINavigationController
-  @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers public class ActivityIndicatorView : UIKit.UIView {
-  @objc override dynamic public var bounds: CoreGraphics.CGRect {
-    @objc get
-    @objc set(value)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ActivityIndicatorView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreGraphics.CGRect {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set(value)
   }
-  public var configuration: BanubaUtilities.SmallActivityIndicatorConfiguration? {
+  @_Concurrency.MainActor(unsafe) public var configuration: BanubaUtilities.SmallActivityIndicatorConfiguration? {
     get
     set(value)
   }
-  @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-  public func startAnimating()
-  public func stopAnimating()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) public func startAnimating()
+  @_Concurrency.MainActor(unsafe) public func stopAnimating()
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {
@@ -87,7 +74,6 @@ public enum TrackDonwloadStatus : Swift.Int {
   public func setupDuration(_ duration: Foundation.TimeInterval? = nil)
   public func createAsset(withData: Foundation.Data) throws
   public func deleteFile() throws
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class AudioBrowserService : ObjectiveC.NSObject, BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable {
@@ -262,7 +248,6 @@ public struct ToastConfiguration {
   }
   public init(imageName: Swift.String)
   public init(image: UIKit.UIImage)
-  @objc override dynamic public init()
   @objc deinit
 }
 public struct ImageButtonConfiguration : BanubaUtilities.ImageButtonConfigurationProtocol {
