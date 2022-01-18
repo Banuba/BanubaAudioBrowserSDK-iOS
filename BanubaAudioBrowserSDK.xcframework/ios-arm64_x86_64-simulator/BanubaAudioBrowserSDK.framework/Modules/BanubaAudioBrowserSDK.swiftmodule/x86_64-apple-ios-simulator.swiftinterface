@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaAudioBrowserSDK
 import AVFoundation
 import AVKit
@@ -105,6 +105,20 @@ public enum TrackDonwloadStatus : Swift.Int {
 @objc public protocol AudioBrowserConfigApplyable {
   @objc var config: BanubaAudioBrowserSDK.AudioBrowserConfig { get set }
 }
+@objc public enum AudioBrowserMusicSource : Swift.Int, Swift.CaseIterable {
+  case mubert = 1
+  case localStorageWithMyFiles = 2
+  case allSources = 3
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [BanubaAudioBrowserSDK.AudioBrowserMusicSource]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [BanubaAudioBrowserSDK.AudioBrowserMusicSource] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @objc public class AudioBrowserConfig : ObjectiveC.NSObject {
   public static var shared: BanubaAudioBrowserSDK.AudioBrowserConfig
   public var cornerRadius: CoreGraphics.CGFloat
@@ -126,9 +140,9 @@ public enum TrackDonwloadStatus : Swift.Int {
   public var activityIndicatorConfig: BanubaUtilities.SmallActivityIndicatorConfiguration
   public var selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration
   public var showMoreTrackConfiguration: BanubaAudioBrowserSDK.ShowMoreTrackConfig
-  public var isExternalMusicEnabled: Swift.Bool
+  public var musicSource: BanubaAudioBrowserSDK.AudioBrowserMusicSource
   @objc override required dynamic public convenience init()
-  public init(cornerRadius: CoreGraphics.CGFloat, backgroundColor: UIKit.UIColor, localMusicButtonImageName: Swift.String, myFilesButtonTitle: Swift.String, myFilesTitleConfiguration: BanubaUtilities.TextConfiguration, titleConfiguration: BanubaUtilities.TextConfiguration, coverPercentage: Swift.Double, categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig, preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig, trackSelectionConfig: BanubaAudioBrowserSDK.TrackSelectionConfig, myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig, toastConfiguration: BanubaAudioBrowserSDK.ToastConfiguration, mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig, internetConnectionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig, activityIndicatorConfig: BanubaUtilities.SmallActivityIndicatorConfiguration, myLibraryPermissionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration, showMoreTrackConfiguration: BanubaAudioBrowserSDK.ShowMoreTrackConfig, isExternalMusicEnabled: Swift.Bool)
+  public init(cornerRadius: CoreGraphics.CGFloat, backgroundColor: UIKit.UIColor, localMusicButtonImageName: Swift.String, myFilesButtonTitle: Swift.String, myFilesTitleConfiguration: BanubaUtilities.TextConfiguration, titleConfiguration: BanubaUtilities.TextConfiguration, coverPercentage: Swift.Double, categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig, preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig, trackSelectionConfig: BanubaAudioBrowserSDK.TrackSelectionConfig, myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig, toastConfiguration: BanubaAudioBrowserSDK.ToastConfiguration, mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig, internetConnectionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig, activityIndicatorConfig: BanubaUtilities.SmallActivityIndicatorConfiguration, myLibraryPermissionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration, showMoreTrackConfiguration: BanubaAudioBrowserSDK.ShowMoreTrackConfig, musicSource: BanubaAudioBrowserSDK.AudioBrowserMusicSource)
   @objc deinit
 }
 public struct MubertAudioConfig {
@@ -180,7 +194,7 @@ public struct TrackSelectionConfig {
   public var searchBarStyle: UIKit.UIBarStyle
   public var searchBarPlaceholder: BanubaUtilities.TextConfiguration
   public var searchBarPlaceholderText: Swift.String
-  public var seacrhBarText: BanubaUtilities.TextConfiguration
+  public var searchBarText: BanubaUtilities.TextConfiguration
   public var tableViewColor: UIKit.UIColor
   public var cellColor: UIKit.UIColor
   public var cellPlayingColor: UIKit.UIColor
@@ -204,7 +218,7 @@ public struct MyLibraryTrackSelectionConfig {
   public var searchBarStyle: UIKit.UIBarStyle
   public var searchBarPlaceholder: BanubaUtilities.TextConfiguration
   public var searchBarPlaceholderText: Swift.String
-  public var seacrhBarText: BanubaUtilities.TextConfiguration
+  public var searchBarText: BanubaUtilities.TextConfiguration
   public var tableViewColor: UIKit.UIColor
   public var cellColor: UIKit.UIColor
   public var cellPlayingColor: UIKit.UIColor
