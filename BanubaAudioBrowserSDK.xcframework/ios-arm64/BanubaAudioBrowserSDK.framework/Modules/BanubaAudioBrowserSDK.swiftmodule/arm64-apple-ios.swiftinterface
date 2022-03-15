@@ -17,34 +17,10 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
     get
   }
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class EditorNavigationController : UIKit.UINavigationController, BanubaMusicEditorSDK.TrackSelectionViewController {
-  @_Concurrency.MainActor(unsafe) weak public var trackSelectionDelegate: BanubaMusicEditorSDK.TrackSelectionViewControllerDelegate?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
-    @_Concurrency.MainActor(unsafe) @objc get
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
-  @objc deinit
-}
 @objc public class BanubaAudioBrowser : ObjectiveC.NSObject {
   @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, slideInTransitioningDelegate: UIKit.UIViewControllerTransitioningDelegate, audioService: BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil)
   @objc public static func setMubertPat(_ pat: Swift.String)
   @objc public func getAudioBrowserController() -> UIKit.UINavigationController
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ActivityIndicatorView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var bounds: CoreGraphics.CGRect {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set(value)
-  }
-  @_Concurrency.MainActor(unsafe) public var configuration: BanubaUtilities.SmallActivityIndicatorConfiguration? {
-    get
-    set(value)
-  }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) public func startAnimating()
-  @_Concurrency.MainActor(unsafe) public func stopAnimating()
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {
@@ -67,6 +43,9 @@ public enum TrackDonwloadStatus : Swift.Int {
   public var id: Swift.Int32
   public var duration: Foundation.TimeInterval?
   public var url: Foundation.URL?
+  public var isSaved: Swift.Bool {
+    get
+  }
   public var avAsset: AVFoundation.AVAsset? {
     get
   }
@@ -74,18 +53,6 @@ public enum TrackDonwloadStatus : Swift.Int {
   public func setupDuration(_ duration: Foundation.TimeInterval? = nil)
   public func createAsset(withData: Foundation.Data) throws
   public func deleteFile() throws
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers public class AudioBrowserService : ObjectiveC.NSObject, BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable {
-  @objc weak public var audioBrowserServiceDelegate: BanubaAudioBrowserSDK.AudioBrowserPlayerDelegate?
-  @objc public func play()
-  @objc public func pause()
-  @objc public func load(trackUrl: Foundation.URL) throws
-  @objc public func seekToStart()
-  @objc public func seekToTime(_ time: Foundation.TimeInterval)
-  @objc public func unload()
-  @objc public func autoRepeat(repeat: Swift.Bool)
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public protocol AudioBrowserServiceAdoptable {

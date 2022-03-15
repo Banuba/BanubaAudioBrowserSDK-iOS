@@ -191,10 +191,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import BanubaUtilities;
-@import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -211,15 +209,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="BanubaAudioBrowserSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
-
-@class NSCoder;
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK21ActivityIndicatorView")
-@interface ActivityIndicatorView : UIView
-@property (nonatomic) CGRect bounds;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
@@ -264,25 +253,17 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK28AudioBrowserServiceAdoptable_")
 @property (nonatomic, strong) id <AudioBrowserPlayerDelegate> _Nullable audioBrowserServiceDelegate;
 @end
 
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK19AudioBrowserService")
-@interface AudioBrowserService : NSObject <AudioBrowserServiceAdoptable>
-@property (nonatomic, weak) id <AudioBrowserPlayerDelegate> _Nullable audioBrowserServiceDelegate;
-- (void)play;
-- (void)pause;
-- (BOOL)loadWithTrackUrl:(NSURL * _Nonnull)trackUrl error:(NSError * _Nullable * _Nullable)error;
-- (void)seekToStart;
-- (void)seekToTime:(NSTimeInterval)time;
-- (void)unload;
-- (void)autoRepeatWithRepeat:(BOOL)repeat;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 @class NSString;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17AudioBrowserTrack")
 @interface AudioBrowserTrack : NSObject
+/// AudioBrowserTrack constructor
+/// \param trackId setup track id
+///
+/// \param name setup track name
+///
+/// \param url track url
+///
 - (nonnull instancetype)initWithTrackId:(int32_t)trackId name:(NSString * _Nonnull)name url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -316,22 +297,6 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-
-@class UIViewController;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26EditorNavigationController")
-@interface EditorNavigationController : UINavigationController
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidDisappear:(BOOL)animated;
-- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
 
 
 @class UIImage;
@@ -544,10 +509,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import BanubaUtilities;
-@import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -564,15 +527,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="BanubaAudioBrowserSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
-
-@class NSCoder;
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK21ActivityIndicatorView")
-@interface ActivityIndicatorView : UIView
-@property (nonatomic) CGRect bounds;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
@@ -617,25 +571,17 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK28AudioBrowserServiceAdoptable_")
 @property (nonatomic, strong) id <AudioBrowserPlayerDelegate> _Nullable audioBrowserServiceDelegate;
 @end
 
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK19AudioBrowserService")
-@interface AudioBrowserService : NSObject <AudioBrowserServiceAdoptable>
-@property (nonatomic, weak) id <AudioBrowserPlayerDelegate> _Nullable audioBrowserServiceDelegate;
-- (void)play;
-- (void)pause;
-- (BOOL)loadWithTrackUrl:(NSURL * _Nonnull)trackUrl error:(NSError * _Nullable * _Nullable)error;
-- (void)seekToStart;
-- (void)seekToTime:(NSTimeInterval)time;
-- (void)unload;
-- (void)autoRepeatWithRepeat:(BOOL)repeat;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 @class NSString;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17AudioBrowserTrack")
 @interface AudioBrowserTrack : NSObject
+/// AudioBrowserTrack constructor
+/// \param trackId setup track id
+///
+/// \param name setup track name
+///
+/// \param url track url
+///
 - (nonnull instancetype)initWithTrackId:(int32_t)trackId name:(NSString * _Nonnull)name url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -669,22 +615,6 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-
-@class UIViewController;
-@class NSBundle;
-
-SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK26EditorNavigationController")
-@interface EditorNavigationController : UINavigationController
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
-- (void)viewWillDisappear:(BOOL)animated;
-- (void)viewDidDisappear:(BOOL)animated;
-- (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithRootViewController:(UIViewController * _Nonnull)rootViewController SWIFT_UNAVAILABLE;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
 
 
 @class UIImage;
