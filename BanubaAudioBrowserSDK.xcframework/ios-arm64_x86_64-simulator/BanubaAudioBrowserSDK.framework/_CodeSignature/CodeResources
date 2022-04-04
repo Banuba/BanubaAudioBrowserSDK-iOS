@@ -34,23 +34,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BLHyf6O7p5VJDkOsWx9kU+YFgfE=
+		ZKz0UqkRHGLImYSgCT3XNNHuF+E=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		bfgBuN6DFnDfHwZ6N8qeP0CVMjQ=
+		9Xj0+cUuSAyc/A7rqX0R5OJrUKg=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		bfgBuN6DFnDfHwZ6N8qeP0CVMjQ=
+		9Xj0+cUuSAyc/A7rqX0R5OJrUKg=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		8C1PfYJ2l3/yGwEO8savJmQkfZI=
+		MdXNf5yxOdynn+W+6wOMwRsngZw=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		8C1PfYJ2l3/yGwEO8savJmQkfZI=
+		MdXNf5yxOdynn+W+6wOMwRsngZw=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		er0AoRn436XSxSZqn4pte7lAU2Q=
+		cm/zt4kLFHllld0XNeUpzpb84qA=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		er0AoRn436XSxSZqn4pte7lAU2Q=
+		cm/zt4kLFHllld0XNeUpzpb84qA=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rN2XSG5dLyweN/tsEbyEJrmWq80=
+		Ws1ZPubu2fOjmoZ3Wx3BDx7Y2rs=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		rN2XSG5dLyweN/tsEbyEJrmWq80=
+		Ws1ZPubu2fOjmoZ3Wx3BDx7Y2rs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -172,28 +172,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OQYuQBSZsmRzKnFmZWl9WS1fy3/V6YRIlRxtnRBtANE=
+			XRJWCtOAybwOOr5v0mf9ZkoU2LoOnv5y02DjE7T7GHM=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OQYuQBSZsmRzKnFmZWl9WS1fy3/V6YRIlRxtnRBtANE=
+			XRJWCtOAybwOOr5v0mf9ZkoU2LoOnv5y02DjE7T7GHM=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7+xkTKYCyGe3S6J5w8IlflizQKZFXr+5xvS4v+WHC2k=
+			DAGO74boQxJY09t6xbFJgiDYytr1xpgHEMuFHTiUDeE=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7+xkTKYCyGe3S6J5w8IlflizQKZFXr+5xvS4v+WHC2k=
+			DAGO74boQxJY09t6xbFJgiDYytr1xpgHEMuFHTiUDeE=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -214,7 +214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ieFmD6p1A6MqTnlAQVeJPaCjOl8jhV8T5FK50FoEZo=
+			LE4UM4dYquRxaMZIHjNoFr7hwMZ8doGP2NHJIhosdjo=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64.swiftdoc</key>
@@ -235,7 +235,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ieFmD6p1A6MqTnlAQVeJPaCjOl8jhV8T5FK50FoEZo=
+			LE4UM4dYquRxaMZIHjNoFr7hwMZ8doGP2NHJIhosdjo=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -256,7 +256,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rexPPSHJz1x7BUkWXWbu5mwWH3MowDiecynYO7cJ0NU=
+			Ea1T+Y+lbzy5yEqpxdpAZdCxDzfOj0/Fw3XFL0D/JYk=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -277,7 +277,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rexPPSHJz1x7BUkWXWbu5mwWH3MowDiecynYO7cJ0NU=
+			Ea1T+Y+lbzy5yEqpxdpAZdCxDzfOj0/Fw3XFL0D/JYk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
