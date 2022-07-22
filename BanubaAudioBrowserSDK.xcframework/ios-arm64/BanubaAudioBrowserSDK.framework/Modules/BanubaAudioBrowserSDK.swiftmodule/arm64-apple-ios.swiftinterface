@@ -40,6 +40,7 @@ public enum TrackDonwloadStatus : Swift.Int {
   public var downloadLink: Swift.String?
   public var downloadStatus: BanubaAudioBrowserSDK.TrackDonwloadStatus?
   public var name: Swift.String
+  public var additionalName: Swift.String?
   public var id: Swift.Int32
   public var duration: Foundation.TimeInterval?
   public var url: Foundation.URL?
@@ -49,7 +50,7 @@ public enum TrackDonwloadStatus : Swift.Int {
   public var avAsset: AVFoundation.AVAsset? {
     get
   }
-  @objc public init(trackId: Swift.Int32, name: Swift.String, url: Foundation.URL?)
+  @objc public init(trackId: Swift.Int32, name: Swift.String, additionalName: Swift.String?, url: Foundation.URL?)
   public func setupDuration(_ duration: Foundation.TimeInterval? = nil)
   public func createAsset(withData: Foundation.Data) throws
   public func deleteFile() throws
@@ -224,11 +225,12 @@ public struct ToastConfiguration {
 }
 @objc public class ImageConfiguration : ObjectiveC.NSObject, BanubaUtilities.ImageConfigurationProtocol {
   public var imageName: Swift.String
+  @objc public var tintColor: UIKit.UIColor?
   @objc public var image: UIKit.UIImage? {
     @objc get
   }
-  public init(imageName: Swift.String)
-  public init(image: UIKit.UIImage)
+  public init(imageName: Swift.String, tintColor: UIKit.UIColor? = nil)
+  public init(image: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
   @objc deinit
 }
 public struct ImageButtonConfiguration : BanubaUtilities.ImageButtonConfigurationProtocol {
