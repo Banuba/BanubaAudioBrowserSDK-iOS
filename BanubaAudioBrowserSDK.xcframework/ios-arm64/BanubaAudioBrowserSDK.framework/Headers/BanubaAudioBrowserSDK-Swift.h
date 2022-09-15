@@ -268,7 +268,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17AudioBrowserTrack")
 ///
 /// \param url track url
 ///
-- (nonnull instancetype)initWithTrackId:(int32_t)trackId name:(NSString * _Nonnull)name additionalName:(NSString * _Nullable)additionalName url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithTrackId:(int32_t)trackId name:(NSString * _Nonnull)name url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -303,13 +303,10 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 @end
 
 
-@class UIColor;
 @class UIImage;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 @interface ImageConfiguration : NSObject <ImageConfigurationProtocol>
-/// Set this tint color of your UIImageView to configurate template image
-@property (nonatomic, strong) UIColor * _Nullable tintColor;
 /// The image stored or instance by name
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
