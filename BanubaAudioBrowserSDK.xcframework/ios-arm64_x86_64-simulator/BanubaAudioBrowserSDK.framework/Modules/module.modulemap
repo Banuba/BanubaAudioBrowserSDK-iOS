@@ -6,6 +6,6 @@ framework module BanubaAudioBrowserSDK {
 }
 
 module BanubaAudioBrowserSDK.Swift {
-    header "BanubaAudioBrowserSDK-Swift.h"
-    requires objc
+  header "BanubaAudioBrowserSDK-Swift.h"
+  requires objc
 }
