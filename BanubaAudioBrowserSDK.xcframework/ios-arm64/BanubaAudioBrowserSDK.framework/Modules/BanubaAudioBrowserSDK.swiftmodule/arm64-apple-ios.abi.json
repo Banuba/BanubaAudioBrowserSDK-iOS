@@ -9571,17 +9571,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "BanubaAudioBrowserSDK.AudioBrowserViewControllerPresentable?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AudioBrowserViewControllerPresentable",
-                    "printedName": "BanubaAudioBrowserSDK.AudioBrowserViewControllerPresentable",
-                    "usr": "s:21BanubaAudioBrowserSDK0bC25ViewControllerPresentableP"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "UnownedStorage",
+                "printedName": "BanubaAudioBrowserSDK.AudioBrowserViewControllerPresentable?"
               }
             ],
             "declKind": "Var",
@@ -9593,9 +9584,11 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
+              "ReferenceOwnership",
               "RawDocComment"
             ],
             "fixedbinaryorder": 0,
+            "ownership": 2,
             "hasStorage": true
           },
           {
@@ -54606,7 +54599,7 @@
     {
       "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Controllers \/AudioBrowserViewControllerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2646,
+      "offset": 2654,
       "length": 5,
       "value": "false"
     },
