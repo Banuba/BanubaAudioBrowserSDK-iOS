@@ -253,12 +253,10 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-@class NSData;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
 @interface AudioBrowserConfig : NSObject
 - (nonnull instancetype)init;
-+ (AudioBrowserConfig * _Nullable)createFrom:(NSData * _Nullable)data SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -326,11 +324,11 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserTrackApplyable_")
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 @interface BanubaAudioBrowser : NSObject
 /// BanubaVideoEditorSDK constructor
-/// \param audioEditorService service used to interact with audio files
-///
-/// \param audioBrowserConfig contains all neccesory configurations for the editor
+/// \param audioBrowserConfig contains all necessary configurations for the audio browser
 ///
 /// \param slideInTransitioningDelegate bottom sheet transition
+///
+/// \param audioEditorService service used to interact with audio files
 ///
 /// \param selectedTrack selected track
 ///
@@ -621,12 +619,10 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-@class NSData;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
 @interface AudioBrowserConfig : NSObject
 - (nonnull instancetype)init;
-+ (AudioBrowserConfig * _Nullable)createFrom:(NSData * _Nullable)data SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -694,11 +690,11 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserTrackApplyable_")
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 @interface BanubaAudioBrowser : NSObject
 /// BanubaVideoEditorSDK constructor
-/// \param audioEditorService service used to interact with audio files
-///
-/// \param audioBrowserConfig contains all neccesory configurations for the editor
+/// \param audioBrowserConfig contains all necessary configurations for the audio browser
 ///
 /// \param slideInTransitioningDelegate bottom sheet transition
+///
+/// \param audioEditorService service used to interact with audio files
 ///
 /// \param selectedTrack selected track
 ///
