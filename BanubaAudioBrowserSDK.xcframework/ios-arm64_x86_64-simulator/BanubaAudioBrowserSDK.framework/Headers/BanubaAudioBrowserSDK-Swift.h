@@ -328,7 +328,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param slideInTransitioningDelegate bottom sheet transition
 ///
-/// \param audioEditorService service used to interact with audio files
+/// \param audioService service used to interact with audio files
 ///
 /// \param selectedTrack selected track
 ///
@@ -694,7 +694,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param slideInTransitioningDelegate bottom sheet transition
 ///
-/// \param audioEditorService service used to interact with audio files
+/// \param audioService service used to interact with audio files
 ///
 /// \param selectedTrack selected track
 ///
