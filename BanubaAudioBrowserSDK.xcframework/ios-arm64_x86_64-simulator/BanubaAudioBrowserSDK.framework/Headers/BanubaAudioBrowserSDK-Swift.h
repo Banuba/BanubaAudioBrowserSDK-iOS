@@ -295,18 +295,19 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK28AudioBrowserServiceAdoptable_")
 @property (nonatomic, strong) id <AudioBrowserPlayerDelegate> _Nullable audioBrowserServiceDelegate;
 @end
 
+@class NSUUID;
 @class NSString;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17AudioBrowserTrack")
 @interface AudioBrowserTrack : NSObject
 /// AudioBrowserTrack constructor
-/// \param trackId setup track id
+/// \param uuid setup track uuid string
 ///
 /// \param name setup track name
 ///
 /// \param url track url
 ///
-- (nonnull instancetype)initWithTrackId:(int32_t)trackId name:(NSString * _Nonnull)name additionalName:(NSString * _Nullable)additionalName url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUuid:(NSUUID * _Nonnull)uuid name:(NSString * _Nonnull)name additionalName:(NSString * _Nullable)additionalName url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -661,18 +662,19 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK28AudioBrowserServiceAdoptable_")
 @property (nonatomic, strong) id <AudioBrowserPlayerDelegate> _Nullable audioBrowserServiceDelegate;
 @end
 
+@class NSUUID;
 @class NSString;
 
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17AudioBrowserTrack")
 @interface AudioBrowserTrack : NSObject
 /// AudioBrowserTrack constructor
-/// \param trackId setup track id
+/// \param uuid setup track uuid string
 ///
 /// \param name setup track name
 ///
 /// \param url track url
 ///
-- (nonnull instancetype)initWithTrackId:(int32_t)trackId name:(NSString * _Nonnull)name additionalName:(NSString * _Nullable)additionalName url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUuid:(NSUUID * _Nonnull)uuid name:(NSString * _Nonnull)name additionalName:(NSString * _Nullable)additionalName url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
