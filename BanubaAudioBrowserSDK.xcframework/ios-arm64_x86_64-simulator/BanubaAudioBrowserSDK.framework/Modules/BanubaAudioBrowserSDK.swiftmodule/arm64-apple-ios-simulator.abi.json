@@ -14135,7 +14135,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Controllers \/AudioBrowserViewControllerPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2648,
+      "offset": 2633,
       "length": 5,
       "value": "false"
     },
@@ -14667,35 +14667,35 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Controllers \/AudioBrowserViewControllerInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 918,
+      "offset": 905,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Controllers \/AudioBrowserViewControllerInteractor.swift",
       "kind": "Dictionary",
-      "offset": 1090,
+      "offset": 1077,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Controllers \/AudioBrowserViewControllerInteractor.swift",
       "kind": "Array",
-      "offset": 1172,
+      "offset": 1159,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Controllers \/AudioBrowserViewControllerInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 568,
+      "offset": 555,
       "length": 36,
       "value": "\"BanubaAudioBrowserSDK.AudioBrowserViewControllerInteractor\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Controllers \/AudioBrowserViewControllerInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 3257,
+      "offset": 3204,
       "length": 3,
       "value": "1.0"
     },
