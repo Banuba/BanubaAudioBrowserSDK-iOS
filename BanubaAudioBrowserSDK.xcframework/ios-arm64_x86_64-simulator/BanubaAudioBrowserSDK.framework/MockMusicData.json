@@ -1,0 +1,22 @@
+[
+  {
+    "music_id": "1",
+    "music_cover_url": "https://gettr.sdk.banuba.net/cover-1.png"
+  },
+  {
+    "music_id": "2",
+    "music_cover_url": "https://gettr.sdk.banuba.net/cover-2.png"
+  },
+  {
+    "music_id": "3",
+    "music_cover_url": "https://gettr.sdk.banuba.net/cover-3.png"
+  },
+  {
+    "music_id": "4",
+    "music_cover_url": "https://gettr.sdk.banuba.net/cover-4.png"
+  },
+  {
+    "music_id": "5",
+    "music_cover_url": "https://gettr.sdk.banuba.net/cover-5.png"
+  }
+]

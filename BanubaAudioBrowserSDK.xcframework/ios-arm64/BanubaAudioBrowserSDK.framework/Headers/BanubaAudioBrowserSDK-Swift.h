@@ -231,6 +231,7 @@ using UInt = size_t;
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import BanubaUtilities;
+@import CoreMedia;
 @import Foundation;
 @import ObjectiveC;
 #endif
@@ -286,6 +287,8 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserPlayerDelegate_")
 SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK28AudioBrowserServiceAdoptable_")
 @protocol AudioBrowserServiceAdoptable
 - (void)play;
+- (void)playWithPlayProgressHandler:(void (^ _Nullable)(float))playProgressHandler;
+- (void)playIn:(CMTimeRange)range playProgressHandler:(void (^ _Nullable)(float))playProgressHandler;
 - (void)pause;
 - (BOOL)loadWithTrackUrl:(NSURL * _Nonnull)trackUrl error:(NSError * _Nullable * _Nullable)error;
 - (void)unload;
@@ -318,7 +321,6 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserTrackApplyable_")
 @property (nonatomic, strong) AudioBrowserTrack * _Nonnull track;
 @end
 
-@protocol UIViewControllerTransitioningDelegate;
 @class UINavigationController;
 
 /// Audio browser main entity and entry point.
@@ -333,7 +335,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param selectedTrack selected track
 ///
-- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig slideInTransitioningDelegate:(id <UIViewControllerTransitioningDelegate> _Nonnull)slideInTransitioningDelegate audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isNewAudioBrowserEnabled:(BOOL)isNewAudioBrowserEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
 + (void)setMubertKeysWithLicense:(NSString * _Nonnull)license token:(NSString * _Nonnull)token;
 /// Get reference to audio browser navigation controller
 - (UINavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
@@ -354,6 +356,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
