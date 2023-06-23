@@ -6,6 +6,7 @@ import AVFoundation
 import AVKit
 @_exported import BanubaAudioBrowserSDK
 import BanubaUtilities
+import Combine
 import Foundation
 import LocalAuthentication
 import MediaPlayer
@@ -22,6 +23,12 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isNewAudioBrowserEnabled: Swift.Bool, videoDuration: Swift.Double)
   @objc public static func setMubertKeys(license: Swift.String, token: Swift.String)
   @objc public func getAudioBrowserController() -> UIKit.UINavigationController
+  @objc public static func setMusicLibraryConfiguration(_ configuration: BanubaAudioBrowserSDK.MusicLibraryConfiguration)
+  @objc deinit
+}
+@objc public class MusicLibraryConfiguration : ObjectiveC.NSObject {
+  @objc final public let baseURL: Foundation.URL
+  @objc public init(baseURL: Foundation.URL)
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {

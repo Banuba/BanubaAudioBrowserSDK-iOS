@@ -352,6 +352,7 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserTrackApplyable_")
 @end
 
 @class UINavigationController;
+@class MusicLibraryConfiguration;
 
 /// Audio browser main entity and entry point.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
@@ -369,6 +370,8 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 + (void)setMubertKeysWithLicense:(NSString * _Nonnull)license token:(NSString * _Nonnull)token;
 /// Get reference to audio browser navigation controller
 - (UINavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
+/// Setting music library configuration
++ (void)setMusicLibraryConfiguration:(MusicLibraryConfiguration * _Nonnull)configuration;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -383,6 +386,20 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 @property (nonatomic, strong) UIColor * _Nullable tintColor;
 /// The image stored or instance by name
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Configures music library endpoints adn etc.
+SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
+@interface MusicLibraryConfiguration : NSObject
+/// Music library base url
+@property (nonatomic, readonly, copy) NSURL * _Nonnull baseURL;
+/// MusicLibraryConfiguration constructor
+/// \param baseURL base url used for music library
+///
+- (nonnull instancetype)initWithBaseURL:(NSURL * _Nonnull)baseURL OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -752,6 +769,7 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserTrackApplyable_")
 @end
 
 @class UINavigationController;
+@class MusicLibraryConfiguration;
 
 /// Audio browser main entity and entry point.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
@@ -769,6 +787,8 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 + (void)setMubertKeysWithLicense:(NSString * _Nonnull)license token:(NSString * _Nonnull)token;
 /// Get reference to audio browser navigation controller
 - (UINavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
+/// Setting music library configuration
++ (void)setMusicLibraryConfiguration:(MusicLibraryConfiguration * _Nonnull)configuration;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -783,6 +803,20 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 @property (nonatomic, strong) UIColor * _Nullable tintColor;
 /// The image stored or instance by name
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Configures music library endpoints adn etc.
+SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
+@interface MusicLibraryConfiguration : NSObject
+/// Music library base url
+@property (nonatomic, readonly, copy) NSURL * _Nonnull baseURL;
+/// MusicLibraryConfiguration constructor
+/// \param baseURL base url used for music library
+///
+- (nonnull instancetype)initWithBaseURL:(NSURL * _Nonnull)baseURL OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
