@@ -394,12 +394,32 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 /// Configures music library endpoints adn etc.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @interface MusicLibraryConfiguration : NSObject
-/// Music library base url
-@property (nonatomic, readonly, copy) NSURL * _Nonnull baseURL;
+/// Music library home screen url
+@property (nonatomic, readonly, copy) NSString * _Nonnull homeURL;
+/// Music library all tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull tracksURL;
+/// Music library genres url
+@property (nonatomic, readonly, copy) NSString * _Nonnull genresURL;
+/// Music library collections url
+@property (nonatomic, readonly, copy) NSString * _Nonnull collectionsURL;
+/// Music library genre tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull genreTracksURL;
+/// Music library collection tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull collectionTracksURL;
 /// MusicLibraryConfiguration constructor
-/// \param baseURL base url used for music library
+/// \param homeURL home url used for music library home screen
 ///
-- (nonnull instancetype)initWithBaseURL:(NSURL * _Nonnull)baseURL OBJC_DESIGNATED_INITIALIZER;
+/// \param tracksURL tracks url used for all music library tracks
+///
+/// \param genresURL genres url used for music library genres
+///
+/// \param collectionsURL collections url used for music library collections
+///
+/// \param genreTracksURL genre tracks url used for music library selected genre tracks
+///
+/// \param collectionTracksURL collection tracks url used for music library selected collection tracks
+///
+- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -811,12 +831,32 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 /// Configures music library endpoints adn etc.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @interface MusicLibraryConfiguration : NSObject
-/// Music library base url
-@property (nonatomic, readonly, copy) NSURL * _Nonnull baseURL;
+/// Music library home screen url
+@property (nonatomic, readonly, copy) NSString * _Nonnull homeURL;
+/// Music library all tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull tracksURL;
+/// Music library genres url
+@property (nonatomic, readonly, copy) NSString * _Nonnull genresURL;
+/// Music library collections url
+@property (nonatomic, readonly, copy) NSString * _Nonnull collectionsURL;
+/// Music library genre tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull genreTracksURL;
+/// Music library collection tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull collectionTracksURL;
 /// MusicLibraryConfiguration constructor
-/// \param baseURL base url used for music library
+/// \param homeURL home url used for music library home screen
 ///
-- (nonnull instancetype)initWithBaseURL:(NSURL * _Nonnull)baseURL OBJC_DESIGNATED_INITIALIZER;
+/// \param tracksURL tracks url used for all music library tracks
+///
+/// \param genresURL genres url used for music library genres
+///
+/// \param collectionsURL collections url used for music library collections
+///
+/// \param genreTracksURL genre tracks url used for music library selected genre tracks
+///
+/// \param collectionTracksURL collection tracks url used for music library selected collection tracks
+///
+- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

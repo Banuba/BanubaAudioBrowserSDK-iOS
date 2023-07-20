@@ -27,8 +27,13 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc deinit
 }
 @objc public class MusicLibraryConfiguration : ObjectiveC.NSObject {
-  @objc final public let baseURL: Foundation.URL
-  @objc public init(baseURL: Foundation.URL)
+  @objc final public let homeURL: Swift.String
+  @objc final public let tracksURL: Swift.String
+  @objc final public let genresURL: Swift.String
+  @objc final public let collectionsURL: Swift.String
+  @objc final public let genreTracksURL: Swift.String
+  @objc final public let collectionTracksURL: Swift.String
+  @objc public init(homeURL: Swift.String, tracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String)
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {
