@@ -317,7 +317,7 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserPlayerDelegate_")
 SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK28AudioBrowserServiceAdoptable_")
 @protocol AudioBrowserServiceAdoptable
 - (void)play;
-- (void)playWithPlayProgressHandler:(void (^ _Nullable)(float))playProgressHandler;
+- (void)playWithPlayProgressHandler:(void (^ _Nonnull)(float))playProgressHandler;
 - (void)playIn:(CMTimeRange)range playProgressHandler:(void (^ _Nullable)(float))playProgressHandler;
 - (void)pause;
 - (BOOL)loadWithTrackUrl:(NSURL * _Nonnull)trackUrl error:(NSError * _Nullable * _Nullable)error;

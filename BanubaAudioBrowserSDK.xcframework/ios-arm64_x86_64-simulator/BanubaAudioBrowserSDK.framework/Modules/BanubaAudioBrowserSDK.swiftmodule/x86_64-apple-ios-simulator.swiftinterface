@@ -71,7 +71,7 @@ public enum TrackDonwloadStatus : Swift.Int {
 }
 @objc public protocol AudioBrowserServiceAdoptable {
   @objc func play()
-  @objc func play(playProgressHandler: ((Swift.Float) -> Swift.Void)?)
+  @objc func play(playProgressHandler: @escaping (Swift.Float) -> Swift.Void)
   @objc func play(in range: CoreMedia.CMTimeRange, playProgressHandler: ((Swift.Float) -> Swift.Void)?)
   @objc func pause()
   @objc func load(trackUrl: Foundation.URL) throws
