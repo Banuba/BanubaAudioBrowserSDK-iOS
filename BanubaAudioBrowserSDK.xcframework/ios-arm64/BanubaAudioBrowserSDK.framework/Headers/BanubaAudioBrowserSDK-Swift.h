@@ -357,7 +357,7 @@ SWIFT_PROTOCOL("_TtP21BanubaAudioBrowserSDK26AudioBrowserTrackApplyable_")
 /// Audio browser main entity and entry point.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 @interface BanubaAudioBrowser : NSObject
-/// BanubaVideoEditorSDK constructor
+/// BanubaAudioBrowser constructor
 /// \param audioBrowserConfig contains all necessary configurations for the audio browser
 ///
 /// \param slideInTransitioningDelegate bottom sheet transition
@@ -366,7 +366,13 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param selectedTrack selected track
 ///
-- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isNewAudioBrowserEnabled:(BOOL)isNewAudioBrowserEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
+/// \param isNewAudioBrowserEnabled is new audio browser enabled
+///
+/// \param isAudioPartSelectionEnabled is audio part selection enabled
+///
+/// \param videoDuration the duration of video
+///
+- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isNewAudioBrowserEnabled:(BOOL)isNewAudioBrowserEnabled isAudioPartSelectionEnabled:(BOOL)isAudioPartSelectionEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
 + (void)setMubertKeysWithLicense:(NSString * _Nonnull)license token:(NSString * _Nonnull)token;
 /// Get reference to audio browser navigation controller
 - (UINavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
