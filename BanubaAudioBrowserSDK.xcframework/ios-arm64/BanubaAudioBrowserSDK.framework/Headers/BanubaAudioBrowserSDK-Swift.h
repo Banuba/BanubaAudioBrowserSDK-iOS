@@ -340,7 +340,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK17AudioBrowserTrack")
 ///
 /// \param url track url
 ///
-- (nonnull instancetype)initWithUuid:(NSUUID * _Nonnull)uuid name:(NSString * _Nonnull)name additionalName:(NSString * _Nullable)additionalName url:(NSURL * _Nullable)url OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUuid:(NSUUID * _Nonnull)uuid name:(NSString * _Nonnull)name additionalName:(NSString * _Nullable)additionalName url:(NSURL * _Nullable)url coverURL:(NSURL * _Nullable)coverURL OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

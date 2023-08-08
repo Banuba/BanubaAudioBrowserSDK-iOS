@@ -57,13 +57,14 @@ public enum TrackDonwloadStatus : Swift.Int {
   public var additionalName: Swift.String?
   public var duration: Foundation.TimeInterval?
   public var url: Foundation.URL?
+  public var coverURL: Foundation.URL?
   public var isSaved: Swift.Bool {
     get
   }
   public var avAsset: AVFoundation.AVAsset? {
     get
   }
-  @objc public init(uuid: Foundation.UUID, name: Swift.String, additionalName: Swift.String?, url: Foundation.URL?)
+  @objc public init(uuid: Foundation.UUID, name: Swift.String, additionalName: Swift.String?, url: Foundation.URL?, coverURL: Foundation.URL?)
   public func setupDuration(_ duration: Foundation.TimeInterval? = nil)
   public func createAsset(withData: Foundation.Data) throws
   public func deleteFile() throws
