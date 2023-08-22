@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		XyW6rS2PrLm/w3R4zd9Oiaim59k=
+		CBuiUNqOfMHhpyM2UmHcFKPJ+g8=
 		</data>
 		<key>AudioBrowserViewController.storyboardc/Cwr-uE-sFK-view-lWM-bB-Bwz.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/BanubaAudioBrowserSDK-Swift.h</key>
 		<data>
-		N2p0fAqx2cl/YoOLN66hdpXHZ7Q=
+		+drOcdCiOJpaXqkkSlwb6KwDDIM=
 		</data>
 		<key>Headers/BanubaAudioBrowserSDK.h</key>
 		<data>
@@ -70,47 +70,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1ueX8M75uNgP22WEtFv6IyASaLU=
+		fml4EkFc3qWk1Gt6NQvK2g547Ak=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yBqIAHA39NHqcgactV3zsc2WWsg=
+		xGgyglPMpCEs+pjIOJlsmCq4nM0=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7cIPN9iCl6y5ZxTqFQgWXLX5NMU=
+		0cyMckP4EfkincVqDD9JFTrUbbo=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LePO34jGAAqOapM+Ar/gUvm6KJU=
+		mTkqCBBRdjJHBlM1qk1gNJnZ4tE=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7cIPN9iCl6y5ZxTqFQgWXLX5NMU=
+		0cyMckP4EfkincVqDD9JFTrUbbo=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s2RY5UoXYOuclBAvM5jc9knpZ24=
+		0yXNWIRFko8h89zgeeWgQZclNNk=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yBqIAHA39NHqcgactV3zsc2WWsg=
+		xGgyglPMpCEs+pjIOJlsmCq4nM0=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OpByfHUUIC//qPHdawajX8z+NxU=
+		Z4xg7KlZyHxLLSBWl2gfuzgtBVI=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0EOhRCXRleCLHBW4FvuMBXY040o=
+		eyitdNrVh22Pf7ln0zLBtxNlZQk=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OpByfHUUIC//qPHdawajX8z+NxU=
+		Z4xg7KlZyHxLLSBWl2gfuzgtBVI=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cDTPaW6/kGQwXUHx4f7j0EAsHWQ=
+		a4kB5IOYb4XOtQ70ykycM821qtw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>MusicSectionHeader.nib</key>
 		<data>
-		FUVcNqGqL1AEONZwKvoUvkp32Lw=
+		spV/W2+p+92+Aqd07HqtQ3Of07Q=
 		</data>
 		<key>PreCategorySelectionTableViewCell.nib</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>TabCell.nib</key>
 		<data>
-		O5W1BCWcukMIn01PGZkwTeEyQs8=
+		N4TTreLxKOv2+QJEcIe2DQCXGZ8=
 		</data>
 		<key>TrackSelectionTableViewCell.nib</key>
 		<data>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UdTygz7YOF/pf5ggpZeFs+yGZQPThIYp6SuDoahfo14=
+			tqpqmk1uqWcjZFuzWVhe/Ip+WFHQkyureFqMoj4sVac=
 			</data>
 		</dict>
 		<key>AudioBrowserViewController.storyboardc/Cwr-uE-sFK-view-lWM-bB-Bwz.nib</key>
@@ -244,7 +244,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DVOtap+KX65ZbmYRe0HsMSRUiXj0MKTe8lcREPVbBA=
+			eQOO5JJVuH+5yF+NBBpMjJ/spf2NNJWf39+SanbxeJE=
 			</data>
 		</dict>
 		<key>Headers/BanubaAudioBrowserSDK.h</key>
@@ -279,70 +279,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dg+/9u77/ZZ4AWW5mTHlupJJdfP9l/sTntvvD4vHLM=
+			MNrwhlLRfRGX+zK610XAK8yFBVLwCtfSE2Ur/DKLc4I=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bh9yX8+61MvVdnFaQwC92CWy8Vy8/+b8/Fty9O/zxtQ=
+			d3DXJ/4FaaVm85VDmc2S7qOxs0vEBYXRbJ7I2ryUSuM=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rdtx98YkPPRdrz5/CYEKSC0SeoSWSw14tyHeQ1ogZzA=
+			sz63FIbWhvyw9zDvw6BIrC5gfH4iA8w7lQQcO7XHMYw=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bh9yX8+61MvVdnFaQwC92CWy8Vy8/+b8/Fty9O/zxtQ=
+			d3DXJ/4FaaVm85VDmc2S7qOxs0vEBYXRbJ7I2ryUSuM=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HXQF//u4+AoCdNm2Xi3tLfgaayxw/ZRldlFJDaww1NQ=
+			9chIwFjJHV9sOd/a6x/BYqYmHuhJF6a7xq1vzTFoaBM=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dg+/9u77/ZZ4AWW5mTHlupJJdfP9l/sTntvvD4vHLM=
+			MNrwhlLRfRGX+zK610XAK8yFBVLwCtfSE2Ur/DKLc4I=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QUubvvLgyTfd60HvtuulhgIknx7GZ7cho8BlZQeqFnA=
+			p+9rPqhz2VF9MaofQUIBXrnhxnlty8HdrzRpupusJzY=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwEShsHroj1/G9ClHXtKaC0Sf6pLSHdHekc/TV+jnkE=
+			UCPCKNktB6wv3E8CV2IGL9n76cmdS25Dh2TDDFU14DM=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QUubvvLgyTfd60HvtuulhgIknx7GZ7cho8BlZQeqFnA=
+			p+9rPqhz2VF9MaofQUIBXrnhxnlty8HdrzRpupusJzY=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eRaot0PL5STETQ4dE2oSSHM4BLo5AHDlGM5NYH968dA=
+			dFivu8Kx6V2AAh3TPmnEsxm4nDtorjMIXV0KToDiuOk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -377,7 +377,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vd9hHWPDC6V9etqX4gjiB7TqPogdAA7iRUSClI9AdzQ=
+			0OB/sT3SLTEA/n6utUPDrB1u3SA2QWRyHZQCyMUqQoI=
 			</data>
 		</dict>
 		<key>PreCategorySelectionTableViewCell.nib</key>
@@ -419,7 +419,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4cTJtMi6ahbrot57cwZ1JucBNiPAT1xT2pAURpjU4pM=
+			IWJr73wr+UCaGTxyTvkzj1/O8o6Q4Yv+dImG3tDeC1k=
 			</data>
 		</dict>
 		<key>TrackSelectionTableViewCell.nib</key>
