@@ -412,6 +412,10 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @property (nonatomic, readonly, copy) NSString * _Nonnull genreTracksURL;
 /// Music library collection tracks url
 @property (nonatomic, readonly, copy) NSString * _Nonnull collectionTracksURL;
+/// Music library info view no matches icon
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull noMatchesIcon;
+/// Music library info view attention icon
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull attentionIcon;
 /// MusicLibraryConfiguration constructor
 /// \param homeURL home url used for music library home screen
 ///
@@ -425,10 +429,15 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param collectionTracksURL collection tracks url used for music library selected collection tracks
 ///
-- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL OBJC_DESIGNATED_INITIALIZER;
+/// \param noMatchesIcon image configuration for no matches info view
+///
+/// \param attentionIcon image configuration for attention info view
+///
+- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 
@@ -855,6 +864,10 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @property (nonatomic, readonly, copy) NSString * _Nonnull genreTracksURL;
 /// Music library collection tracks url
 @property (nonatomic, readonly, copy) NSString * _Nonnull collectionTracksURL;
+/// Music library info view no matches icon
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull noMatchesIcon;
+/// Music library info view attention icon
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull attentionIcon;
 /// MusicLibraryConfiguration constructor
 /// \param homeURL home url used for music library home screen
 ///
@@ -868,10 +881,15 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param collectionTracksURL collection tracks url used for music library selected collection tracks
 ///
-- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL OBJC_DESIGNATED_INITIALIZER;
+/// \param noMatchesIcon image configuration for no matches info view
+///
+/// \param attentionIcon image configuration for attention info view
+///
+- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 

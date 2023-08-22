@@ -33,7 +33,9 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc final public let collectionsURL: Swift.String
   @objc final public let genreTracksURL: Swift.String
   @objc final public let collectionTracksURL: Swift.String
-  @objc public init(homeURL: Swift.String, tracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String)
+  @objc final public let noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration
+  @objc final public let attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration
+  @objc public init(homeURL: Swift.String, tracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration)
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {
@@ -147,13 +149,14 @@ public struct CategorySelectionConfig {
   public var searchBarStyle: UIKit.UIBarStyle
   public var searchBarPlaceholder: BanubaUtilities.TextConfiguration
   public var searchBarPlaceholderText: Swift.String
-  public var seacrhBarText: BanubaUtilities.TextConfiguration
+  public var searchBarText: BanubaUtilities.TextConfiguration
   public var tableViewColor: UIKit.UIColor
   public var cellColor: UIKit.UIColor
   public var titleViewColor: UIKit.UIColor
   public var titleViewCornerRadius: CoreFoundation.CGFloat
   public var titleConfiguration: BanubaUtilities.TextConfiguration
   public var categoryImageNames: [Swift.String]
+  public var categoryImagesTintColor: UIKit.UIColor
   public var selectedImageName: Swift.String
 }
 public struct PreCategorySelectionConfig {
