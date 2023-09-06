@@ -404,6 +404,8 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @property (nonatomic, readonly, copy) NSString * _Nonnull homeURL;
 /// Music library all tracks url
 @property (nonatomic, readonly, copy) NSString * _Nonnull tracksURL;
+/// Music library search tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull searchTracksURL;
 /// Music library genres url
 @property (nonatomic, readonly, copy) NSString * _Nonnull genresURL;
 /// Music library collections url
@@ -424,6 +426,8 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param tracksURL tracks url used for all music library tracks
 ///
+/// \param searchTracksURL url used to search tracks by title
+///
 /// \param genresURL genres url used for music library genres
 ///
 /// \param collectionsURL collections url used for music library collections
@@ -436,7 +440,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param attentionIcon image configuration for attention info view
 ///
-- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

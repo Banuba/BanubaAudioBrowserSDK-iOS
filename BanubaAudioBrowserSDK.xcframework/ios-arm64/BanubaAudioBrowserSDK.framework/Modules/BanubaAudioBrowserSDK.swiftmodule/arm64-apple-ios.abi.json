@@ -156,6 +156,30 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "BanubaUtilities",
+        "printedName": "BanubaUtilities",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -637,6 +661,57 @@
           },
           {
             "kind": "Var",
+            "name": "searchTracksURL",
+            "printedName": "searchTracksURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)MusicLibraryConfiguration(py)searchTracksURL",
+            "mangledName": "$s21BanubaAudioBrowserSDK25MusicLibraryConfigurationC15searchTracksURLSSvp",
+            "moduleName": "BanubaAudioBrowserSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)MusicLibraryConfiguration(im)searchTracksURL",
+                "mangledName": "$s21BanubaAudioBrowserSDK25MusicLibraryConfigurationC15searchTracksURLSSvg",
+                "moduleName": "BanubaAudioBrowserSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "genresURL",
             "printedName": "genresURL",
             "children": [
@@ -995,13 +1070,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(homeURL:tracksURL:genresURL:collectionsURL:genreTracksURL:collectionTracksURL:tracksPerPage:noMatchesIcon:attentionIcon:)",
+            "printedName": "init(homeURL:tracksURL:searchTracksURL:genresURL:collectionsURL:genreTracksURL:collectionTracksURL:tracksPerPage:noMatchesIcon:attentionIcon:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "MusicLibraryConfiguration",
                 "printedName": "BanubaAudioBrowserSDK.MusicLibraryConfiguration",
                 "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)MusicLibraryConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1059,10 +1140,10 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)MusicLibraryConfiguration(im)initWithHomeURL:tracksURL:genresURL:collectionsURL:genreTracksURL:collectionTracksURL:tracksPerPage:noMatchesIcon:attentionIcon:",
-            "mangledName": "$s21BanubaAudioBrowserSDK25MusicLibraryConfigurationC7homeURL06tracksI006genresI0011collectionsI0011genreTracksI0010collectionnI00J7PerPage13noMatchesIcon09attentionT0ACSS_S5SSiAA05ImageG0CANtcfc",
+            "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)MusicLibraryConfiguration(im)initWithHomeURL:tracksURL:searchTracksURL:genresURL:collectionsURL:genreTracksURL:collectionTracksURL:tracksPerPage:noMatchesIcon:attentionIcon:",
+            "mangledName": "$s21BanubaAudioBrowserSDK25MusicLibraryConfigurationC7homeURL06tracksI0012searchTracksI006genresI0011collectionsI005genrelI0010collectionlI00J7PerPage13noMatchesIcon09attentionU0ACSS_S6SSiAA05ImageG0CAOtcfc",
             "moduleName": "BanubaAudioBrowserSDK",
-            "objc_name": "initWithHomeURL:tracksURL:genresURL:collectionsURL:genreTracksURL:collectionTracksURL:tracksPerPage:noMatchesIcon:attentionIcon:",
+            "objc_name": "initWithHomeURL:tracksURL:searchTracksURL:genresURL:collectionsURL:genreTracksURL:collectionTracksURL:tracksPerPage:noMatchesIcon:attentionIcon:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -15299,6 +15380,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -15311,6 +15399,30 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "BanubaUtilities",
+        "printedName": "BanubaUtilities",
         "declKind": "Import",
         "moduleName": "BanubaAudioBrowserSDK"
       },
@@ -15354,6 +15466,26 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "BanubaAudioBrowserSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BanubaAudioBrowserSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -15737,98 +15869,63 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 872,
+      "offset": 976,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1793,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1828,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1844,
+      "offset": 1077,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2964,
+      "offset": 2925,
       "length": 78,
       "value": "\"Loading home screen content failed with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3002,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3508,
+      "offset": 3559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4189,
+      "offset": 4240,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4210,
+      "offset": 4261,
       "length": 18,
       "value": "\"_musicLibraryTrack.mp3\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 8775,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 8994,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
-      "kind": "Array",
-      "offset": 9057,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 9785,
+      "offset": 6437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 9813,
+      "offset": 6465,
       "length": 5,
       "value": "false"
     },
@@ -15891,21 +15988,21 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionCollectionViewHandler.swift",
       "kind": "Array",
-      "offset": 7783,
+      "offset": 7805,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8353,
+      "offset": 8375,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 8387,
+      "offset": 8409,
       "length": 5,
       "value": "false"
     },
@@ -16020,6 +16117,202 @@
       "offset": 294,
       "length": 4,
       "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 988,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "Array",
+      "offset": 1043,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1420,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1449,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1696,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1846,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2424,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "Array",
+      "offset": 3231,
+      "length": 3,
+      "value": "[0]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4289,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4473,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4855,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4920,
+      "length": 5,
+      "value": "250.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5240,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5287,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5345,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5567,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5788,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5989,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6156,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6409,
+      "length": 8,
+      "value": "\"footer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6990,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7141,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/DefaultConfigs.swift",
@@ -17865,7 +18158,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1214,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
@@ -17893,119 +18186,133 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2190,
+      "offset": 2230,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3003,
+      "offset": 3043,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3603,
+      "offset": 3641,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3841,
+      "offset": 3879,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4080,
+      "offset": 4118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4317,
+      "offset": 4355,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4827,
+      "offset": 4917,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4968,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
-      "kind": "StringLiteral",
-      "offset": 5204,
-      "length": 22,
-      "value": "\"track URL is missing\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5285,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5532,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6248,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6333,
+      "offset": 5058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 6472,
+      "offset": 5294,
       "length": 22,
       "value": "\"track URL is missing\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6736,
+      "offset": 5375,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5622,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6466,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 7048,
+      "offset": 6605,
       "length": 22,
       "value": "\"track URL is missing\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7312,
+      "offset": 6869,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "StringLiteral",
+      "offset": 7225,
+      "length": 22,
+      "value": "\"track URL is missing\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7489,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8187,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8274,
       "length": 4,
       "value": "true"
     },
@@ -18208,455 +18515,441 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1815,
+      "offset": 2430,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1822,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2562,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2569,
+      "offset": 2437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2657,
+      "offset": 2525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2664,
+      "offset": 2532,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2742,
+      "offset": 2610,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2749,
+      "offset": 2617,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2823,
+      "offset": 2691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2830,
+      "offset": 2698,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2903,
+      "offset": 2771,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2910,
+      "offset": 2778,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2983,
+      "offset": 2851,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2990,
+      "offset": 2858,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3064,
+      "offset": 2932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3071,
+      "offset": 2939,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3439,
+      "offset": 3307,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3478,
+      "offset": 3346,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3629,
+      "offset": 3497,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3842,
+      "offset": 3710,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3882,
+      "offset": 3750,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4520,
+      "offset": 4388,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4559,
+      "offset": 4427,
       "length": 4,
       "value": "44.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4725,
+      "offset": 4593,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 4765,
+      "offset": 4633,
       "length": 4,
       "value": "44.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5259,
+      "offset": 5127,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5295,
+      "offset": 5163,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 5418,
+      "offset": 5286,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 5457,
+      "offset": 5325,
       "length": 4,
       "value": "72.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 5612,
+      "offset": 5480,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 5652,
+      "offset": 5520,
       "length": 4,
       "value": "72.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6234,
+      "offset": 6102,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6272,
+      "offset": 6140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6395,
+      "offset": 6263,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6434,
+      "offset": 6302,
       "length": 5,
       "value": "102.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6590,
+      "offset": 6458,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6630,
+      "offset": 6498,
       "length": 5,
       "value": "102.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6875,
+      "offset": 6743,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 6950,
+      "offset": 6818,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7207,
+      "offset": 7075,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7243,
+      "offset": 7111,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7366,
+      "offset": 7234,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7405,
+      "offset": 7273,
       "length": 4,
       "value": "72.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7560,
+      "offset": 7428,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 7600,
+      "offset": 7468,
       "length": 4,
       "value": "72.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8232,
+      "offset": 8100,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8273,
+      "offset": 8141,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8419,
+      "offset": 8287,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8425,
+      "offset": 8293,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8464,
+      "offset": 8332,
       "length": 4,
       "value": "64.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8619,
+      "offset": 8487,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 8659,
+      "offset": 8527,
       "length": 4,
       "value": "64.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9228,
+      "offset": 9096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9264,
+      "offset": 9132,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9387,
+      "offset": 9255,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9426,
+      "offset": 9294,
       "length": 4,
       "value": "72.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9581,
+      "offset": 9449,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 9621,
+      "offset": 9489,
       "length": 4,
       "value": "72.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10371,
+      "offset": 10239,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10410,
+      "offset": 10278,
       "length": 4,
       "value": "48.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10739,
+      "offset": 10607,
       "length": 5,
       "value": "-10.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10772,
+      "offset": 10640,
       "length": 5,
       "value": "-16.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 11126,
+      "offset": 10994,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 11165,
+      "offset": 11033,
       "length": 4,
       "value": "44.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/SectionsManager.swift",
       "kind": "FloatLiteral",
-      "offset": 11423,
+      "offset": 11291,
       "length": 5,
       "value": "-10.0"
     },
@@ -18677,56 +18970,84 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2769,
+      "offset": 2926,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3727,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3736,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4098,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4107,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5547,
+      "offset": 5966,
       "length": 66,
       "value": "\"Loading content failed with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5612,
+      "offset": 6031,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6633,
+      "offset": 7052,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6654,
+      "offset": 7073,
       "length": 18,
       "value": "\"_musicLibraryTrack.mp3\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8562,
+      "offset": 9270,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8644,
+      "offset": 9352,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SelectionScreen\/SelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8711,
+      "offset": 9419,
       "length": 5,
       "value": "false"
     },
@@ -18795,241 +19116,136 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 369,
-      "length": 16,
-      "value": "\"searchBarImage\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 429,
-      "length": 3,
-      "value": "242"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 441,
-      "length": 3,
-      "value": "242"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 452,
-      "length": 3,
-      "value": "242"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 503,
-      "length": 4,
-      "value": "18.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 568,
-      "length": 4,
-      "value": "16.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 2186,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2210,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2335,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2537,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2742,
+      "offset": 1576,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2946,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 3581,
-      "length": 14,
-      "value": "\"_clearButton\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3902,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 3998,
+      "offset": 1672,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4612,
+      "offset": 2342,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5031,
+      "offset": 2584,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5552,
+      "offset": 3094,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5584,
+      "offset": 3333,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5823,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5854,
+      "offset": 3364,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6482,
+      "offset": 3800,
+      "length": 4,
+      "value": "56.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3807,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4141,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6529,
+      "offset": 4188,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6587,
+      "offset": 4246,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6915,
+      "offset": 4574,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6947,
+      "offset": 4648,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6995,
+      "offset": 4705,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7233,
+      "offset": 4943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7266,
+      "offset": 5018,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7313,
+      "offset": 5074,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7924,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8007,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 8071,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11953,
-      "length": 4,
-      "value": "0.25"
+      "offset": 5335,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
@@ -19076,196 +19292,196 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "Array",
-      "offset": 1675,
+      "offset": 1780,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1803,
+      "offset": 1908,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1988,
+      "offset": 2093,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 2059,
+      "offset": 2164,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2162,
+      "offset": 2267,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 2311,
+      "offset": 2416,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2482,
+      "offset": 2587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 2657,
+      "offset": 2787,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3258,
+      "offset": 3388,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3747,
+      "offset": 3877,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3784,
+      "offset": 3914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 3838,
+      "offset": 3968,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4418,
+      "offset": 4548,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4643,
+      "offset": 4773,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4849,
+      "offset": 4979,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4988,
+      "offset": 5118,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5053,
+      "offset": 5183,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5482,
+      "offset": 5612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 5773,
+      "offset": 5903,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 5853,
+      "offset": 5983,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 5933,
+      "offset": 6063,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 5940,
+      "offset": 6070,
       "length": 4,
       "value": "65.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6858,
+      "offset": 6988,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6905,
+      "offset": 7035,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6963,
+      "offset": 7093,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7148,
+      "offset": 7278,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7440,
+      "offset": 7570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Music\/MusicCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7687,
+      "offset": 7817,
       "length": 5,
       "value": "false"
     },
@@ -19978,239 +20194,211 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 528,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 543,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 1730,
+      "offset": 1791,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 1774,
+      "offset": 1835,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2208,
+      "offset": 2269,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2215,
+      "offset": 2276,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2261,
+      "offset": 2322,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2312,
+      "offset": 2373,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2333,
+      "offset": 2394,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2707,
+      "offset": 2768,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2853,
+      "offset": 2914,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 2919,
+      "offset": 2980,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 4135,
+      "offset": 4196,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "Array",
-      "offset": 4166,
+      "offset": 4227,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 4972,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 4987,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 5201,
+      "offset": 5189,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5612,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5627,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5948,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 5963,
-      "length": 5,
-      "value": "256.0"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7395,
+      "offset": 7297,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7477,
+      "offset": 7379,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 11133,
+      "offset": 11035,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "Array",
-      "offset": 12769,
+      "offset": 12671,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13339,
+      "offset": 13241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13373,
+      "offset": 13275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/HomeScreen\/HomeScreenCollectionViewHandler.swift",
       "kind": "StringLiteral",
-      "offset": 498,
+      "offset": 559,
       "length": 31,
       "value": "\"BanubaAudioBrowserSDK.HomeScreenCollectionViewHandler\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 1978,
+      "offset": 2054,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2207,
+      "offset": 2283,
       "length": 4,
       "value": "0.94"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2214,
+      "offset": 2290,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 2239,
+      "offset": 2315,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 2314,
+      "offset": 2390,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 6055,
+      "offset": 6131,
       "length": 5,
       "value": "326.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 6082,
+      "offset": 6158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 6158,
+      "offset": 6234,
       "length": 5,
       "value": "false"
     },
@@ -20343,14 +20531,14 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Collection\/CollectionCell.swift",
       "kind": "FloatLiteral",
-      "offset": 769,
+      "offset": 899,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Collection\/CollectionCell.swift",
       "kind": "FloatLiteral",
-      "offset": 1130,
+      "offset": 1260,
       "length": 4,
       "value": "12.0"
     },
@@ -20994,140 +21182,133 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 260,
+      "offset": 246,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 279,
+      "offset": 265,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 260,
+      "offset": 246,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 279,
+      "offset": 265,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 239,
+      "offset": 225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 260,
+      "offset": 246,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 279,
+      "offset": 265,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "Array",
-      "offset": 615,
+      "offset": 601,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "Array",
-      "offset": 659,
+      "offset": 645,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "Array",
-      "offset": 702,
+      "offset": 688,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "Array",
-      "offset": 740,
+      "offset": 726,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "Array",
-      "offset": 775,
+      "offset": 761,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "Array",
-      "offset": 814,
+      "offset": 800,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "Array",
-      "offset": 853,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
-      "kind": "Array",
-      "offset": 894,
+      "offset": 839,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2657,
+      "offset": 2602,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2701,
+      "offset": 2646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Managers\/CellsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2792,
+      "offset": 2737,
       "length": 4,
       "value": "true"
     },
@@ -21162,21 +21343,21 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Genre\/GenreCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 553,
+      "offset": 658,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Genre\/GenreCell.swift",
       "kind": "FloatLiteral",
-      "offset": 699,
+      "offset": 804,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Cells\/Genre\/GenreCell.swift",
       "kind": "FloatLiteral",
-      "offset": 882,
+      "offset": 1012,
       "length": 4,
       "value": "0.05"
     },
@@ -21337,63 +21518,63 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2736,
+      "offset": 2709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3322,
+      "offset": 3295,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3430,
+      "offset": 3403,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3677,
+      "offset": 3650,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "Array",
-      "offset": 4030,
+      "offset": 4003,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4295,
+      "offset": 4268,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4972,
+      "offset": 4945,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5370,
+      "offset": 5343,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/AudioPartSelectionScreen\/AudioPartSelectionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5586,
+      "offset": 5559,
       "length": 5,
       "value": "false"
     },
@@ -21456,863 +21637,1122 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3089,
+      "offset": 3095,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3113,
+      "offset": 3114,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 3138,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3166,
+      "offset": 3162,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3191,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3189,
+      "offset": 3214,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3242,
+      "offset": 3267,
       "length": 17,
       "value": "\"icon.no.matches\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3311,
+      "offset": 3336,
       "length": 16,
       "value": "\"icon.attention\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3468,
+      "offset": 3493,
       "length": 12,
       "value": "0.1198527887"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3489,
+      "offset": 3514,
       "length": 12,
       "value": "0.1296284497"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3509,
+      "offset": 3534,
       "length": 11,
       "value": "0.142400682"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3529,
+      "offset": 3554,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3592,
+      "offset": 3617,
       "length": 18,
       "value": "\"localMusicButton\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3802,
+      "offset": 3827,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3843,
+      "offset": 3868,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3853,
+      "offset": 3878,
       "length": 12,
       "value": "0.7534586787"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3873,
+      "offset": 3898,
       "length": 14,
       "value": "0.009759279899"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3896,
+      "offset": 3921,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4014,
+      "offset": 4039,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4075,
+      "offset": 4100,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4689,
+      "offset": 4714,
       "length": 4,
       "value": "22.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 4732,
+      "offset": 4757,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 4742,
+      "offset": 4767,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 4751,
+      "offset": 4776,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 4761,
+      "offset": 4786,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4950,
+      "offset": 4975,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4993,
+      "offset": 5018,
       "length": 12,
       "value": "0.5481156111"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 5014,
+      "offset": 5039,
       "length": 12,
       "value": "0.5531307459"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 5034,
+      "offset": 5059,
       "length": 12,
       "value": "0.5529443622"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5055,
+      "offset": 5080,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 5249,
+      "offset": 5274,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5292,
+      "offset": 5317,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5302,
+      "offset": 5327,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5311,
+      "offset": 5336,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5321,
+      "offset": 5346,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5392,
+      "offset": 5417,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5598,
+      "offset": 5623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 5711,
+      "offset": 5736,
       "length": 4,
       "value": "22.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5754,
+      "offset": 5779,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5764,
+      "offset": 5789,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5773,
+      "offset": 5798,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 5783,
+      "offset": 5808,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 5971,
+      "offset": 5996,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 6014,
+      "offset": 6039,
       "length": 12,
       "value": "0.5481156111"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 6035,
+      "offset": 6060,
       "length": 12,
       "value": "0.5531307459"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 6055,
+      "offset": 6080,
       "length": 12,
       "value": "0.5529443622"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 6076,
+      "offset": 6101,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 6270,
+      "offset": 6295,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 6313,
+      "offset": 6338,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 6323,
+      "offset": 6348,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 6332,
+      "offset": 6357,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 6342,
+      "offset": 6367,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 6413,
+      "offset": 6438,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11452,
+      "offset": 11477,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11464,
+      "offset": 11489,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11538,
+      "offset": 11563,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11550,
+      "offset": 11575,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11914,
+      "offset": 11939,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 11987,
+      "offset": 12012,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 20589,
+      "offset": 20614,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 19575,
+      "offset": 19600,
       "length": 18,
       "value": "\"BanubaAudioBrowserSDK.ImageConfiguration\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2517,
+      "offset": 2879,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2548,
+      "offset": 2910,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2588,
+      "offset": 2950,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3661,
+      "offset": 3993,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 4024,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 4064,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 5137,
       "length": 13,
       "value": "\"external_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 5217,
       "length": 10,
       "value": "\"duration\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3789,
+      "offset": 5265,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3661,
+      "offset": 5137,
       "length": 13,
       "value": "\"external_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 5217,
       "length": 10,
       "value": "\"duration\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3789,
+      "offset": 5265,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 3881,
+      "offset": 5357,
       "length": 13,
       "value": "1000000000"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4035,
+      "offset": 5511,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 4146,
+      "offset": 5622,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4223,
+      "offset": 5699,
       "length": 3,
       "value": "\"w\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4235,
+      "offset": 5711,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4249,
+      "offset": 5725,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4280,
+      "offset": 5756,
       "length": 3,
       "value": "\"h\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4292,
+      "offset": 5768,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4307,
+      "offset": 5783,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4381,
+      "offset": 5857,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4561,
+      "offset": 6037,
       "length": 13,
       "value": "\"playlist_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4614,
+      "offset": 6090,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4561,
+      "offset": 6037,
       "length": 13,
       "value": "\"playlist_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4614,
+      "offset": 6090,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4770,
+      "offset": 6246,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 4881,
+      "offset": 6357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4958,
+      "offset": 6434,
       "length": 3,
       "value": "\"w\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4970,
+      "offset": 6446,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4984,
+      "offset": 6460,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5015,
+      "offset": 6491,
       "length": 3,
       "value": "\"h\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5027,
+      "offset": 6503,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5042,
+      "offset": 6518,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5116,
+      "offset": 6592,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5301,
+      "offset": 6777,
       "length": 13,
       "value": "\"playlist_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5354,
+      "offset": 6830,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5301,
+      "offset": 6777,
       "length": 13,
       "value": "\"playlist_id\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5354,
+      "offset": 6830,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5510,
+      "offset": 6986,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "BooleanLiteral",
-      "offset": 5621,
+      "offset": 7097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5698,
+      "offset": 7174,
       "length": 3,
       "value": "\"w\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5710,
+      "offset": 7186,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5724,
+      "offset": 7200,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5755,
+      "offset": 7231,
       "length": 3,
       "value": "\"h\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5767,
+      "offset": 7243,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5782,
+      "offset": 7258,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5856,
+      "offset": 7332,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 7539,
       "length": 16,
       "value": "\"popular_tracks\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6100,
+      "offset": 7576,
       "length": 17,
       "value": "\"genre_playlists\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 7539,
       "length": 16,
       "value": "\"popular_tracks\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6100,
+      "offset": 7576,
       "length": 17,
       "value": "\"genre_playlists\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6420,
+      "offset": 7896,
       "length": 11,
       "value": "\"next_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6458,
+      "offset": 7934,
       "length": 15,
       "value": "\"previous_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6420,
+      "offset": 7896,
       "length": 11,
       "value": "\"next_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6458,
+      "offset": 7934,
       "length": 15,
       "value": "\"previous_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 8316,
       "length": 11,
       "value": "\"next_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6878,
+      "offset": 8354,
       "length": 15,
       "value": "\"previous_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 8316,
       "length": 11,
       "value": "\"next_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6878,
+      "offset": 8354,
       "length": 15,
       "value": "\"previous_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7171,
+      "offset": 8647,
       "length": 11,
       "value": "\"next_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7209,
+      "offset": 8685,
       "length": 15,
       "value": "\"previous_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7171,
+      "offset": 8647,
       "length": 11,
       "value": "\"next_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7209,
+      "offset": 8685,
       "length": 15,
       "value": "\"previous_page\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7451,
+      "offset": 8927,
       "length": 8,
       "value": "\"result\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/MusicLibraryAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7451,
+      "offset": 8927,
       "length": 8,
       "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 1597,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1651,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1706,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "Array",
+      "offset": 1772,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1830,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "Array",
+      "offset": 1976,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2984,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "Array",
+      "offset": 3195,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3236,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3395,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3483,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3523,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3762,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4030,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5297,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "FloatLiteral",
+      "offset": 6215,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "FloatLiteral",
+      "offset": 6230,
+      "length": 5,
+      "value": "256.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 6454,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6499,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6798,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6975,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 7029,
+      "length": 50,
+      "value": "\"Failed to search for tracks with error: \""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 7078,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7111,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7431,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 8414,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Controllers\/SearchScreen\/SearchScreenInteractor.swift",
+      "kind": "StringLiteral",
+      "offset": 8435,
+      "length": 18,
+      "value": "\"_musicLibraryTrack.mp3\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/UI\/MusicFilePickerController.swift",
@@ -22397,6 +22837,13 @@
       "offset": 1547,
       "length": 2,
       "value": "36"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Extensions\/Publisher.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1036,
+      "length": 3,
+      "value": "300"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Network\/MusicLibrary.swift",
@@ -22971,6 +23418,118 @@
       "offset": 4110,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 16,
+      "value": "\"searchBarImage\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 21,
+      "value": "\"searchBarClearImage\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 297,
+      "length": 5,
+      "value": "242.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 305,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 319,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 370,
+      "length": 4,
+      "value": "18.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 435,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 695,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1002,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 1206,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 1601,
+      "length": 5,
+      "value": "133.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 1609,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 1623,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 1888,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/Views\/MusicLibrarySearchBar.swift",
+      "kind": "FloatLiteral",
+      "offset": 1986,
+      "length": 4,
+      "value": "-4.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/ios\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/HomeScreen\/InfoView\/MusicLibraryInfoView.swift",

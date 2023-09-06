@@ -29,6 +29,7 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
 @objc public class MusicLibraryConfiguration : ObjectiveC.NSObject {
   @objc final public let homeURL: Swift.String
   @objc final public let tracksURL: Swift.String
+  @objc final public let searchTracksURL: Swift.String
   @objc final public let genresURL: Swift.String
   @objc final public let collectionsURL: Swift.String
   @objc final public let genreTracksURL: Swift.String
@@ -36,7 +37,7 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc final public let tracksPerPage: Swift.Int
   @objc final public let noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration
   @objc final public let attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration
-  @objc public init(homeURL: Swift.String, tracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, tracksPerPage: Swift.Int, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration)
+  @objc public init(homeURL: Swift.String, tracksURL: Swift.String, searchTracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, tracksPerPage: Swift.Int, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration)
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {
