@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaAudioBrowserSDK
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaAudioBrowserSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
@@ -27,7 +27,12 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc deinit
 }
 @objc public class MusicLibraryConfiguration : ObjectiveC.NSObject {
+  @objc final public let userID: Swift.String
   @objc final public let homeURL: Swift.String
+  @objc final public let recentsURL: Swift.String
+  @objc final public let favoritesURL: Swift.String
+  @objc final public let addFavoriteURL: Swift.String
+  @objc final public let removeFavoriteURL: Swift.String
   @objc final public let tracksURL: Swift.String
   @objc final public let searchTracksURL: Swift.String
   @objc final public let genresURL: Swift.String
@@ -37,7 +42,7 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc final public let tracksPerPage: Swift.Int
   @objc final public let noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration
   @objc final public let attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration
-  @objc public init(homeURL: Swift.String, tracksURL: Swift.String, searchTracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, tracksPerPage: Swift.Int, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration)
+  @objc public init(userID: Swift.String, homeURL: Swift.String, recentsURL: Swift.String, favoritesURL: Swift.String, addFavoriteURL: Swift.String, removeFavoriteURL: Swift.String, tracksURL: Swift.String, searchTracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, tracksPerPage: Swift.Int, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration)
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {

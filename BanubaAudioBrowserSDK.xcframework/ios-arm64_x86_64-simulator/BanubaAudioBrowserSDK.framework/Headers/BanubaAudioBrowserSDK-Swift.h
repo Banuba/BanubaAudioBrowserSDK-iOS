@@ -400,8 +400,18 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 /// Configures music library endpoints adn etc.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @interface MusicLibraryConfiguration : NSObject
+/// Music library user ID
+@property (nonatomic, readonly, copy) NSString * _Nonnull userID;
 /// Music library home screen url
 @property (nonatomic, readonly, copy) NSString * _Nonnull homeURL;
+/// Music library recent tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull recentsURL;
+/// Music library favorite tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull favoritesURL;
+/// Music library add favorite track url
+@property (nonatomic, readonly, copy) NSString * _Nonnull addFavoriteURL;
+/// Music library remove favorite track url
+@property (nonatomic, readonly, copy) NSString * _Nonnull removeFavoriteURL;
 /// Music library all tracks url
 @property (nonatomic, readonly, copy) NSString * _Nonnull tracksURL;
 /// Music library search tracks url
@@ -440,7 +450,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param attentionIcon image configuration for attention info view
 ///
-- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUserID:(NSString * _Nonnull)userID homeURL:(NSString * _Nonnull)homeURL recentsURL:(NSString * _Nonnull)recentsURL favoritesURL:(NSString * _Nonnull)favoritesURL addFavoriteURL:(NSString * _Nonnull)addFavoriteURL removeFavoriteURL:(NSString * _Nonnull)removeFavoriteURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -859,8 +869,18 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 /// Configures music library endpoints adn etc.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @interface MusicLibraryConfiguration : NSObject
+/// Music library user ID
+@property (nonatomic, readonly, copy) NSString * _Nonnull userID;
 /// Music library home screen url
 @property (nonatomic, readonly, copy) NSString * _Nonnull homeURL;
+/// Music library recent tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull recentsURL;
+/// Music library favorite tracks url
+@property (nonatomic, readonly, copy) NSString * _Nonnull favoritesURL;
+/// Music library add favorite track url
+@property (nonatomic, readonly, copy) NSString * _Nonnull addFavoriteURL;
+/// Music library remove favorite track url
+@property (nonatomic, readonly, copy) NSString * _Nonnull removeFavoriteURL;
 /// Music library all tracks url
 @property (nonatomic, readonly, copy) NSString * _Nonnull tracksURL;
 /// Music library search tracks url
@@ -899,7 +919,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param attentionIcon image configuration for attention info view
 ///
-- (nonnull instancetype)initWithHomeURL:(NSString * _Nonnull)homeURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUserID:(NSString * _Nonnull)userID homeURL:(NSString * _Nonnull)homeURL recentsURL:(NSString * _Nonnull)recentsURL favoritesURL:(NSString * _Nonnull)favoritesURL addFavoriteURL:(NSString * _Nonnull)addFavoriteURL removeFavoriteURL:(NSString * _Nonnull)removeFavoriteURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
