@@ -27,7 +27,8 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc deinit
 }
 @objc public class MusicLibraryConfiguration : ObjectiveC.NSObject {
-  @objc final public let userID: Swift.String
+  @objc final public let authHeaderName: Swift.String
+  @objc final public let authHeaderValue: Swift.String
   @objc final public let homeURL: Swift.String
   @objc final public let recentsURL: Swift.String
   @objc final public let favoritesURL: Swift.String
@@ -42,7 +43,7 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc final public let tracksPerPage: Swift.Int
   @objc final public let noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration
   @objc final public let attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration
-  @objc public init(userID: Swift.String, homeURL: Swift.String, recentsURL: Swift.String, favoritesURL: Swift.String, addFavoriteURL: Swift.String, removeFavoriteURL: Swift.String, tracksURL: Swift.String, searchTracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, tracksPerPage: Swift.Int, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration)
+  @objc public init(authHeaderName: Swift.String, authHeaderValue: Swift.String, homeURL: Swift.String, recentsURL: Swift.String, favoritesURL: Swift.String, addFavoriteURL: Swift.String, removeFavoriteURL: Swift.String, tracksURL: Swift.String, searchTracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, tracksPerPage: Swift.Int, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration)
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {
