@@ -1,7 +1,7 @@
 framework module BanubaAudioBrowserSDK {
   umbrella header "BanubaAudioBrowserSDK.h"
-
   export *
+
   module * { export * }
 }
 
