@@ -23,7 +23,7 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   }
 }
 @objc public class BanubaAudioBrowser : ObjectiveC.NSObject {
-  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isMusicLibraryEnabled: Swift.Bool, isSoundstripeEnabled: Swift.Bool, token: Swift.String, isAudioPartSelectionEnabled: Swift.Bool, videoDuration: Swift.Double)
+  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isNewAudioBrowserEnabled: Swift.Bool, isAudioPartSelectionEnabled: Swift.Bool, videoDuration: Swift.Double)
   @objc public static func setMubertKeys(license: Swift.String, token: Swift.String)
   @objc public func getAudioBrowserController() -> UIKit.UINavigationController
   @objc public static func setMusicLibraryConfiguration(_ configuration: BanubaAudioBrowserSDK.MusicLibraryConfiguration)
@@ -106,7 +106,6 @@ public enum TrackDonwloadStatus : Swift.Int {
   case mubert = 1
   case localStorageWithMyFiles = 2
   case allSources = 3
-  case soundstripe = 4
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [BanubaAudioBrowserSDK.AudioBrowserMusicSource]
   public typealias RawValue = Swift.Int
