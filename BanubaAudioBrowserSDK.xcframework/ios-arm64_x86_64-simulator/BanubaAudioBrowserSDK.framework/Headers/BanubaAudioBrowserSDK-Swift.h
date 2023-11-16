@@ -320,6 +320,10 @@ typedef SWIFT_ENUM(NSInteger, AudioBrowserMusicSource, open) {
   AudioBrowserMusicSourceLocalStorageWithMyFiles = 2,
 /// all sources are enabled
   AudioBrowserMusicSourceAllSources = 3,
+/// enables Soundstripe music in AudioBrowser
+  AudioBrowserMusicSourceSoundstripe = 4,
+/// enables list of audio tracks provided by the customer
+  AudioBrowserMusicSourcePredefinedList = 5,
 };
 
 
@@ -383,14 +387,17 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param selectedTrack selected track
 ///
-/// \param isNewAudioBrowserEnabled is new audio browser enabled
+/// \param isMusicLibraryEnabled is music library enabled
+///
+/// \param isSoundstripeEnabled is soundstripe enabled
 ///
 /// \param isAudioPartSelectionEnabled is audio part selection enabled
 ///
 /// \param videoDuration the duration of video
 ///
-- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isNewAudioBrowserEnabled:(BOOL)isNewAudioBrowserEnabled isAudioPartSelectionEnabled:(BOOL)isAudioPartSelectionEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isMusicLibraryEnabled:(BOOL)isMusicLibraryEnabled isSoundstripeEnabled:(BOOL)isSoundstripeEnabled token:(NSString * _Nonnull)token isAudioPartSelectionEnabled:(BOOL)isAudioPartSelectionEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
 + (void)setMubertKeysWithLicense:(NSString * _Nonnull)license token:(NSString * _Nonnull)token;
++ (void)setPredefinedList:(NSArray<AudioBrowserTrack *> * _Nonnull)music;
 /// Get reference to audio browser navigation controller
 - (UINavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
 /// Setting music library configuration
@@ -826,6 +833,10 @@ typedef SWIFT_ENUM(NSInteger, AudioBrowserMusicSource, open) {
   AudioBrowserMusicSourceLocalStorageWithMyFiles = 2,
 /// all sources are enabled
   AudioBrowserMusicSourceAllSources = 3,
+/// enables Soundstripe music in AudioBrowser
+  AudioBrowserMusicSourceSoundstripe = 4,
+/// enables list of audio tracks provided by the customer
+  AudioBrowserMusicSourcePredefinedList = 5,
 };
 
 
@@ -889,14 +900,17 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param selectedTrack selected track
 ///
-/// \param isNewAudioBrowserEnabled is new audio browser enabled
+/// \param isMusicLibraryEnabled is music library enabled
+///
+/// \param isSoundstripeEnabled is soundstripe enabled
 ///
 /// \param isAudioPartSelectionEnabled is audio part selection enabled
 ///
 /// \param videoDuration the duration of video
 ///
-- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isNewAudioBrowserEnabled:(BOOL)isNewAudioBrowserEnabled isAudioPartSelectionEnabled:(BOOL)isAudioPartSelectionEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isMusicLibraryEnabled:(BOOL)isMusicLibraryEnabled isSoundstripeEnabled:(BOOL)isSoundstripeEnabled token:(NSString * _Nonnull)token isAudioPartSelectionEnabled:(BOOL)isAudioPartSelectionEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
 + (void)setMubertKeysWithLicense:(NSString * _Nonnull)license token:(NSString * _Nonnull)token;
++ (void)setPredefinedList:(NSArray<AudioBrowserTrack *> * _Nonnull)music;
 /// Get reference to audio browser navigation controller
 - (UINavigationController * _Nonnull)getAudioBrowserController SWIFT_WARN_UNUSED_RESULT;
 /// Setting music library configuration

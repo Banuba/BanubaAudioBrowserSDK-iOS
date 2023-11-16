@@ -23,8 +23,9 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   }
 }
 @objc public class BanubaAudioBrowser : ObjectiveC.NSObject {
-  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isNewAudioBrowserEnabled: Swift.Bool, isAudioPartSelectionEnabled: Swift.Bool, videoDuration: Swift.Double)
+  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isMusicLibraryEnabled: Swift.Bool, isSoundstripeEnabled: Swift.Bool, token: Swift.String, isAudioPartSelectionEnabled: Swift.Bool, videoDuration: Swift.Double)
   @objc public static func setMubertKeys(license: Swift.String, token: Swift.String)
+  @objc public static func setPredefinedList(_ music: [BanubaAudioBrowserSDK.AudioBrowserTrack])
   @objc public func getAudioBrowserController() -> UIKit.UINavigationController
   @objc public static func setMusicLibraryConfiguration(_ configuration: BanubaAudioBrowserSDK.MusicLibraryConfiguration)
   @objc deinit
@@ -106,6 +107,8 @@ public enum TrackDonwloadStatus : Swift.Int {
   case mubert = 1
   case localStorageWithMyFiles = 2
   case allSources = 3
+  case soundstripe = 4
+  case predefinedList = 5
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [BanubaAudioBrowserSDK.AudioBrowserMusicSource]
   public typealias RawValue = Swift.Int
@@ -138,8 +141,9 @@ public enum TrackDonwloadStatus : Swift.Int {
   public var selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration
   public var showMoreTrackConfiguration: BanubaAudioBrowserSDK.ShowMoreTrackConfig
   public var musicSource: BanubaAudioBrowserSDK.AudioBrowserMusicSource
+  public var predefinedList: [BanubaAudioBrowserSDK.AudioBrowserTrack]
   @objc required convenience override dynamic public init()
-  public init(cornerRadius: CoreFoundation.CGFloat, backgroundColor: UIKit.UIColor, localMusicButtonImage: any BanubaUtilities.ImageConfigurationProtocol, myFilesButtonTitle: Swift.String, myFilesTitleConfiguration: BanubaUtilities.TextConfiguration, titleConfiguration: BanubaUtilities.TextConfiguration, coverPercentage: Swift.Double, categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig, preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig, trackSelectionConfig: BanubaAudioBrowserSDK.TrackSelectionConfig, myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig, toastConfiguration: BanubaUtilities.ToastConfiguration, mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig, internetConnectionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig, activityIndicatorConfig: BanubaUtilities.SmallActivityIndicatorConfiguration, myLibraryPermissionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration, showMoreTrackConfiguration: BanubaAudioBrowserSDK.ShowMoreTrackConfig, musicSource: BanubaAudioBrowserSDK.AudioBrowserMusicSource)
+  public init(cornerRadius: CoreFoundation.CGFloat, backgroundColor: UIKit.UIColor, localMusicButtonImage: any BanubaUtilities.ImageConfigurationProtocol, myFilesButtonTitle: Swift.String, myFilesTitleConfiguration: BanubaUtilities.TextConfiguration, titleConfiguration: BanubaUtilities.TextConfiguration, coverPercentage: Swift.Double, categorySelectionConfig: BanubaAudioBrowserSDK.CategorySelectionConfig, preCategorySelectionConfig: BanubaAudioBrowserSDK.PreCategorySelectionConfig, trackSelectionConfig: BanubaAudioBrowserSDK.TrackSelectionConfig, myLibraryTrackSelectionConfig: BanubaAudioBrowserSDK.MyLibraryTrackSelectionConfig, toastConfiguration: BanubaUtilities.ToastConfiguration, mubertAudioConfig: BanubaAudioBrowserSDK.MubertAudioConfig, internetConnectionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, errorViewConfig: BanubaAudioBrowserSDK.ErrorViewConfig, activityIndicatorConfig: BanubaUtilities.SmallActivityIndicatorConfiguration, myLibraryPermissionViewConfig: BanubaAudioBrowserSDK.ActionViewConfig, selectedTrackViewConfiguration: BanubaAudioBrowserSDK.SelectedTrackViewConfiguration, showMoreTrackConfiguration: BanubaAudioBrowserSDK.ShowMoreTrackConfig, musicSource: BanubaAudioBrowserSDK.AudioBrowserMusicSource, predefinedList: [BanubaAudioBrowserSDK.AudioBrowserTrack])
   public func setPrimaryColor(_ primaryColor: UIKit.UIColor)
   @objc deinit
 }
