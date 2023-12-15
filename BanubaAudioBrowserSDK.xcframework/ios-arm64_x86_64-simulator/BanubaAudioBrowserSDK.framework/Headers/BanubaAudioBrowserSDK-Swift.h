@@ -324,6 +324,8 @@ typedef SWIFT_ENUM(NSInteger, AudioBrowserMusicSource, open) {
   AudioBrowserMusicSourceSoundstripe = 4,
 /// enables list of audio tracks provided by the customer
   AudioBrowserMusicSourcePredefinedList = 5,
+/// enables MusicLibrary music in AudioBrowser
+  AudioBrowserMusicSourceMusicLibrary = 6,
 };
 
 
@@ -454,9 +456,9 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 /// Default is 20
 @property (nonatomic, readonly) NSInteger tracksPerPage;
 /// Music library info view no matches icon
-@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull noMatchesIcon;
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nullable noMatchesIcon;
 /// Music library info view attention icon
-@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull attentionIcon;
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nullable attentionIcon;
 /// MusicLibraryConfiguration constructor
 /// \param authHeaderName music library authentication header name
 ///
@@ -488,7 +490,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param attentionIcon image configuration for attention info view
 ///
-- (nonnull instancetype)initWithAuthHeaderName:(NSString * _Nonnull)authHeaderName authHeaderValue:(NSString * _Nonnull)authHeaderValue homeURL:(NSString * _Nonnull)homeURL recentsURL:(NSString * _Nonnull)recentsURL favoritesURL:(NSString * _Nonnull)favoritesURL addFavoriteURL:(NSString * _Nonnull)addFavoriteURL removeFavoriteURL:(NSString * _Nonnull)removeFavoriteURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAuthHeaderName:(NSString * _Nonnull)authHeaderName authHeaderValue:(NSString * _Nonnull)authHeaderValue homeURL:(NSString * _Nonnull)homeURL recentsURL:(NSString * _Nonnull)recentsURL favoritesURL:(NSString * _Nonnull)favoritesURL addFavoriteURL:(NSString * _Nonnull)addFavoriteURL removeFavoriteURL:(NSString * _Nonnull)removeFavoriteURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nullable)noMatchesIcon attentionIcon:(ImageConfiguration * _Nullable)attentionIcon OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -837,6 +839,8 @@ typedef SWIFT_ENUM(NSInteger, AudioBrowserMusicSource, open) {
   AudioBrowserMusicSourceSoundstripe = 4,
 /// enables list of audio tracks provided by the customer
   AudioBrowserMusicSourcePredefinedList = 5,
+/// enables MusicLibrary music in AudioBrowser
+  AudioBrowserMusicSourceMusicLibrary = 6,
 };
 
 
@@ -967,9 +971,9 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 /// Default is 20
 @property (nonatomic, readonly) NSInteger tracksPerPage;
 /// Music library info view no matches icon
-@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull noMatchesIcon;
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nullable noMatchesIcon;
 /// Music library info view attention icon
-@property (nonatomic, readonly, strong) ImageConfiguration * _Nonnull attentionIcon;
+@property (nonatomic, readonly, strong) ImageConfiguration * _Nullable attentionIcon;
 /// MusicLibraryConfiguration constructor
 /// \param authHeaderName music library authentication header name
 ///
@@ -1001,7 +1005,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 ///
 /// \param attentionIcon image configuration for attention info view
 ///
-- (nonnull instancetype)initWithAuthHeaderName:(NSString * _Nonnull)authHeaderName authHeaderValue:(NSString * _Nonnull)authHeaderValue homeURL:(NSString * _Nonnull)homeURL recentsURL:(NSString * _Nonnull)recentsURL favoritesURL:(NSString * _Nonnull)favoritesURL addFavoriteURL:(NSString * _Nonnull)addFavoriteURL removeFavoriteURL:(NSString * _Nonnull)removeFavoriteURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nonnull)noMatchesIcon attentionIcon:(ImageConfiguration * _Nonnull)attentionIcon OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAuthHeaderName:(NSString * _Nonnull)authHeaderName authHeaderValue:(NSString * _Nonnull)authHeaderValue homeURL:(NSString * _Nonnull)homeURL recentsURL:(NSString * _Nonnull)recentsURL favoritesURL:(NSString * _Nonnull)favoritesURL addFavoriteURL:(NSString * _Nonnull)addFavoriteURL removeFavoriteURL:(NSString * _Nonnull)removeFavoriteURL tracksURL:(NSString * _Nonnull)tracksURL searchTracksURL:(NSString * _Nonnull)searchTracksURL genresURL:(NSString * _Nonnull)genresURL collectionsURL:(NSString * _Nonnull)collectionsURL genreTracksURL:(NSString * _Nonnull)genreTracksURL collectionTracksURL:(NSString * _Nonnull)collectionTracksURL tracksPerPage:(NSInteger)tracksPerPage noMatchesIcon:(ImageConfiguration * _Nullable)noMatchesIcon attentionIcon:(ImageConfiguration * _Nullable)attentionIcon OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
