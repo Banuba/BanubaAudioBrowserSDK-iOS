@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CLfwdPzkiS3cF309d4h+ruh5VZc=
+		7LUqP6+/znJGqDNSgm6xiIwzgH4=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -131,6 +131,10 @@
 		<key>PreCategorySelectionTableViewCell.nib</key>
 		<data>
 		bNtKcO0E9OiDoRt6B/MmGjQfJHI=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ddjeciPe7EMnZX+icw2VOPCtzQQ=
 		</data>
 		<key>SearchScreenViewController.nib</key>
 		<data>
@@ -402,6 +406,13 @@
 			<key>hash2</key>
 			<data>
 			QU59ba+Uh2JgizR1dwPSy72TMaW+Xzkc07+58MN97uk=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mph9b2XawMqYrnetEn8wILj7Oa0ZlyS1aE7S/sIfY8s=
 			</data>
 		</dict>
 		<key>SearchScreenViewController.nib</key>
