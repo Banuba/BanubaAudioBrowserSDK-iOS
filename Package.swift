@@ -1,17 +1,22 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
+
 import PackageDescription
+
 let package = Package(
   name: "BanubaAudioBrowserSDK",
   platforms: [
-    .iOS(.v12)
+    .iOS(.v15)
   ],
   products: [
     .library(
       name: "BanubaAudioBrowserSDK",
-      targets: ["BanubaAudioBrowserSDK"])
+      targets: ["BanubaAudioBrowserSDK"]
+    )
   ],
   targets: [
     .binaryTarget(
       name: "BanubaAudioBrowserSDK",
-      path: "BanubaAudioBrowserSDK.xcframework")
-  ])
+      path: "BanubaAudioBrowserSDK.xcframework"
+    )
+  ]
+)
