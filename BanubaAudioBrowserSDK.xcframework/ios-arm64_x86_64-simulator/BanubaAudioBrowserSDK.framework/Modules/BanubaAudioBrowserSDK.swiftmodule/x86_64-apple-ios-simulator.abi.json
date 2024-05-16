@@ -20317,14 +20317,28 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 10787,
+      "offset": 10674,
       "length": 22,
       "value": "\"track URL is missing\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11051,
+      "offset": 10938,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "StringLiteral",
+      "offset": 11297,
+      "length": 22,
+      "value": "\"track URL is missing\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/EditorNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11561,
       "length": 4,
       "value": "true"
     },
@@ -21360,238 +21374,238 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1023,
+      "offset": 1096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "Array",
-      "offset": 1078,
+      "offset": 1151,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1453,
+      "offset": 1526,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1482,
+      "offset": 1555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1498,
+      "offset": 1571,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1728,
+      "offset": 1801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1824,
+      "offset": 1897,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2042,
+      "offset": 2115,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2059,
+      "offset": 2132,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2101,
+      "offset": 2174,
       "length": 4,
       "value": "20.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2309,
+      "offset": 2382,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2577,
+      "offset": 2650,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3033,
+      "offset": 3106,
       "length": 4,
       "value": "80.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3098,
+      "offset": 3171,
       "length": 5,
       "value": "250.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3187,
+      "offset": 3260,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3337,
+      "offset": 3410,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "Array",
-      "offset": 4178,
+      "offset": 4251,
       "length": 3,
       "value": "[0]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4288,
+      "offset": 4361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5424,
+      "offset": 5497,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5578,
+      "offset": 5651,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5805,
+      "offset": 5878,
       "length": 8,
       "value": "\"footer\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6528,
+      "offset": 6601,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6612,
+      "offset": 6685,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6693,
+      "offset": 6766,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6741,
+      "offset": 6814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6844,
+      "offset": 6917,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8686,
+      "offset": 8759,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9069,
+      "offset": 9142,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9116,
+      "offset": 9189,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9174,
+      "offset": 9247,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9394,
+      "offset": 9467,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9429,
+      "offset": 9502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9555,
+      "offset": 9628,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9591,
+      "offset": 9664,
       "length": 4,
       "value": "true"
     },
@@ -23684,21 +23698,21 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 10446,
+      "offset": 10655,
       "length": 5,
       "value": "326.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 10473,
+      "offset": 10682,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/ViewControllerFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 10549,
+      "offset": 10758,
       "length": 5,
       "value": "false"
     },
@@ -24335,126 +24349,126 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 709,
+      "offset": 757,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1746,
+      "offset": 1900,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1767,
+      "offset": 1921,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2086,
+      "offset": 2240,
       "length": 80,
       "value": "\"Failed to load Soundstripe playlists with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2165,
+      "offset": 2319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2282,
+      "offset": 2436,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2303,
+      "offset": 2457,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2554,
+      "offset": 2708,
       "length": 76,
       "value": "\"Failed to load Soundstripe songs with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2783,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3666,
+      "offset": 3820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4129,
+      "offset": 4283,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4809,
+      "offset": 4963,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4830,
+      "offset": 4984,
       "length": 17,
       "value": "\"_soundstripeTrack.mp3\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5144,
+      "offset": 5298,
       "length": 66,
       "value": "\"Failed to remove music with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5209,
+      "offset": 5363,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 5576,
+      "offset": 5730,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6497,
+      "offset": 7118,
       "length": 68,
       "value": "\"Failed to download music with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/HomeScreen\/SoundstripePresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6564,
+      "offset": 7185,
       "length": 2,
       "value": "\"\""
     },
@@ -24993,294 +25007,294 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1271,
+      "offset": 1348,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1539,
+      "offset": 1616,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1594,
+      "offset": 1671,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "Array",
-      "offset": 1660,
+      "offset": 1737,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1718,
+      "offset": 1795,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 1773,
+      "offset": 1850,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "Array",
-      "offset": 1933,
+      "offset": 2010,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 2820,
+      "offset": 3051,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "Array",
-      "offset": 3031,
+      "offset": 3262,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3072,
+      "offset": 3303,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3117,
+      "offset": 3348,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3167,
+      "offset": 3398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 3457,
+      "offset": 3688,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 3473,
+      "offset": 3704,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3560,
+      "offset": 3791,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3600,
+      "offset": 3831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3839,
+      "offset": 4070,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 4107,
+      "offset": 4338,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4666,
+      "offset": 4897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4700,
+      "offset": 4931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5477,
+      "offset": 5708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 5594,
+      "offset": 5825,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 5752,
+      "offset": 5983,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6120,
+      "offset": 6351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 7157,
+      "offset": 7388,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 7178,
+      "offset": 7409,
       "length": 17,
       "value": "\"_soundstripeTrack.mp3\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 10024,
+      "offset": 10737,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 10081,
+      "offset": 10794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 10131,
+      "offset": 10844,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 10153,
+      "offset": 10866,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 10282,
+      "offset": 10995,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 10309,
+      "offset": 11022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10398,
+      "offset": 11111,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10577,
+      "offset": 11290,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 10594,
+      "offset": 11307,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 10730,
+      "offset": 11443,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 10907,
+      "offset": 11620,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "Array",
-      "offset": 10965,
+      "offset": 11678,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 10990,
+      "offset": 11703,
       "length": 50,
       "value": "\"Failed to search for tracks with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 11039,
+      "offset": 11752,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SearchScreen\/SoundstripeSearchInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11072,
+      "offset": 11785,
       "length": 5,
       "value": "false"
     },
@@ -25532,273 +25546,273 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 797,
+      "offset": 845,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2779,
+      "offset": 2933,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3235,
+      "offset": 3389,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3398,
+      "offset": 3552,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3403,
+      "offset": 3557,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 3714,
+      "offset": 3868,
       "length": 85,
       "value": "\"Failed to load Soundstripe trending songs with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 3798,
+      "offset": 3952,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3935,
+      "offset": 4089,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3958,
+      "offset": 4112,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4292,
+      "offset": 4446,
       "length": 80,
       "value": "\"Failed to load Soundstripe playlists with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4371,
+      "offset": 4525,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4538,
+      "offset": 4692,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4564,
+      "offset": 4718,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 4587,
+      "offset": 4741,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 4920,
+      "offset": 5074,
       "length": 85,
       "value": "\"Failed to load Soundstripe playlist songs with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5004,
+      "offset": 5158,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5165,
+      "offset": 5319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5191,
+      "offset": 5345,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5214,
+      "offset": 5368,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5551,
+      "offset": 5705,
       "length": 81,
       "value": "\"Failed to load Soundstripe categories with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5631,
+      "offset": 5785,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5794,
+      "offset": 5948,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5843,
+      "offset": 5997,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 5908,
+      "offset": 6062,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6071,
+      "offset": 6225,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 6076,
+      "offset": 6230,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6406,
+      "offset": 6560,
       "length": 85,
       "value": "\"Failed to load Soundstripe category songs with error: \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 6490,
+      "offset": 6644,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7247,
+      "offset": 7401,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7275,
+      "offset": 7429,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7356,
+      "offset": 7510,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7980,
+      "offset": 8134,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8107,
+      "offset": 8261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8125,
+      "offset": 8279,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 9188,
+      "offset": 9342,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 9209,
+      "offset": 9363,
       "length": 18,
       "value": "\"_musicLibraryTrack.mp3\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 9917,
+      "offset": 10071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11200,
+      "offset": 11822,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Soundstripe\/SelectionScreen\/SoundstripeSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11267,
+      "offset": 11889,
       "length": 5,
       "value": "false"
     },
