@@ -260,7 +260,7 @@ public struct ActionViewConfig {
   @objc public var image: UIKit.UIImage? {
     @objc get
   }
-  public init(imageName: Swift.String, tintColor: UIKit.UIColor? = nil)
+  public init(imageName: Swift.String)
   public init(image: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
   @objc deinit
 }
