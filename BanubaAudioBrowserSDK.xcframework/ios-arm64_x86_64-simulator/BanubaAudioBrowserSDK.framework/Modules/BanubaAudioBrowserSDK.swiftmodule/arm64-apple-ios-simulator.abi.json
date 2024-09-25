@@ -356,7 +356,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(audioBrowserConfig:audioService:selectedTrack:isMusicLibraryEnabled:isSoundstripeEnabled:isBanubaMusicEnabled:token:isAudioPartSelectionEnabled:videoDuration:)",
+            "printedName": "init(audioBrowserConfig:audioService:selectedTrack:isMusicLibraryEnabled:isSoundstripeEnabled:isBanubaMusicEnabled:token:isAutocutAudio:isAudioPartSelectionEnabled:videoDuration:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -440,16 +440,22 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)BanubaAudioBrowser(im)initWithAudioBrowserConfig:audioService:selectedTrack:isMusicLibraryEnabled:isSoundstripeEnabled:isBanubaMusicEnabled:token:isAudioPartSelectionEnabled:videoDuration:",
-            "mangledName": "$s21BanubaAudioBrowserSDK0abC0C05audioC6Config0E7Service13selectedTrack21isMusicLibraryEnabled0j11SoundstripeM00jakM05token0jb13PartSelectionM013videoDurationAcA0bcF0CSg_AA0bcG9Adoptable_pSgAA0bcI0CSgS3bSSSbSdtcfc",
+            "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)BanubaAudioBrowser(im)initWithAudioBrowserConfig:audioService:selectedTrack:isMusicLibraryEnabled:isSoundstripeEnabled:isBanubaMusicEnabled:token:isAutocutAudio:isAudioPartSelectionEnabled:videoDuration:",
+            "mangledName": "$s21BanubaAudioBrowserSDK0abC0C05audioC6Config0E7Service13selectedTrack21isMusicLibraryEnabled0j11SoundstripeM00jakM05token0j7AutocutB00jb13PartSelectionM013videoDurationAcA0bcF0CSg_AA0bcG9Adoptable_pSgAA0bcI0CSgS3bSSS2bSdtcfc",
             "moduleName": "BanubaAudioBrowserSDK",
-            "objc_name": "initWithAudioBrowserConfig:audioService:selectedTrack:isMusicLibraryEnabled:isSoundstripeEnabled:isBanubaMusicEnabled:token:isAudioPartSelectionEnabled:videoDuration:",
+            "objc_name": "initWithAudioBrowserConfig:audioService:selectedTrack:isMusicLibraryEnabled:isSoundstripeEnabled:isBanubaMusicEnabled:token:isAutocutAudio:isAudioPartSelectionEnabled:videoDuration:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -7250,6 +7256,31 @@
             "mangledName": "$s21BanubaAudioBrowserSDK0bC6ConfigC15setPrimaryColoryySo7UIColorCF",
             "moduleName": "BanubaAudioBrowserSDK",
             "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "copy",
+            "printedName": "copy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BanubaAudioBrowserSDK@objc(cs)AudioBrowserConfig(im)copy",
+            "mangledName": "$s21BanubaAudioBrowserSDK0bC6ConfigC4copyypyF",
+            "moduleName": "BanubaAudioBrowserSDK",
+            "overriding": true,
+            "objc_name": "copy",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -17199,7 +17230,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowser.swift",
       "kind": "StringLiteral",
-      "offset": 3426,
+      "offset": 3554,
       "length": 25,
       "value": "\"BanubaAudioBrowserSDK.MusicLibraryConfiguration\""
     },
@@ -18424,7 +18455,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Entities\/Configs\/AudioBrowserConfig.swift",
       "kind": "StringLiteral",
-      "offset": 20306,
+      "offset": 21457,
       "length": 18,
       "value": "\"BanubaAudioBrowserSDK.ImageConfiguration\""
     },

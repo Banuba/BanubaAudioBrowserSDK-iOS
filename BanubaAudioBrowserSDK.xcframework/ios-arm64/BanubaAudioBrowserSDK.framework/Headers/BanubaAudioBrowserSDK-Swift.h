@@ -305,6 +305,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18AudioBrowserConfig")
 @interface AudioBrowserConfig : NSObject
 - (nonnull instancetype)init;
+- (id _Nonnull)copy SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -400,7 +401,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 ///
 /// \param videoDuration the duration of video
 ///
-- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isMusicLibraryEnabled:(BOOL)isMusicLibraryEnabled isSoundstripeEnabled:(BOOL)isSoundstripeEnabled isBanubaMusicEnabled:(BOOL)isBanubaMusicEnabled token:(NSString * _Nonnull)token isAudioPartSelectionEnabled:(BOOL)isAudioPartSelectionEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithAudioBrowserConfig:(AudioBrowserConfig * _Nullable)audioBrowserConfig audioService:(id <AudioBrowserServiceAdoptable> _Nullable)audioService selectedTrack:(AudioBrowserTrack * _Nullable)selectedTrack isMusicLibraryEnabled:(BOOL)isMusicLibraryEnabled isSoundstripeEnabled:(BOOL)isSoundstripeEnabled isBanubaMusicEnabled:(BOOL)isBanubaMusicEnabled token:(NSString * _Nonnull)token isAutocutAudio:(BOOL)isAutocutAudio isAudioPartSelectionEnabled:(BOOL)isAudioPartSelectionEnabled videoDuration:(double)videoDuration OBJC_DESIGNATED_INITIALIZER;
 + (void)setMubertKeysWithLicense:(NSString * _Nonnull)license token:(NSString * _Nonnull)token;
 + (void)setPredefinedList:(NSArray<AudioBrowserTrack *> * _Nonnull)music;
 /// Get reference to audio browser navigation controller
