@@ -3900,16 +3900,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BanubaAudioBrowserSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -16880,14 +16870,14 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/SelectionScreen\/AudioStreamSelectionCollectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2373,
+      "offset": 2318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/SelectionScreen\/AudioStreamSelectionCollectionHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2875,
+      "offset": 2820,
       "length": 5,
       "value": "false"
     },
@@ -17293,42 +17283,42 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6952,
+      "offset": 7583,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6986,
+      "offset": 7617,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7023,
+      "offset": 7654,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8080,
+      "offset": 8711,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9007,
+      "offset": 9638,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Managers\/SectionsManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9046,
+      "offset": 9677,
       "length": 5,
       "value": "false"
     },
@@ -17384,7 +17374,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Cells\/Music\/MusicCell.swift",
       "kind": "Array",
-      "offset": 2488,
+      "offset": 2438,
       "length": 2,
       "value": "[]"
     },
@@ -17587,28 +17577,56 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/FeedFMDecodables.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 435,
       "length": 16,
       "value": "\"popular_tracks\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/FeedFMDecodables.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 435,
       "length": 16,
       "value": "\"popular_tracks\""
     },
     {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/FeedFMDecodables.swift",
+      "kind": "StringLiteral",
+      "offset": 986,
+      "length": 7,
+      "value": "\"genre\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/FeedFMDecodables.swift",
+      "kind": "StringLiteral",
+      "offset": 986,
+      "length": 7,
+      "value": "\"genre\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/FeedFMDecodables.swift",
+      "kind": "StringLiteral",
+      "offset": 1230,
+      "length": 8,
+      "value": "\"others\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/FeedFMDecodables.swift",
+      "kind": "StringLiteral",
+      "offset": 1230,
+      "length": 8,
+      "value": "\"others\""
+    },
+    {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Cells\/Tabs\/TabCell.swift",
       "kind": "FloatLiteral",
-      "offset": 466,
+      "offset": 472,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Cells\/Tabs\/TabCell.swift",
       "kind": "FloatLiteral",
-      "offset": 472,
+      "offset": 478,
       "length": 3,
       "value": "0.5"
     },
@@ -18238,7 +18256,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/AudioStream\/SelectionScreen\/AudioStreamSelectionPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3177,
+      "offset": 3203,
       "length": 4,
       "value": "true"
     },
@@ -18469,49 +18487,56 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
       "kind": "StringLiteral",
-      "offset": 284,
-      "length": 53,
-      "value": "\"https:\/\/d142nlsh55aacp.cloudfront.net\/response.json\""
+      "offset": 213,
+      "length": 8,
+      "value": "\"Others\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 326,
+      "length": 52,
+      "value": "\"https:\/\/dfbmn6wtshbdt.cloudfront.net\/response.json\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
       "kind": "Array",
-      "offset": 378,
+      "offset": 419,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
       "kind": "Array",
-      "offset": 414,
+      "offset": 462,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
       "kind": "Array",
-      "offset": 449,
+      "offset": 504,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
       "kind": "Array",
-      "offset": 485,
+      "offset": 547,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
       "kind": "Array",
-      "offset": 522,
+      "offset": 591,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS modules\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/BanubaAudioBrowserSDK\/Services\/FeedFMAPI.swift",
       "kind": "Array",
-      "offset": 562,
+      "offset": 631,
       "length": 2,
       "value": "[]"
     },
