@@ -387,8 +387,6 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 /// BanubaAudioBrowser constructor
 /// \param audioBrowserConfig contains all necessary configurations for the audio browser
 ///
-/// \param slideInTransitioningDelegate bottom sheet transition
-///
 /// \param audioService service used to interact with audio files
 ///
 /// \param selectedTrack selected track
@@ -396,6 +394,8 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18BanubaAudioBrowser")
 /// \param isMusicLibraryEnabled is music library enabled
 ///
 /// \param isSoundstripeEnabled is soundstripe enabled
+///
+/// \param isBanubaMusicEnabled is banuba music enabled
 ///
 /// \param isAudioPartSelectionEnabled is audio part selection enabled
 ///

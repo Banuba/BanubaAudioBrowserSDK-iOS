@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/BanubaAudioBrowserSDK-Swift.h</key>
 		<data>
-		4HEwmWXGl51WpRkhI4wRyPx00qo=
+		KtoWjoO2Gs9JU5dXAF7yHwmpD3o=
 		</data>
 		<key>Headers/BanubaAudioBrowserSDK.h</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0vEzcEcNMap0QuhvdLBc2oBxwTA=
+		7HpVOg0RALhyzhLSvK+u5KWe9bQ=
 		</data>
 		<key>InfoView.nib</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gs73ZlnaXSTdcFlNPB5pGSpJi4M=
+		rulXwgMM3TQ7j6T4WN/TMJEaolA=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eLKMan5fCST/nePQIYsl7YrK5yU=
+		mV5Gu/CvBWt1lzKE7LU4o1ODIuU=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jKgFYbHlUyxOw83KOYigdhs25eQ=
+		35BZc+q/bUsWulju/MouZ1yupCM=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gs73ZlnaXSTdcFlNPB5pGSpJi4M=
+		rulXwgMM3TQ7j6T4WN/TMJEaolA=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		KqqwexQwuIXUBYkBoKOEQoG+52w=
+		p5dj8tNvc1LWXRC1mPhcSDOxTfU=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UEYhWpsSdWZSM1V6w2rfTg3BlNo=
+		c9X1cxhS6C7/q+RK6sZpIWRXVrU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -355,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EY1XUw2Iev7bVfNwMqSdIP0wVvoabC50Tv3h6uQf3tc=
+			+zZmqmDgAEKjidlLcPBNGCo8ICAkVcShRhUeB1KD1Ro=
 			</data>
 		</dict>
 		<key>Headers/BanubaAudioBrowserSDK.h</key>
@@ -376,7 +376,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PvtWtLs+VLZfIAgaodwyQF1DRhOdRoxI2a5QsFYr9zk=
+			AMcmo5Gw/O73ooulT1Da+ni6K5YxM+a9EaihwGHeZNY=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -390,7 +390,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cV3dTcllYityxjyVEH89HtP7J2mc2AtnlvV8x6nl/sk=
+			oCSSILsCwmmkD4pPQHY67FTh3oijsPAdVazUycE/CYg=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -404,14 +404,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V/efRKzx+IU4UoAIaFZYDoopU7Xsy3dXWuWqIliFuWU=
+			CAvhDskMYWdW6IWalVlZuzKQ5YqahOOzV0AUoMQKURc=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PvtWtLs+VLZfIAgaodwyQF1DRhOdRoxI2a5QsFYr9zk=
+			AMcmo5Gw/O73ooulT1Da+ni6K5YxM+a9EaihwGHeZNY=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -425,7 +425,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V1uJJh8pz5xtVpGAL96VV+D9761rpmnY3ukvaGtATYs=
+			bVIVyxWEeOAqZIg9n2ksJFnoh/eGfwUGPXU1ssfLabc=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -439,7 +439,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1vlTdbvfwmhuYOnZTeg4zIHVgesAOmu5DQ+B4RkeGfE=
+			Unme8QAax98SMyHDw8x9Jf4wT+fDbbz5z+TwXrLzMiU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
