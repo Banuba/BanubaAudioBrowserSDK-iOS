@@ -431,7 +431,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 @end
 
 
-/// Configures music library endpoints adn etc.
+/// Configures music library endpoints and etc.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @interface MusicLibraryConfiguration : NSObject
 /// Music library authentication header name
