@@ -12,7 +12,10 @@ let package = Package(
   products: [
     .library(
       name: "BanubaAudioBrowserSDK",
-      targets: ["BanubaAudioBrowserSDK"]
+      targets: [
+        "BanubaAudioBrowserSDK",
+        "BanubaAudioBrowserSDKWrapper"
+      ]
     )
   ],
   dependencies: [
@@ -22,6 +25,15 @@ let package = Package(
     .binaryTarget(
       name: "BanubaAudioBrowserSDK",
       path: "BanubaAudioBrowserSDK.xcframework"
-    )
+    ),
+    .target(
+        name: "BanubaAudioBrowserSDKWrapper",
+        dependencies: [
+            .product(
+                name: "BanubaUtilities",
+                package: "BanubaUtilities"
+            ),
+        ]
+    ),
   ]
 )
