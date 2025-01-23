@@ -431,7 +431,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 @end
 
 
-/// Configures music library endpoints adn etc.
+/// Configures music library endpoints and etc.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @interface MusicLibraryConfiguration : NSObject
 /// Music library authentication header name
@@ -502,6 +502,8 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
@@ -952,7 +954,7 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK18ImageConfiguration")
 @end
 
 
-/// Configures music library endpoints adn etc.
+/// Configures music library endpoints and etc.
 SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 @interface MusicLibraryConfiguration : NSObject
 /// Music library authentication header name
@@ -1023,6 +1025,8 @@ SWIFT_CLASS("_TtC21BanubaAudioBrowserSDK25MusicLibraryConfiguration")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
