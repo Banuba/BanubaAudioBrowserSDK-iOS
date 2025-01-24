@@ -13,8 +13,7 @@ let package = Package(
         .library(
             name: "BanubaAudioBrowserSDK",
             targets: [
-                "BanubaAudioBrowserSDK",
-                "BanubaUtilities"
+                "BanubaAudioBrowserSDKTarget"
             ]
         )
     ],
@@ -26,9 +25,20 @@ let package = Package(
             name: "BanubaAudioBrowserSDK",
             path: "BanubaAudioBrowserSDK.xcframework"
         ),
-        .binaryTarget(
-            name: "BanubaUtilities",
-            path: "BanubaUtilities.xcframework"
+        .target(
+          name: "BanubaAudioBrowserSDKTarget",
+          dependencies: [
+            .target(name: "BanubaAudioBrowserSDKWrapper")
+          ],
+          path: "BanubaAudioBrowserSDKTarget"
         ),
+        .target(
+          name: "BanubaAudioBrowserSDKWrapper",
+          dependencies: [
+            "BanubaAudioBrowserSDK",
+            .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS")
+          ],
+          path: "BanubaAudioBrowserSDKWrapper"
+        )
     ]
 )
