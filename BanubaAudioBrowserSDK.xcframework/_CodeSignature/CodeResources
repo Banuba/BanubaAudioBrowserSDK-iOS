@@ -70,7 +70,7 @@
 		</data>
 		<key>ios-arm64/BanubaAudioBrowserSDK.framework/BanubaAudioBrowserSDK</key>
 		<data>
-		tShTiG6epOiBU1RWwVZbiz87CAQ=
+		z+TZ5vrKSuDNlkk8GJdHnMeLT88=
 		</data>
 		<key>ios-arm64/BanubaAudioBrowserSDK.framework/CategoryCell.nib</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>ios-arm64/BanubaAudioBrowserSDK.framework/Info.plist</key>
 		<data>
-		Sjw86BwH6hh4bgeuAd/MjTgGV3k=
+		3bxMaZLweOIdkxUXYmpQcE0gWXs=
 		</data>
 		<key>ios-arm64/BanubaAudioBrowserSDK.framework/InfoView.nib</key>
 		<data>
@@ -190,19 +190,19 @@
 		</data>
 		<key>ios-arm64/BanubaAudioBrowserSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		qfaxAKYRplyvDrGw3BQITPS73WU=
+		TEtYsqgOOPdI+lr8xM/AMydtcnI=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		3npFxh+ScRniXfdZUcS/4mLFtVk=
+		MC+C2aYA9iA70g3vrdGoKkDiI4E=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/DWARF/BanubaAudioBrowserSDK</key>
 		<data>
-		oHUTR8CMdX8pPxTIJH74vXEw7sw=
+		AyqEh0oOeh/pLRv8HncAQBRfAh4=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaAudioBrowserSDK.yml</key>
 		<data>
-		LuwKh+DIzoC8GcBx/177ey7hTeI=
+		CehfVwLfqL9D5xfZso3347TpqsU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/Assets.car</key>
 		<data>
@@ -270,7 +270,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/BanubaAudioBrowserSDK</key>
 		<data>
-		XSWSrNCjiTZ9zT/yOMgBd+uHv+s=
+		9J2m18zcNjuVxZcQ+XxhcZmru3s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/CategoryCell.nib</key>
 		<data>
@@ -298,7 +298,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/Info.plist</key>
 		<data>
-		04QQYYc2izJmCgHPASlKrUHadNc=
+		NLogHQqcq7ydZNV0A6QsBnxDJpQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/InfoView.nib</key>
 		<data>
@@ -406,23 +406,23 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		LI9a25xHz85VH4g+/Hrshaz8VF8=
+		Hou9YcjNKUBJ26ZuuX+tQGqGf5o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		3npFxh+ScRniXfdZUcS/4mLFtVk=
+		MC+C2aYA9iA70g3vrdGoKkDiI4E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/DWARF/BanubaAudioBrowserSDK</key>
 		<data>
-		uGQIG2/yL8wkwltNbhU32wHlas0=
+		Z+e84pZ+8hMlgKa/5ZY3MuvoA/k=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaAudioBrowserSDK.yml</key>
 		<data>
-		SH1xsHfti3psOwRmy4bdKS8Cha0=
+		7qMHbIJqt84cXfqZ8jIddiOXRWw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/BanubaAudioBrowserSDK.yml</key>
 		<data>
-		GRwDieBxkEcxAbrLAbvNA3FRgAk=
+		QchIP0Jo+8zcbWy0pIreBvououg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -607,11 +607,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tShTiG6epOiBU1RWwVZbiz87CAQ=
+			z+TZ5vrKSuDNlkk8GJdHnMeLT88=
 			</data>
 			<key>hash2</key>
 			<data>
-			/kZt1DtfOLSamCI+1vBF7pzAWNR3n9saEK62VFpRQR0=
+			miftVAmG1dy42k5PJZqOaosI96famC0ccDxZ//jf9h8=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaAudioBrowserSDK.framework/CategoryCell.nib</key>
@@ -684,11 +684,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Sjw86BwH6hh4bgeuAd/MjTgGV3k=
+			3bxMaZLweOIdkxUXYmpQcE0gWXs=
 			</data>
 			<key>hash2</key>
 			<data>
-			WfkKfpAC9Xgth3fJPI5Cq9wRCeVipjdI6uUusjQE5LY=
+			skmlPyTxust2Miy/8hQVo1nw5cHsuwT8vVJ3/ebOM+g=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaAudioBrowserSDK.framework/InfoView.nib</key>
@@ -937,44 +937,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qfaxAKYRplyvDrGw3BQITPS73WU=
+			TEtYsqgOOPdI+lr8xM/AMydtcnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bBWTN/HDxRNVfxGbDdIk583OfTuARdIsPVzBpZF5Mgo=
+			R0y5H5cE925vYknsCTQ7tNIRH+6PDbsvkN9lXkaZfmA=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3npFxh+ScRniXfdZUcS/4mLFtVk=
+			MC+C2aYA9iA70g3vrdGoKkDiI4E=
 			</data>
 			<key>hash2</key>
 			<data>
-			z3dnzCC8gjNZ/Z4ilCt4j9bby12J0RAOuQkIj4k4TnM=
+			Vo3K454EK2UHoxd0IhIjJ4gw6pBAtE336duAkotCTPw=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/DWARF/BanubaAudioBrowserSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oHUTR8CMdX8pPxTIJH74vXEw7sw=
+			AyqEh0oOeh/pLRv8HncAQBRfAh4=
 			</data>
 			<key>hash2</key>
 			<data>
-			kMkR53SoP2WUi00kWLwOnHZ0T+RZfdo6rx54O3ByZis=
+			v9aoEkebjfMay9YFN3csTWBkSNzkv8bdHWjvyV03Ol0=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaAudioBrowserSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LuwKh+DIzoC8GcBx/177ey7hTeI=
+			CehfVwLfqL9D5xfZso3347TpqsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			5gWvnnFDhp5cI4M3iVpTgsBxneATplet7MEqVN8fTX4=
+			90kru0caOBBK9Z5klAieGNzqaUPHozPt053n6vFjmtc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/Assets.car</key>
@@ -1157,11 +1157,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XSWSrNCjiTZ9zT/yOMgBd+uHv+s=
+			9J2m18zcNjuVxZcQ+XxhcZmru3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			CgK289eFadfJjavkK8jwCmZIRC3SrYZ/3FRDTNO3aDE=
+			Ij8rOEMxLWZEfNVLg7b4a8m/TdPsHOp9O0hSxzhHjSg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/CategoryCell.nib</key>
@@ -1234,11 +1234,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			04QQYYc2izJmCgHPASlKrUHadNc=
+			NLogHQqcq7ydZNV0A6QsBnxDJpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q3qugpM5P1QQluQv67kz0/+EMp/tSx6WMXyysQdqnio=
+			nVj2lyw1w4gs3OGNyUpSnlIPYrSNpr17uXW0Wa73Leo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaAudioBrowserSDK.framework/InfoView.nib</key>
@@ -1531,55 +1531,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LI9a25xHz85VH4g+/Hrshaz8VF8=
+			Hou9YcjNKUBJ26ZuuX+tQGqGf5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			VGNLnrLjswM5lmT+rKoedRDdmOHVfCqzmhZFOCxijiU=
+			rAyWEzYgqCaiingD23KQ4GWz/Qwwe6aodNUEjr9aFSQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3npFxh+ScRniXfdZUcS/4mLFtVk=
+			MC+C2aYA9iA70g3vrdGoKkDiI4E=
 			</data>
 			<key>hash2</key>
 			<data>
-			z3dnzCC8gjNZ/Z4ilCt4j9bby12J0RAOuQkIj4k4TnM=
+			Vo3K454EK2UHoxd0IhIjJ4gw6pBAtE336duAkotCTPw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/DWARF/BanubaAudioBrowserSDK</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uGQIG2/yL8wkwltNbhU32wHlas0=
+			Z+e84pZ+8hMlgKa/5ZY3MuvoA/k=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZxAamJ8yKdvhbH07MpVFvJgNN7LJv6ygibAJBRO4yzY=
+			5HOUQkk1NJFGAozYng10Miw4jm0WdGK7XFPNCrj4LfY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaAudioBrowserSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SH1xsHfti3psOwRmy4bdKS8Cha0=
+			7qMHbIJqt84cXfqZ8jIddiOXRWw=
 			</data>
 			<key>hash2</key>
 			<data>
-			z2+Bd6VlewTYOVAb3pxaebue/JzoDLrJrfZhPV5e590=
+			Hxia52qZPbiaS4QsPKQH85Qp6truN/P+1gxxSnSPPq0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaAudioBrowserSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/BanubaAudioBrowserSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GRwDieBxkEcxAbrLAbvNA3FRgAk=
+			QchIP0Jo+8zcbWy0pIreBvououg=
 			</data>
 			<key>hash2</key>
 			<data>
-			xtzm+5pOE3AnJsZpeLQtkvZwZpBTVyUuCwuXxv+uhgk=
+			LVuMi7IXf1hMbYLlMDuRB+3pK/3t5bNFvZVW02/Fhds=
 			</data>
 		</dict>
 	</dict>
