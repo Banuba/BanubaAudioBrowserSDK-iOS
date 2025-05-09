@@ -1,11 +1,10 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaAudioBrowserSDK
+// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaAudioBrowserSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
 @_exported import BanubaAudioBrowserSDK
-import BanubaLicenseServicingSDK
 import BanubaUtilities
 import Combine
 import DeveloperToolsSupport
@@ -24,7 +23,7 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   }
 }
 @objc public class BanubaAudioBrowser : ObjectiveC.NSObject {
-  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isSoundstripeEnabled: Swift.Bool, isBanubaMusicEnabled: Swift.Bool, token: Swift.String, isAutocutAudio: Swift.Bool, isAudioPartSelectionEnabled: Swift.Bool, videoDuration: Swift.Double)
+  @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isMusicLibraryEnabled: Swift.Bool, isSoundstripeEnabled: Swift.Bool, isBanubaMusicEnabled: Swift.Bool, token: Swift.String, isAutocutAudio: Swift.Bool, isAudioPartSelectionEnabled: Swift.Bool, videoDuration: Swift.Double)
   @objc public static func setMubertKeys(license: Swift.String, token: Swift.String)
   @objc public static func setPredefinedList(_ music: [BanubaAudioBrowserSDK.AudioBrowserTrack])
   @objc public func getAudioBrowserController() -> UIKit.UINavigationController
@@ -111,6 +110,7 @@ public enum TrackDonwloadStatus : Swift.Int {
   case allSources = 3
   case soundstripe = 4
   case predefinedList = 5
+  case musicLibrary = 6
   case banubaMusic = 7
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [BanubaAudioBrowserSDK.AudioBrowserMusicSource]
