@@ -3,7 +3,7 @@ triple:          'arm64-apple-darwin'
 binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/BanubaAudioBrowserSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaAudioBrowserSDK.framework/BanubaAudioBrowserSDK'
 relocations:
   - { offset: 0x7B5D2, size: 0x8, addend: 0x0, symName: _BanubaAudioBrowserSDKVersionString, symObjAddr: 0x0, symBinAddr: 0xA9020, symSize: 0x0 }
-  - { offset: 0x7B607, size: 0x8, addend: 0x0, symName: _BanubaAudioBrowserSDKVersionNumber, symObjAddr: 0x50, symBinAddr: 0xA9070, symSize: 0x0 }
+  - { offset: 0x7B607, size: 0x8, addend: 0x0, symName: _BanubaAudioBrowserSDKVersionNumber, symObjAddr: 0x58, symBinAddr: 0xA9078, symSize: 0x0 }
   - { offset: 0x7B66C, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK19NetworkServiceErrorO11errorDomainSSvpZ', symObjAddr: 0x5B08, symBinAddr: 0xE8B10, symSize: 0x0 }
   - { offset: 0x7B686, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK19NetworkServiceErrorO18mappedDescriptions33_2E572B28664F78BAAD0FC2061ECB670CLLSDyACSSGvpZ', symObjAddr: 0x5B20, symBinAddr: 0xE8B28, symSize: 0x0 }
   - { offset: 0x7B7E3, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK19NetworkServiceErrorO18mappedDescriptions33_2E572B28664F78BAAD0FC2061ECB670CLL_WZ', symObjAddr: 0x10, symBinAddr: 0x2780, symSize: 0x1C0 }
