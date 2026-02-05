@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name BanubaAudioBrowserSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BanubaAudioBrowserSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import AVKit
 @_exported import BanubaAudioBrowserSDK
@@ -24,7 +24,9 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   }
 }
 @objc public class BanubaAudioBrowser : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(audioBrowserConfig: BanubaAudioBrowserSDK.AudioBrowserConfig?, audioService: (any BanubaAudioBrowserSDK.AudioBrowserServiceAdoptable)? = nil, selectedTrack: BanubaAudioBrowserSDK.AudioBrowserTrack? = nil, isSoundstripeEnabled: Swift.Bool, isBanubaMusicEnabled: Swift.Bool, token: Swift.String, isAutocutAudio: Swift.Bool, isAudioPartSelectionEnabled: Swift.Bool, videoDuration: Swift.Double)
+  #endif
   @objc public static func setMubertKeys(license: Swift.String, token: Swift.String)
   @objc public static func setPredefinedList(_ music: [BanubaAudioBrowserSDK.AudioBrowserTrack])
   @objc public func getAudioBrowserController() -> UIKit.UINavigationController
@@ -48,13 +50,17 @@ extension BanubaUtilities.SmallActivityIndicatorConfiguration {
   @objc final public let tracksPerPage: Swift.Int
   @objc final public let noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration?
   @objc final public let attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(authHeaderName: Swift.String, authHeaderValue: Swift.String, homeURL: Swift.String, recentsURL: Swift.String, favoritesURL: Swift.String, addFavoriteURL: Swift.String, removeFavoriteURL: Swift.String, tracksURL: Swift.String, searchTracksURL: Swift.String, genresURL: Swift.String, collectionsURL: Swift.String, genreTracksURL: Swift.String, collectionTracksURL: Swift.String, tracksPerPage: Swift.Int, noMatchesIcon: BanubaAudioBrowserSDK.ImageConfiguration?, attentionIcon: BanubaAudioBrowserSDK.ImageConfiguration?)
+  #endif
   @objc deinit
 }
 public enum TrackDonwloadStatus : Swift.Int {
   case inProgress
   case done
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -76,11 +82,17 @@ public enum TrackDonwloadStatus : Swift.Int {
   public var isSaved: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var avAsset: AVFoundation.AVAsset? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(uuid: Foundation.UUID, name: Swift.String, additionalName: Swift.String?, url: Foundation.URL?, coverURL: Foundation.URL?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func setupDuration(_ duration: Foundation.TimeInterval? = nil)
+  #endif
   public func createAsset(withData: Foundation.Data) throws
   public func deleteFile() throws
   @objc deinit
@@ -88,7 +100,9 @@ public enum TrackDonwloadStatus : Swift.Int {
 @objc public protocol AudioBrowserServiceAdoptable {
   @objc func play()
   @objc func play(playProgressHandler: @escaping (Swift.Float) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func play(in range: CoreMedia.CMTimeRange, playProgressHandler: ((Swift.Float) -> Swift.Void)?)
+  #endif
   @objc func pause()
   @objc func resume()
   @objc func load(trackUrl: Foundation.URL) throws
@@ -96,7 +110,9 @@ public enum TrackDonwloadStatus : Swift.Int {
   @objc func autoRepeat(repeat: Swift.Bool)
   @objc func seekToStart()
   @objc func seekToTime(_ time: Foundation.TimeInterval)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc var audioBrowserServiceDelegate: (any BanubaAudioBrowserSDK.AudioBrowserPlayerDelegate)? { get set }
+  #endif
 }
 @objc public protocol AudioBrowserPlayerDelegate {
   @objc func playerPlaysFrameAtTime(_ time: Foundation.TimeInterval)
@@ -112,7 +128,9 @@ public enum TrackDonwloadStatus : Swift.Int {
   case soundstripe = 4
   case predefinedList = 5
   case banubaMusic = 7
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias AllCases = [BanubaAudioBrowserSDK.AudioBrowserMusicSource]
   public typealias RawValue = Swift.Int
   nonisolated public static var allCases: [BanubaAudioBrowserSDK.AudioBrowserMusicSource] {
@@ -260,18 +278,24 @@ public struct ActionViewConfig {
 @objc public class ImageConfiguration : ObjectiveC.NSObject, BanubaUtilities.ImageConfigurationProtocol {
   public var imageName: Swift.String
   @objc public var tintColor: UIKit.UIColor?
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var image: UIKit.UIImage? {
     @objc get
   }
+  #endif
   public init(imageName: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(image: UIKit.UIImage, tintColor: UIKit.UIColor? = nil)
+  #endif
   @objc deinit
 }
 public struct ImageButtonConfiguration : BanubaUtilities.ImageButtonConfigurationProtocol {
   public var imageConfiguration: any BanubaUtilities.ImageConfigurationProtocol
   public var selectedImageConfiguration: (any BanubaUtilities.ImageConfigurationProtocol)?
   public var tintColor: UIKit.UIColor?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(imageConfiguration: BanubaAudioBrowserSDK.ImageConfiguration, selectedImageConfiguration: BanubaAudioBrowserSDK.ImageConfiguration? = nil, tintColor: UIKit.UIColor? = nil)
+  #endif
   public mutating func setTintColor(_ tintColor: UIKit.UIColor)
 }
 public struct SelectedTrackViewConfiguration {
