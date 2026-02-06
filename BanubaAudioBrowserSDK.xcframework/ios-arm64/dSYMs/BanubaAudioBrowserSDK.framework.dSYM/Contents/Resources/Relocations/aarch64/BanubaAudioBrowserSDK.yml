@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/andreysak/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-eqezbllecmxhkvalesvwdjdkkcdx/Build/Intermediates.noindex/ArchiveIntermediates/BanubaAudioBrowserSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaAudioBrowserSDK.framework/BanubaAudioBrowserSDK'
+binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-apczolamkvzvcugwxnswrghnwlmi/Build/Intermediates.noindex/ArchiveIntermediates/BanubaAudioBrowserSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaAudioBrowserSDK.framework/BanubaAudioBrowserSDK'
 relocations:
   - { offset: 0x9EB1C, size: 0x8, addend: 0x0, symName: _BanubaAudioBrowserSDKVersionString, symObjAddr: 0x0, symBinAddr: 0xA6E60, symSize: 0x0 }
   - { offset: 0x9EB53, size: 0x8, addend: 0x0, symName: _BanubaAudioBrowserSDKVersionNumber, symObjAddr: 0x50, symBinAddr: 0xA6EB0, symSize: 0x0 }
@@ -1210,8 +1210,8 @@ relocations:
   - { offset: 0xBEE87, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK9MusicCellC04playE12ButtonActionyySo8UIButtonCFTf4dn_n', symObjAddr: 0x4B04, symBinAddr: 0x32168, symSize: 0x134 }
   - { offset: 0xBEF1D, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK9MusicCellC04saveE12ButtonActionyySo8UIButtonCFTf4dn_n', symObjAddr: 0x4C38, symBinAddr: 0x3229C, symSize: 0xDC }
   - { offset: 0xBEF72, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK9MusicCellC06selectE13ButtonHandleryySo8UIButtonCFTf4dn_n', symObjAddr: 0x4D14, symBinAddr: 0x32378, symSize: 0xA0 }
-  - { offset: 0xBF188, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK0bC23ViewControllerPresenterC8DefaultsV16commonErrorImageSSSgvpZ', symObjAddr: 0x51BD8, symBinAddr: 0xF5F08, symSize: 0x0 }
-  - { offset: 0xBF1A2, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK0bC23ViewControllerPresenterC8DefaultsV24emptySelectionErrorImageSSSgvpZ', symObjAddr: 0x51BE8, symBinAddr: 0xF5F18, symSize: 0x0 }
+  - { offset: 0xBF188, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK0bC23ViewControllerPresenterC8DefaultsV16commonErrorImageSSSgvpZ', symObjAddr: 0x51B98, symBinAddr: 0xF5F08, symSize: 0x0 }
+  - { offset: 0xBF1A2, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK0bC23ViewControllerPresenterC8DefaultsV24emptySelectionErrorImageSSSgvpZ', symObjAddr: 0x51BA8, symBinAddr: 0xF5F18, symSize: 0x0 }
   - { offset: 0xBF3FB, size: 0x8, addend: 0x0, symName: '_$sSa21BanubaAudioBrowserSDKAA8CopyableRzlE4copySayxGyFAA0bC5TrackC_Tg5', symObjAddr: 0x158, symBinAddr: 0x32654, symSize: 0x174 }
   - { offset: 0xBF7C8, size: 0x8, addend: 0x0, symName: '_$sSa21BanubaAudioBrowserSDKAA8CopyableRzlE4copySayxGyFAA5GroupV_Tg5', symObjAddr: 0x2CC, symBinAddr: 0x327C8, symSize: 0x144 }
   - { offset: 0xBFA82, size: 0x8, addend: 0x0, symName: '_$sSa21BanubaAudioBrowserSDKAA8CopyableRzlE4copySayxGyFAA7ChannelV_Tg5', symObjAddr: 0x410, symBinAddr: 0x3290C, symSize: 0x190 }
@@ -1959,9 +1959,9 @@ relocations:
   - { offset: 0xE95B3, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV3patSSvpZ', symObjAddr: 0xA80, symBinAddr: 0xEA0D8, symSize: 0x0 }
   - { offset: 0xE95CD, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV7licenseSSvpZ', symObjAddr: 0xA90, symBinAddr: 0xEA0E8, symSize: 0x0 }
   - { offset: 0xE95E7, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV5tokenSSvpZ', symObjAddr: 0xAA0, symBinAddr: 0xEA0F8, symSize: 0x0 }
-  - { offset: 0xE9601, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV16getPlayMusicBodySDySSypGvpZ', symObjAddr: 0x4640, symBinAddr: 0xF5FB8, symSize: 0x0 }
-  - { offset: 0xE961B, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV18getTrackStatusBodySDySSypGvpZ', symObjAddr: 0x4648, symBinAddr: 0xF5FC0, symSize: 0x0 }
-  - { offset: 0xE9635, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV20getServiceAccessBodySDySSypGvpZ', symObjAddr: 0x4650, symBinAddr: 0xF5FC8, symSize: 0x0 }
+  - { offset: 0xE9601, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV16getPlayMusicBodySDySSypGvpZ', symObjAddr: 0x45F8, symBinAddr: 0xF5FB8, symSize: 0x0 }
+  - { offset: 0xE961B, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV18getTrackStatusBodySDySSypGvpZ', symObjAddr: 0x4600, symBinAddr: 0xF5FC0, symSize: 0x0 }
+  - { offset: 0xE9635, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV20getServiceAccessBodySDySSypGvpZ', symObjAddr: 0x4608, symBinAddr: 0xF5FC8, symSize: 0x0 }
   - { offset: 0xE96E8, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV20getServiceAccessBody_WZ', symObjAddr: 0x21C, symBinAddr: 0x66670, symSize: 0x408 }
   - { offset: 0xE98DC, size: 0x8, addend: 0x0, symName: '_$s10Foundation4UUIDVSgWOb', symObjAddr: 0x918, symBinAddr: 0x66D6C, symSize: 0x50 }
   - { offset: 0xE99CE, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14MubertDefaultsV19getRequestTrackBody8playlist8duration5countSDySSypGSS_SSSitFZTf4nnnd_n', symObjAddr: 0x624, symBinAddr: 0x66A78, symSize: 0x2F4 }
@@ -2688,50 +2688,50 @@ relocations:
   - { offset: 0x108541, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK12LibraryMusicCfd', symObjAddr: 0x170, symBinAddr: 0x8E318, symSize: 0x150 }
   - { offset: 0x10856D, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK12LibraryMusicCfD', symObjAddr: 0x2C0, symBinAddr: 0x8E468, symSize: 0x24 }
   - { offset: 0x108746, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O25noInternetConnectionTitle_WZ', symObjAddr: 0x0, symBinAddr: 0x8FAA4, symSize: 0x38 }
-  - { offset: 0x10876A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O25noInternetConnectionTitleSSvpZ', symObjAddr: 0x6F30, symBinAddr: 0xF6090, symSize: 0x0 }
-  - { offset: 0x108784, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O19checkYourConnectionSSvpZ', symObjAddr: 0x6F40, symBinAddr: 0xF60A0, symSize: 0x0 }
-  - { offset: 0x10879E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O16retryButtonTitleSSvpZ', symObjAddr: 0x6F50, symBinAddr: 0xF60B0, symSize: 0x0 }
-  - { offset: 0x1087B8, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O18allowAccessMessageSSvpZ', symObjAddr: 0x6F60, symBinAddr: 0xF60C0, symSize: 0x0 }
-  - { offset: 0x1087D2, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O16allowButtonTitleSSvpZ', symObjAddr: 0x6F70, symBinAddr: 0xF60D0, symSize: 0x0 }
-  - { offset: 0x1087EC, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O18myFilesButtonTitleSSvpZ', symObjAddr: 0x6F80, symBinAddr: 0xF60E0, symSize: 0x0 }
-  - { offset: 0x108806, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O18searchByCategoriesSSvpZ', symObjAddr: 0x6F90, symBinAddr: 0xF60F0, symSize: 0x0 }
-  - { offset: 0x108820, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O14searchByGroupsSSvpZ', symObjAddr: 0x6FA0, symBinAddr: 0xF6100, symSize: 0x0 }
-  - { offset: 0x10883A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O14searchByTracksSSvpZ', symObjAddr: 0x6FB0, symBinAddr: 0xF6110, symSize: 0x0 }
-  - { offset: 0x108854, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O3useSSvpZ', symObjAddr: 0x6FC0, symBinAddr: 0xF6120, symSize: 0x0 }
-  - { offset: 0x10886E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O8showMoreSSvpZ', symObjAddr: 0x6FD0, symBinAddr: 0xF6130, symSize: 0x0 }
-  - { offset: 0x108888, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O5musicSSvpZ', symObjAddr: 0x6FE0, symBinAddr: 0xF6140, symSize: 0x0 }
-  - { offset: 0x1088A2, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O9stopUsingSSvpZ', symObjAddr: 0x6FF0, symBinAddr: 0xF6150, symSize: 0x0 }
-  - { offset: 0x1088BC, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O9myLibrarySSvpZ', symObjAddr: 0x7000, symBinAddr: 0xF6160, symSize: 0x0 }
-  - { offset: 0x1088D6, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O9noMatchesSSvpZ', symObjAddr: 0x7010, symBinAddr: 0xF6170, symSize: 0x0 }
-  - { offset: 0x1088F0, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O8noTracksSSvpZ', symObjAddr: 0x7020, symBinAddr: 0xF6180, symSize: 0x0 }
-  - { offset: 0x10890A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O13wrongPatErrorSSvpZ', symObjAddr: 0x7030, symBinAddr: 0xF6190, symSize: 0x0 }
-  - { offset: 0x108924, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO05LocalB0O7myFilesSSvpZ', symObjAddr: 0x7040, symBinAddr: 0xF61A0, symSize: 0x0 }
-  - { offset: 0x10893E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO05LocalB0O15emptyStateTitleSSvpZ', symObjAddr: 0x7050, symBinAddr: 0xF61B0, symSize: 0x0 }
-  - { offset: 0x108958, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO05LocalB0O17emptyStateMessageSSvpZ', symObjAddr: 0x7060, symBinAddr: 0xF61C0, symSize: 0x0 }
-  - { offset: 0x108972, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO8tryAgainSSvpZ', symObjAddr: 0x7070, symBinAddr: 0xF61D0, symSize: 0x0 }
-  - { offset: 0x10898C, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO15noInternetTitleSSvpZ', symObjAddr: 0x7080, symBinAddr: 0xF61E0, symSize: 0x0 }
-  - { offset: 0x1089A6, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO17noInternetMessageSSvpZ', symObjAddr: 0x7090, symBinAddr: 0xF61F0, symSize: 0x0 }
-  - { offset: 0x1089C0, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noContentMessageSSvpZ', symObjAddr: 0x70A0, symBinAddr: 0xF6200, symSize: 0x0 }
-  - { offset: 0x1089DA, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noFavoritesTitleSSvpZ', symObjAddr: 0x70B0, symBinAddr: 0xF6210, symSize: 0x0 }
-  - { offset: 0x1089F4, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO18noFavoritesMessageSSvpZ', symObjAddr: 0x70C0, symBinAddr: 0xF6220, symSize: 0x0 }
-  - { offset: 0x108A0E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO14noRecentsTitleSSvpZ', symObjAddr: 0x70D0, symBinAddr: 0xF6230, symSize: 0x0 }
-  - { offset: 0x108A28, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noRecentsMessageSSvpZ', symObjAddr: 0x70E0, symBinAddr: 0xF6240, symSize: 0x0 }
-  - { offset: 0x108A42, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noMatchesMessageSSvpZ', symObjAddr: 0x70F0, symBinAddr: 0xF6250, symSize: 0x0 }
-  - { offset: 0x108A5C, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO20searchBarPlaceholderSSvpZ', symObjAddr: 0x7100, symBinAddr: 0xF6260, symSize: 0x0 }
-  - { offset: 0x108A76, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO15homeScreenTitleSSvpZ', symObjAddr: 0x7110, symBinAddr: 0xF6270, symSize: 0x0 }
-  - { offset: 0x108A90, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO7artistsSSvpZ', symObjAddr: 0x7120, symBinAddr: 0xF6280, symSize: 0x0 }
-  - { offset: 0x108AAA, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO9playlistsSSvpZ', symObjAddr: 0x7130, symBinAddr: 0xF6290, symSize: 0x0 }
-  - { offset: 0x108AC4, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO10categoriesSSvpZ', symObjAddr: 0x7140, symBinAddr: 0xF62A0, symSize: 0x0 }
-  - { offset: 0x108ADE, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO13trendingSongsSSvpZ', symObjAddr: 0x7150, symBinAddr: 0xF62B0, symSize: 0x0 }
-  - { offset: 0x108AF8, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO5moodsSSvpZ', symObjAddr: 0x7160, symBinAddr: 0xF62C0, symSize: 0x0 }
-  - { offset: 0x108B12, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO6stylesSSvpZ', symObjAddr: 0x7170, symBinAddr: 0xF62D0, symSize: 0x0 }
-  - { offset: 0x108B2C, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO11instrumentsSSvpZ', symObjAddr: 0x7180, symBinAddr: 0xF62E0, symSize: 0x0 }
-  - { offset: 0x108B46, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO20searchBarPlaceholderSSvpZ', symObjAddr: 0x7190, symBinAddr: 0xF62F0, symSize: 0x0 }
-  - { offset: 0x108B60, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO26searchBarCancelButtonTitleSSvpZ', symObjAddr: 0x71A0, symBinAddr: 0xF6300, symSize: 0x0 }
-  - { offset: 0x108B7A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO6genresSSvpZ', symObjAddr: 0x71B0, symBinAddr: 0xF6310, symSize: 0x0 }
-  - { offset: 0x108B94, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO7viewAllSSvpZ', symObjAddr: 0x71C0, symBinAddr: 0xF6320, symSize: 0x0 }
-  - { offset: 0x108BAE, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO16noContentMessageSSvpZ', symObjAddr: 0x71D0, symBinAddr: 0xF6330, symSize: 0x0 }
-  - { offset: 0x108BC8, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO8showMoreSSvpZ', symObjAddr: 0x71E0, symBinAddr: 0xF6340, symSize: 0x0 }
+  - { offset: 0x10876A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O25noInternetConnectionTitleSSvpZ', symObjAddr: 0x6EE8, symBinAddr: 0xF6090, symSize: 0x0 }
+  - { offset: 0x108784, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O19checkYourConnectionSSvpZ', symObjAddr: 0x6EF8, symBinAddr: 0xF60A0, symSize: 0x0 }
+  - { offset: 0x10879E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O16retryButtonTitleSSvpZ', symObjAddr: 0x6F08, symBinAddr: 0xF60B0, symSize: 0x0 }
+  - { offset: 0x1087B8, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O18allowAccessMessageSSvpZ', symObjAddr: 0x6F18, symBinAddr: 0xF60C0, symSize: 0x0 }
+  - { offset: 0x1087D2, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O16allowButtonTitleSSvpZ', symObjAddr: 0x6F28, symBinAddr: 0xF60D0, symSize: 0x0 }
+  - { offset: 0x1087EC, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O18myFilesButtonTitleSSvpZ', symObjAddr: 0x6F38, symBinAddr: 0xF60E0, symSize: 0x0 }
+  - { offset: 0x108806, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O18searchByCategoriesSSvpZ', symObjAddr: 0x6F48, symBinAddr: 0xF60F0, symSize: 0x0 }
+  - { offset: 0x108820, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O14searchByGroupsSSvpZ', symObjAddr: 0x6F58, symBinAddr: 0xF6100, symSize: 0x0 }
+  - { offset: 0x10883A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O14searchByTracksSSvpZ', symObjAddr: 0x6F68, symBinAddr: 0xF6110, symSize: 0x0 }
+  - { offset: 0x108854, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O3useSSvpZ', symObjAddr: 0x6F78, symBinAddr: 0xF6120, symSize: 0x0 }
+  - { offset: 0x10886E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O8showMoreSSvpZ', symObjAddr: 0x6F88, symBinAddr: 0xF6130, symSize: 0x0 }
+  - { offset: 0x108888, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O5musicSSvpZ', symObjAddr: 0x6F98, symBinAddr: 0xF6140, symSize: 0x0 }
+  - { offset: 0x1088A2, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O9stopUsingSSvpZ', symObjAddr: 0x6FA8, symBinAddr: 0xF6150, symSize: 0x0 }
+  - { offset: 0x1088BC, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O9myLibrarySSvpZ', symObjAddr: 0x6FB8, symBinAddr: 0xF6160, symSize: 0x0 }
+  - { offset: 0x1088D6, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O9noMatchesSSvpZ', symObjAddr: 0x6FC8, symBinAddr: 0xF6170, symSize: 0x0 }
+  - { offset: 0x1088F0, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O8noTracksSSvpZ', symObjAddr: 0x6FD8, symBinAddr: 0xF6180, symSize: 0x0 }
+  - { offset: 0x10890A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O13wrongPatErrorSSvpZ', symObjAddr: 0x6FE8, symBinAddr: 0xF6190, symSize: 0x0 }
+  - { offset: 0x108924, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO05LocalB0O7myFilesSSvpZ', symObjAddr: 0x6FF8, symBinAddr: 0xF61A0, symSize: 0x0 }
+  - { offset: 0x10893E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO05LocalB0O15emptyStateTitleSSvpZ', symObjAddr: 0x7008, symBinAddr: 0xF61B0, symSize: 0x0 }
+  - { offset: 0x108958, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO05LocalB0O17emptyStateMessageSSvpZ', symObjAddr: 0x7018, symBinAddr: 0xF61C0, symSize: 0x0 }
+  - { offset: 0x108972, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO8tryAgainSSvpZ', symObjAddr: 0x7028, symBinAddr: 0xF61D0, symSize: 0x0 }
+  - { offset: 0x10898C, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO15noInternetTitleSSvpZ', symObjAddr: 0x7038, symBinAddr: 0xF61E0, symSize: 0x0 }
+  - { offset: 0x1089A6, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO17noInternetMessageSSvpZ', symObjAddr: 0x7048, symBinAddr: 0xF61F0, symSize: 0x0 }
+  - { offset: 0x1089C0, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noContentMessageSSvpZ', symObjAddr: 0x7058, symBinAddr: 0xF6200, symSize: 0x0 }
+  - { offset: 0x1089DA, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noFavoritesTitleSSvpZ', symObjAddr: 0x7068, symBinAddr: 0xF6210, symSize: 0x0 }
+  - { offset: 0x1089F4, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO18noFavoritesMessageSSvpZ', symObjAddr: 0x7078, symBinAddr: 0xF6220, symSize: 0x0 }
+  - { offset: 0x108A0E, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO14noRecentsTitleSSvpZ', symObjAddr: 0x7088, symBinAddr: 0xF6230, symSize: 0x0 }
+  - { offset: 0x108A28, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noRecentsMessageSSvpZ', symObjAddr: 0x7098, symBinAddr: 0xF6240, symSize: 0x0 }
+  - { offset: 0x108A42, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO16noMatchesMessageSSvpZ', symObjAddr: 0x70A8, symBinAddr: 0xF6250, symSize: 0x0 }
+  - { offset: 0x108A5C, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO12MusicLibraryO20searchBarPlaceholderSSvpZ', symObjAddr: 0x70B8, symBinAddr: 0xF6260, symSize: 0x0 }
+  - { offset: 0x108A76, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO15homeScreenTitleSSvpZ', symObjAddr: 0x70C8, symBinAddr: 0xF6270, symSize: 0x0 }
+  - { offset: 0x108A90, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO7artistsSSvpZ', symObjAddr: 0x70D8, symBinAddr: 0xF6280, symSize: 0x0 }
+  - { offset: 0x108AAA, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO9playlistsSSvpZ', symObjAddr: 0x70E8, symBinAddr: 0xF6290, symSize: 0x0 }
+  - { offset: 0x108AC4, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO10categoriesSSvpZ', symObjAddr: 0x70F8, symBinAddr: 0xF62A0, symSize: 0x0 }
+  - { offset: 0x108ADE, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO13trendingSongsSSvpZ', symObjAddr: 0x7108, symBinAddr: 0xF62B0, symSize: 0x0 }
+  - { offset: 0x108AF8, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO5moodsSSvpZ', symObjAddr: 0x7118, symBinAddr: 0xF62C0, symSize: 0x0 }
+  - { offset: 0x108B12, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO6stylesSSvpZ', symObjAddr: 0x7128, symBinAddr: 0xF62D0, symSize: 0x0 }
+  - { offset: 0x108B2C, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO11instrumentsSSvpZ', symObjAddr: 0x7138, symBinAddr: 0xF62E0, symSize: 0x0 }
+  - { offset: 0x108B46, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO20searchBarPlaceholderSSvpZ', symObjAddr: 0x7148, symBinAddr: 0xF62F0, symSize: 0x0 }
+  - { offset: 0x108B60, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO26searchBarCancelButtonTitleSSvpZ', symObjAddr: 0x7158, symBinAddr: 0xF6300, symSize: 0x0 }
+  - { offset: 0x108B7A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO6genresSSvpZ', symObjAddr: 0x7168, symBinAddr: 0xF6310, symSize: 0x0 }
+  - { offset: 0x108B94, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO7viewAllSSvpZ', symObjAddr: 0x7178, symBinAddr: 0xF6320, symSize: 0x0 }
+  - { offset: 0x108BAE, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO16noContentMessageSSvpZ', symObjAddr: 0x7188, symBinAddr: 0xF6330, symSize: 0x0 }
+  - { offset: 0x108BC8, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO11SoundstripeO8showMoreSSvpZ', symObjAddr: 0x7198, symBinAddr: 0xF6340, symSize: 0x0 }
   - { offset: 0x108F2B, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O25noInternetConnectionTitle_WZ', symObjAddr: 0x0, symBinAddr: 0x8FAA4, symSize: 0x38 }
   - { offset: 0x108F55, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O19checkYourConnection_WZ', symObjAddr: 0x38, symBinAddr: 0x8FADC, symSize: 0x38 }
   - { offset: 0x108F7F, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK16LocalizedStringsO0bC0O16retryButtonTitle_WZ', symObjAddr: 0x70, symBinAddr: 0x8FB14, symSize: 0x38 }
@@ -3179,23 +3179,23 @@ relocations:
   - { offset: 0x117C74, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK7ChannelV10CodingKeysO8rawValueAESgSS_tcfCTf4nd_n', symObjAddr: 0x5C68, symBinAddr: 0x9F748, symSize: 0x64 }
   - { offset: 0x117CAB, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK7ChannelV4fromACs7Decoder_p_tKcfCTf4nd_n', symObjAddr: 0x5CCC, symBinAddr: 0x9F7AC, symSize: 0x46C }
   - { offset: 0x117E71, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14resourceBundle33_FE5759E8A00DFAF042F74C55F41D27AALLSo8NSBundleCvp', symObjAddr: 0x788, symBinAddr: 0xEB978, symSize: 0x0 }
-  - { offset: 0x117E8B, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV10coverTrackACvpZ', symObjAddr: 0x4E38, symBinAddr: 0xF6350, symSize: 0x0 }
-  - { offset: 0x117EB1, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV19feedFmDefaultArtistACvpZ', symObjAddr: 0x4E50, symBinAddr: 0xF6368, symSize: 0x0 }
-  - { offset: 0x117ECB, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV17feedFmDefaultSongACvpZ', symObjAddr: 0x4E68, symBinAddr: 0xF6380, symSize: 0x0 }
-  - { offset: 0x117EE5, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV13iconAttentionACvpZ', symObjAddr: 0x4E80, symBinAddr: 0xF6398, symSize: 0x0 }
-  - { offset: 0x117EFF, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV19iconCharacteristicsACvpZ', symObjAddr: 0x4E98, symBinAddr: 0xF63B0, symSize: 0x0 }
-  - { offset: 0x117F19, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV9iconCrossACvpZ', symObjAddr: 0x4EB0, symBinAddr: 0xF63C8, symSize: 0x0 }
-  - { offset: 0x117F33, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV19iconCrossExtraSmallACvpZ', symObjAddr: 0x4EC8, symBinAddr: 0xF63E0, symSize: 0x0 }
-  - { offset: 0x117F4D, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV10iconDeleteACvpZ', symObjAddr: 0x4EE0, symBinAddr: 0xF63F8, symSize: 0x0 }
-  - { offset: 0x117F67, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV10iconGenresACvpZ', symObjAddr: 0x4EF8, symBinAddr: 0xF6410, symSize: 0x0 }
-  - { offset: 0x117F81, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV15iconInstrumentsACvpZ', symObjAddr: 0x4F10, symBinAddr: 0xF6428, symSize: 0x0 }
-  - { offset: 0x117F9B, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV9iconMoodsACvpZ', symObjAddr: 0x4F28, symBinAddr: 0xF6440, symSize: 0x0 }
-  - { offset: 0x117FB5, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV13iconNoMatchesACvpZ', symObjAddr: 0x4F40, symBinAddr: 0xF6458, symSize: 0x0 }
-  - { offset: 0x117FCF, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV8iconPlayACvpZ', symObjAddr: 0x4F58, symBinAddr: 0xF6470, symSize: 0x0 }
-  - { offset: 0x117FE9, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV8iconSaveACvpZ', symObjAddr: 0x4F70, symBinAddr: 0xF6488, symSize: 0x0 }
-  - { offset: 0x118003, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV15iconSelectSmallACvpZ', symObjAddr: 0x4F88, symBinAddr: 0xF64A0, symSize: 0x0 }
-  - { offset: 0x11801D, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV8iconStopACvpZ', symObjAddr: 0x4FA0, symBinAddr: 0xF64B8, symSize: 0x0 }
-  - { offset: 0x118037, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV15iconVectorSmallACvpZ', symObjAddr: 0x4FB8, symBinAddr: 0xF64D0, symSize: 0x0 }
+  - { offset: 0x117E8B, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV10coverTrackACvpZ', symObjAddr: 0x4DE8, symBinAddr: 0xF6350, symSize: 0x0 }
+  - { offset: 0x117EB1, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV19feedFmDefaultArtistACvpZ', symObjAddr: 0x4E00, symBinAddr: 0xF6368, symSize: 0x0 }
+  - { offset: 0x117ECB, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV17feedFmDefaultSongACvpZ', symObjAddr: 0x4E18, symBinAddr: 0xF6380, symSize: 0x0 }
+  - { offset: 0x117EE5, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV13iconAttentionACvpZ', symObjAddr: 0x4E30, symBinAddr: 0xF6398, symSize: 0x0 }
+  - { offset: 0x117EFF, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV19iconCharacteristicsACvpZ', symObjAddr: 0x4E48, symBinAddr: 0xF63B0, symSize: 0x0 }
+  - { offset: 0x117F19, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV9iconCrossACvpZ', symObjAddr: 0x4E60, symBinAddr: 0xF63C8, symSize: 0x0 }
+  - { offset: 0x117F33, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV19iconCrossExtraSmallACvpZ', symObjAddr: 0x4E78, symBinAddr: 0xF63E0, symSize: 0x0 }
+  - { offset: 0x117F4D, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV10iconDeleteACvpZ', symObjAddr: 0x4E90, symBinAddr: 0xF63F8, symSize: 0x0 }
+  - { offset: 0x117F67, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV10iconGenresACvpZ', symObjAddr: 0x4EA8, symBinAddr: 0xF6410, symSize: 0x0 }
+  - { offset: 0x117F81, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV15iconInstrumentsACvpZ', symObjAddr: 0x4EC0, symBinAddr: 0xF6428, symSize: 0x0 }
+  - { offset: 0x117F9B, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV9iconMoodsACvpZ', symObjAddr: 0x4ED8, symBinAddr: 0xF6440, symSize: 0x0 }
+  - { offset: 0x117FB5, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV13iconNoMatchesACvpZ', symObjAddr: 0x4EF0, symBinAddr: 0xF6458, symSize: 0x0 }
+  - { offset: 0x117FCF, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV8iconPlayACvpZ', symObjAddr: 0x4F08, symBinAddr: 0xF6470, symSize: 0x0 }
+  - { offset: 0x117FE9, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV8iconSaveACvpZ', symObjAddr: 0x4F20, symBinAddr: 0xF6488, symSize: 0x0 }
+  - { offset: 0x118003, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV15iconSelectSmallACvpZ', symObjAddr: 0x4F38, symBinAddr: 0xF64A0, symSize: 0x0 }
+  - { offset: 0x11801D, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV8iconStopACvpZ', symObjAddr: 0x4F50, symBinAddr: 0xF64B8, symSize: 0x0 }
+  - { offset: 0x118037, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV15iconVectorSmallACvpZ', symObjAddr: 0x4F68, symBinAddr: 0xF64D0, symSize: 0x0 }
   - { offset: 0x118045, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK19ResourceBundleClass33_FE5759E8A00DFAF042F74C55F41D27AALLCMa', symObjAddr: 0x10, symBinAddr: 0xA16D0, symSize: 0x20 }
   - { offset: 0x118059, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK14resourceBundle33_FE5759E8A00DFAF042F74C55F41D27AALL_WZ', symObjAddr: 0x30, symBinAddr: 0xA16F0, symSize: 0x54 }
   - { offset: 0x11809A, size: 0x8, addend: 0x0, symName: '_$s21BanubaAudioBrowserSDK13ImageResourceV10coverTrack_WZ', symObjAddr: 0x84, symBinAddr: 0xA1744, symSize: 0x6C }

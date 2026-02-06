@@ -94,7 +94,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wT/Mcv353KDoCNbdd9qKIxkPfV4=
+		RU6hDa9R0r+4yAkpKBYKTjqXWpA=
 		</data>
 		<key>InfoView.nib</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		eQFII+C3Opw2OFkAqxEdWuHK5Rc=
+		GrQWBSGzzqSeLFg7Oh0BFbDmUKA=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/t+OYXnC7rhQojQ5PUE+cNlVBpo=
+		wJP+s3KaDibi6Uhk4NxbR6yQX9g=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		eQFII+C3Opw2OFkAqxEdWuHK5Rc=
+		GrQWBSGzzqSeLFg7Oh0BFbDmUKA=
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZdAx4197Z/TYm3wCqV/InJ7ONCw=
+		Yxc5boD6swADsdn9e0yE0XXRUPI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -348,7 +348,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nB+ZBWNfi/qIwcevM/hXfGRzsIDl9XA1MvmMrG2RO9Y=
+			pnaG/7wW87anXfyLO2Czk5RyVsIl8FMf+1TCz3bfbgI=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -376,14 +376,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CoOqS7wfj8rsNqfQOoqFMpvsRjT7jmif9vHyZT979lk=
+			gXPBUpAKUptD2pt9yHnuiAWrRzRmA7pyLQ2XNC89GNk=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nB+ZBWNfi/qIwcevM/hXfGRzsIDl9XA1MvmMrG2RO9Y=
+			pnaG/7wW87anXfyLO2Czk5RyVsIl8FMf+1TCz3bfbgI=
 			</data>
 		</dict>
 		<key>Modules/BanubaAudioBrowserSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -411,7 +411,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J+YvEkAOfe50HepWqGjhMF2lFawtLw463tztfA1Sr04=
+			ib6YTrPNSx9fsxAgea2FzGvusNEIJLzT7genWD04fp0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
