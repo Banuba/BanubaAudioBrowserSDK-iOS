@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let version: Version = "1.52.1"
+let version: Version = "1.53.0-beta.0"
 
 let package = Package(
   name: "BanubaAudioBrowserSDK",
@@ -24,7 +24,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BanubaAudioBrowserSDK",
-      path: "BanubaAudioBrowserSDK.xcframework"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaAudioBrowserSDK/1.53.0-beta.0/BanubaAudioBrowserSDK-1.53.0-beta.0.xcframework.zip",
+      checksum: "c6c72dacfc5f070ca514cf4d841a2d30bd298472937ea43e313410fa90c8aa7a"
     ),
     .target(
       name: "BanubaAudioBrowserSDKTarget",
