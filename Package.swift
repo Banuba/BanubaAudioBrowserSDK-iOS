@@ -25,8 +25,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "BanubaAudioBrowserSDK",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaAudioBrowserSDK/1.54.2/BanubaAudioBrowserSDK-1.54.2.xcframework.zip",
-      checksum: "726deb1c4504b49024a2e43e03950997bb67571b58836652fd157171b74057d9"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaAudioBrowserSDK/1.54.3/BanubaAudioBrowserSDK-1.54.3.xcframework.zip",
+      checksum: "6f2f585ba9d3839aa741e78206d549d32a6277b9d74e81514c887da85eba2332"
     ),
     .target(
       name: "BanubaAudioBrowserSDKTarget",
