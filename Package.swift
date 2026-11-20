@@ -2,8 +2,8 @@
 
 import PackageDescription
 
-let banubaUtilsVersionRange: Range<Version> = "1.55.0"..<"1.59.99"
-let banubaLicenseServicingVersionRange: Range<Version> = "1.55.0"..<"1.59.99"
+let banubaUtilsVersion: Version = "1.55.1"
+let banubaLicenseServicingVersion: Version = "1.55.1"
 
 let package = Package(
   name: "BanubaAudioBrowserSDK",
@@ -19,14 +19,14 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", banubaUtilsVersionRange),
-    .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", banubaLicenseServicingVersionRange)
+    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", exact: banubaUtilsVersion),
+    .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", exact: banubaLicenseServicingVersion)
   ],
   targets: [
     .binaryTarget(
       name: "BanubaAudioBrowserSDK",
-      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaAudioBrowserSDK/1.55.0/BanubaAudioBrowserSDK-1.55.0.xcframework.zip",
-      checksum: "94babeeec1068bc5b408960058318576368f6ca1b2214a4b938af939b3ac8697"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaAudioBrowserSDK/1.55.1/BanubaAudioBrowserSDK-1.55.1.xcframework.zip",
+      checksum: "c79992bff7875794656f00f2b3cede42c4d26960e9d00ef1fdf1729bdd0b8dc0"
     ),
     .target(
       name: "BanubaAudioBrowserSDKTarget",
